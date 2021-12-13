@@ -13,7 +13,26 @@ layout: course-single
 
 Upon completing this course, you will be able to:
 
-XXX
+
+* Describe the hierarchy of abstractions that define a modern computer:
+    - Logic gates
+    - CPU
+    - Machine language
+    - Assembly language and assemblers
+    - Virtual machines
+    - High-level languages and compilers
+    - The Operating System
+* Understand and apply the basic boolean logical operators.
+* Create a digital circuit corresponding to a specification given in boolean logic.
+* Create a digital circuit capable of performing addition from boolean logic.
+* Create a digital circuit employing clocked memory components.
+* Describe how boolean logic, memory circuits, and a clock pulse interact to execute a machine language instruction.
+* Describe the relationship between an assembly language and its corresponding machine language.
+* Write a program in assembly language.
+* Create an assembler to translate an assembly language into machine language .
+* Given two programming languages, articulate a rationale as to why one of them ought to be considered higher-level (or lower-level) than the other.
+* Describe the role and major components of a compiler.
+* Describe how a operating system enables a programmer to access the computer's hardware.
 
 ## <a name="resources">Resources</a>
 
@@ -21,41 +40,67 @@ XXX
 
 <hr>
 
-# <a name="inclasscode">In-Class Code</a>
+# <a name="calendar">Calendar</a>
 
-When we write code together in class, it will be posted here!
-
-| Date | Topic | Code |
-|:----:|------||-----||
-| F 30 Aug | Intro to Python | [Intro Notebook](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/PythonIntro.ipynb) |
-| W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
-| F 6 Sep | Strings and Booleans | [Booleans](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb)
+| Date           | Topic                       | Resources | Due |
+|:--------------:|-----------------------------|-----------|-----|
+| T 18 Jan       |                             |           |     |
+| Th 20 Jan      |                             |           |     |
+|                |                             |           |     |
+| T 25 Jan       |                             |           |     |
+| Th 27 Jan      |                             |           |     |
+|                |                             |           |     |
+| T 1 Feb        |                             |           |     |
+| Th 3 Feb       |                             |           |     |
+|                |                             |           |     |
+| T 8 Feb        |                             |           |     |
+| Th 10 Feb      |                             |           |     |
+|                |                             |           |     |
+| T 15 Feb       |                             |           |     |
+| Th 17 Feb      |                             |           |     |
+|                |                             |           |     |
+| T 22 Feb       |                             |           |     |
+| Th 24 Feb      |                             |           |     |
+|                |                             |           |     |
+| T 1 Mar        |                             |           |     |
+| Th 3 Mar       |                             |           |     |
+|                |                             |           |     |
+| T 8 Mar        |                             |           |     |
+| Th 10 Mar      |                             |           |     |
+|                |                             |           |     |
+| T 15 Mar       |                             |           |     |
+| Th 17 Mar      |                             |           |     |
+|                |                             |           |     |
+| *Spring break* |                             |           |     |
+|                |                             |           |     |
+| T 29 Mar       |                             |           |     |
+| Th 31 Mar      |                             |           |     |
+|                |                             |           |     |
+| T 5 Apr        |                             |           |     |
+| Th 7 Apr       |                             |           |     |
+|                |                             |           |     |
+| T 12 Apr       |                             |           |     |
+| Th 14 Apr      |                             |           |     |
+|                |                             |           |     |
+| T 19 Apr       |                             |           |     |
+| Th 21 Apr      |                             |           |     |
+|                |                             |           |     |
+| T 26 Apr       |                             |           |     |
+| Th 28 Apr      |                             |           |     |
+|                |                             |           |     |
+| T 3 May        | Final project presentations |           |     |
+| (8:30-11:30)   |                             |           |     |
 
 <hr>
 # Coursework
 
-Each student has **four late days** to spend throughout the semester as they wish.
-Simply inform the instructor any time *prior* to the due date for an assignment
-that you wish to use a late day; you may then turn in the assignment up to 24
-hours late. Multiple late days may be used on the same assignment. There are no
-partial late days; turning in an assignment 2 hours late or 20 hours late will
-both use 1 late day. Note that late days are intended to cover both normal
-circumstances (you simply want more time to work on the assignment) and
-exceptional circumstances (you get sick, travel for a game or family
-obligation, *etc.*). After you have used up your late days, late assignments
-will receive at most half credit.
+XXX only projects!  XXX late policy.
 
 ## <a name="projects">Projects</a>
 
-| #  | Name | Points | Assigned | Due |
-|:--:|-----||:------:|:--------:|:---:|
-|1 | [Sample Project]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
-|2 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
-|3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
-
-You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately one week after they are assigned.
-
-**You must work individually on the first two projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
+| # | Name | Due |
+|:-:|------|:---:|
+| 1 |      |     |
 
 ## <a name="grading">Grading</a>
 
