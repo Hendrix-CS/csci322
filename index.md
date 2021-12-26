@@ -69,10 +69,10 @@ XXX assignment submission form
 | T 22 Feb       | VM I: Stack arithmetic                     | Chapter 7                         |           |                                                     |
 | Th 24 Feb      | Stack arithmetic practice</b>Memory layout |                                   |           |                                                     |
 |                |                                            |                                   |           |                                                     |
-| *M 28 Feb*     |                                            |                                   |           | Project 7                                           |
+| *M 28 Feb*     |                                            |                                   |           | [Project 7](projects/07-stack-arithmetic.html)      |
 | T 1 Mar        | VM II: Program control                     | Chapter 8                         |           |                                                     |
 | Th 3 Mar       | VM II: Program control                     |                                   |           |                                                     |
-|                |                                            |                                   |           | Project 8                                           |
+|                |                                            |                                   |           | [Project 8](projects/08-program-control.html)       |
 | *M 7 Mar*      |                                            |                                   |           |                                                     |
 | T 8 Mar        | High-level language (Jack)                 | Chapter 9                         |           |                                                     |
 | Th 10 Mar      | High-level language                        |                                   |           |                                                     |
@@ -124,8 +124,8 @@ XXX only projects!  XXX late policy.
 | 4      | [Machine language](projects/04-machine-language.html)          | M 7 Feb  |
 | 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 14 Feb |
 | 6      | [Assembler](projects/06-assembler.html)                        | M 21 Feb |
-| 7      | VM I: stack arithmetic                                         | M 28 Feb |
-| 8      | VM II: program control                                         | M 7 Mar  |
+| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 28 Feb |
+| 8      | [VM II: program control]((projects/08-program-control.html))   | M 7 Mar  |
 | 9      | Concept                                                        | F 11 Mar |
 |        | Demo                                                           | T 15 Mar |
 |        | Final version                                                  | W 16 Mar |
