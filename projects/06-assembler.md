@@ -14,10 +14,10 @@ due: Monday, 21 February
 
 * **Hints**:
 
-    - Note that the test cases for this project are **not**
-      automated! You will need to manually test each of your assembled
-      programs to make sure they work and are identical to those
-      produced by the provided assembler.
+    - Note that the test cases for this project are **not** automated!
+      You will need to manually test each of your assembled programs
+      (using the provided CPU emulator) to make sure they work and are
+      identical to those produced by the provided assembler.
 
     - You are strongly encouraged to complete your assembler in
       phases; in each phase, implement just enough to get the
