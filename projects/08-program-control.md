@@ -2,7 +2,7 @@
 layout: work
 type: Project
 num: 8
-worktitle: VM II: Program Control
+worktitle: "VM II: Program Control"
 due: Monday, 7 March
 ---
 

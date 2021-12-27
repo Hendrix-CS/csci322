@@ -2,7 +2,7 @@
 layout: work
 type: Project
 num: 7
-worktitle: VM I: Stack Arithmetic
+worktitle: "VM I: Stack Arithmetic"
 due: Monday, 28 February
 ---
 

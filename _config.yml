@@ -33,8 +33,14 @@ navigation:
         url: '#resources'
   - page: Calendar
     url: '#calendar'
-  - page: Projects
-    url: '#projects'
+  - title: Coursework and policies
+    subfolderitems:
+      - page: Due dates policy
+        url: '#deadlines'
+      - page: Projects
+        url: '#projects'
+      - page: Grading
+        url: '#grading'
   - page: Commitments
     url: '#commitments'
 
@@ -56,6 +62,7 @@ resources:
   - name: From Nand to Tetris
     image: assets/images/n2t-logo.png
     url: https://www.nand2tetris.org/
+  - name: XXX  Book (2nd ed, the first edition is fine too).
 
 # Build settings
 markdown: kramdown

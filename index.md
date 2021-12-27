@@ -110,11 +110,25 @@ XXX assignment submission form
 | (8:30-11:30)   |                                            |                                   |           |                                                     |
 
 <hr>
-## Coursework
+# Coursework and policies
 
-XXX only projects!  XXX late policy.
+## <a name="deadlines">Due dates policy</a>
+
+Every project has a specific date and time (usually 5pm) at which it
+is due.
+
+- Projects **will not be accepted** after the deadline.
+- However, I will automatically grant extensions to anyone who asks.
+  Simply send me an email prior to the deadline, asking for an
+  extension on a particular project, and informing me what your new
+  deadline will be.  The new deadline should be a specific day and
+  time ("11pm this Saturday, March 5", not "in a couple days").  I
+  will hold you to the new deadline.
+- The latest any project may be turned in is XXX.
 
 ## <a name="projects">Projects</a>
+
+Your work in this course will consist of a series of projects.
 
 | #      | Name                                                           | Due      |
 |:------:|----------------------------------------------------------------|:--------:|
@@ -126,7 +140,8 @@ XXX only projects!  XXX late policy.
 | 6      | [Assembler](projects/06-assembler.html)                        | M 21 Feb |
 | 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 28 Feb |
 | 8      | [VM II: program control]((projects/08-program-control.html))   | M 7 Mar  |
-| 9      | Concept                                                        | F 11 Mar |
+| 9      | High-level programming                                         |          |
+|        | Concept                                                        | F 11 Mar |
 |        | Demo                                                           | T 15 Mar |
 |        | Final version                                                  | W 16 Mar |
 | 10/11A | Tokenizer                                                      | F 1 Apr  |
@@ -135,9 +150,19 @@ XXX only projects!  XXX late policy.
 | 10/11D | Classes and arrays                                             | M 18 Apr |
 | 12A    | Operating system I                                             | M 25 Apr |
 | 12B    | Operating system II                                            | F 29 Apr |
+| S      | System abstraction analysis                                    | T 3 May  |
 
 ## <a name="grading">Grading</a>
 
 This course uses **specifications grading**. Your final grade in the
-course is based XXX. Each row in the table below
-shows XXX.
+course is based on the number of projects successfully completed.
+There will be 16 projects available to complete throughout the
+semester.
+
+| Grade | Projects required | Other requirements                                     |
+|:-----:|:-----------------:|--------------------------------------------------------|
+| A     | 15                | Must complete the system abstraction analysis project. |
+| B     | 13                |                                                        |
+| C     | 11                |                                                        |
+| D     | 9                 |                                                        |
+
