@@ -73,7 +73,7 @@ Upon completing this course, you will be able to:
 | *M 7 Mar*      |                                            |                                   |           |                                                     |
 | T 8 Mar        | High-level language (Jack)                 | Chapter 9                         |           |                                                     |
 | Th 10 Mar      | High-level language                        |                                   |           |                                                     |
-| *F 11 Mar*     |                                            |                                   |           | Project 9: Concept                                  |
+| *F 11 Mar*     |                                            |                                   |           | Project 9: Proposal                                  |
 |                |                                            |                                   |           |                                                     |
 | T 15 Mar       | Project 9 demos                            |                                   |           | Project 9: Demo                                     |
 | *W 16 Mar*     |                                            |                                   |           | Project 9                                           |
@@ -145,9 +145,9 @@ Your work in this course will consist of a series of projects.
 | 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 14 Feb |
 | 6      | [Assembler](projects/06-assembler.html)                        | M 21 Feb |
 | 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 28 Feb |
-| 8      | [VM II: program control]((projects/08-program-control.html))   | M 7 Mar  |
-| 9      | High-level programming                                         |          |
-|        | Concept                                                        | F 11 Mar |
+| 8      | [VM II: program control](projects/08-program-control.html)     | M 7 Mar  |
+| 9      | [High-level programming](projects/09-high-level.html)          |          |
+|        | Proposal                                                       | F 11 Mar |
 |        | Demo                                                           | T 15 Mar |
 |        | Final version                                                  | W 16 Mar |
 | 10/11A | Tokenizer                                                      | F 1 Apr  |
