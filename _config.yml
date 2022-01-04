@@ -64,7 +64,7 @@ resources:
   - name: From Nand to Tetris
     image: assets/images/n2t-logo.png
     url: https://www.nand2tetris.org/
-  - name: The Elements of Computing Systems,<br/> 2nd ed. (or 1st)
+  - name: The Elements of Computing Systems,<br/> 2nd ed. (1st ed. is OK too)
     image: assets/images/teocs.jpg
     url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/
 
