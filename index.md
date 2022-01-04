@@ -121,7 +121,9 @@ is due.
   deadline will be.  The new deadline should be a specific day and
   time ("11pm this Saturday, March 5", not "in a couple days").  I
   will hold you to the new deadline.
-- The latest any project may be turned in is XXX.
+- The latest any project may be turned in is Tuesday, May 3.
+- As always, exceptions to this policy can be made in cases of
+  emergency, mental health issues, *etc.* Please come talk to me!
 
 ## <a name="projects">Projects</a>
 
