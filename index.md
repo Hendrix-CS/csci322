@@ -33,7 +33,12 @@ Upon completing this course, you will be able to:
 
 # <a name="calendar">Calendar</a>
 
-XXX assignment submission form
+<div style="text-align: center">
+<a class="btn btn-primary" href="{{ site.submission }}">
+  Assignment submission form
+</a>
+</div>
+<br/>
 
 | Date           | Topic                                      | Reading                           | Resources | Assignments due                                     |
 |:--------------:|--------------------------------------------|-----------------------------------|-----------|-----------------------------------------------------|
@@ -119,6 +124,13 @@ is due.
 - The latest any project may be turned in is XXX.
 
 ## <a name="projects">Projects</a>
+
+<div style="text-align: center">
+<a class="btn btn-primary" href="{{ site.submission }}">
+  Assignment submission form
+</a>
+</div>
+<br/>
 
 Your work in this course will consist of a series of projects.
 
