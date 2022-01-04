@@ -64,7 +64,7 @@ resources:
     url: https://www.nand2tetris.org/
   - name: The Elements of Computing Systems,<br/> 2nd ed. (or 1st)
     image: assets/images/teocs.jpg
-    url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/ref=asc_df_0262539802/?tag=hyprod-20&linkCode=df0&hvadid=459709175715&hvpos=&hvnetw=g&hvrand=12313298877624212352&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1013200&hvtargid=pla-918789568003&psc=1
+    url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/
 
 # Build settings
 markdown: kramdown
