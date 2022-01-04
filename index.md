@@ -23,15 +23,12 @@ Upon completing this course, you will be able to:
     - The operating system
 * Understand and apply the basic boolean logical operators.
 * Create a digital circuit corresponding to a specification given in boolean logic.
-* Create a digital circuit capable of performing addition from boolean logic.
 * Create a digital circuit employing clocked memory components.
 * Describe how boolean logic, memory circuits, and a clock pulse interact to execute a machine language instruction.
-* Describe the relationship between an assembly language and its corresponding machine language.
-* Write a program in assembly language.
-* Create an assembler to translate an assembly language into machine language .
-* Given two programming languages, articulate a rationale as to why one of them ought to be considered higher-level (or lower-level) than the other.
-* Describe the role and major components of a compiler.
-* Describe how a operating system enables a programmer to access the computer's hardware.
+* Write assembly language programs that behave according to a given specification.
+* Write programs to translate between levels of abstraction
+  (e.g. high-level language to VM, VM to assembly, assembly to machine code).
+* Describe how operating systems enable programmers to access a computer's hardware.
 
 ## <a name="resources">Resources</a>
 
