@@ -73,7 +73,7 @@ Upon completing this course, you will be able to:
 | *M 7 Mar*      |                                            |                                   |           |                                                     |
 | T 8 Mar        | High-level language (Jack)                 | Chapter 9                         |           |                                                     |
 | Th 10 Mar      | High-level language                        |                                   |           |                                                     |
-| *F 11 Mar*     |                                            |                                   |           | Project 9: Proposal                                  |
+| *F 11 Mar*     |                                            |                                   |           | Project 9: Proposal                                 |
 |                |                                            |                                   |           |                                                     |
 | T 15 Mar       | Project 9 demos                            |                                   |           | Project 9: Demo                                     |
 | *W 16 Mar*     |                                            |                                   |           | Project 9                                           |
@@ -101,27 +101,44 @@ Upon completing this course, you will be able to:
 | T 26 Apr       | *Buffer*                                   |                                   |           |                                                     |
 | Th 28 Apr      | *Buffer*                                   |                                   |           |                                                     |
 | *F 29 Apr*     |                                            |                                   |           | Project 12B                                         |
-|                |                                            |                                   |           |                                                     |
-|                |                                            |                                   |           |                                                     |
-| T 3 May        | Final project presentations                |                                   |           |                                                     |
-| (8:30-11:30)   |                                            |                                   |           |                                                     |
 
 <hr>
 # Coursework and policies
 
 ## <a name="deadlines">Due dates policy</a>
 
-Every project has a specific date and time (usually 5pm) at which it
-is due.
+- Every project has a specific date and time (usually 5pm) at which it
+  is due.
+
+- Assignments may be turned in any time up to the deadline.  I will
+  try my best to return graded assignments, with feedback, within *two
+  weekdays* of being turned in.
 
 - Projects **will not be accepted** after the deadline.
-- However, I will automatically grant extensions to anyone who asks.
-  Simply send me an email prior to the deadline, asking for an
+
+- However, I will automatically grant **extensions** to anyone who
+  asks.  Simply send me an email prior to the deadline, asking for an
   extension on a particular project, and informing me what your new
   deadline will be.  The new deadline should be a specific day and
   time ("11pm this Saturday, March 5", not "in a couple days").  I
   will hold you to the new deadline.
-- The latest any project may be turned in is Tuesday, May 3.
+
+    - Yes, this process may be chained: you may ask for another extension prior
+      to your chosen deadline, and so on.  The key is communication.
+
+- If you do not get credit for a project, you may revise and
+  resubmit the project until you do.  There is no deadline for
+  resubmissions.
+
+- However, the above only applies if you made a reasonable attempt at
+  the project the first time.  You cannot turn in a half-finished
+  project before the deadline and then "revise" it by completing the
+  rest.  If your project is only half-finished, you must request an
+  extension.
+
+- The absolute latest any project may be turned in is 5pm on Tuesday,
+  May 3.
+
 - As always, exceptions to this policy can be made in cases of
   emergency, mental health issues, *etc.* Please come talk to me!
 
@@ -134,7 +151,7 @@ is due.
 </div>
 <br/>
 
-Your work in this course will consist of a series of projects.
+Your work in this course will consist of a series of challenging projects.
 
 | #      | Name                                                           | Due      |
 |:------:|----------------------------------------------------------------|:--------:|
@@ -156,19 +173,16 @@ Your work in this course will consist of a series of projects.
 | 10/11D | Classes and arrays                                             | M 18 Apr |
 | 12A    | Operating system I                                             | M 25 Apr |
 | 12B    | Operating system II                                            | F 29 Apr |
-| S      | System abstraction analysis                                    | T 3 May  |
 
 ## <a name="grading">Grading</a>
 
-This course uses **specifications grading**. Your final grade in the
-course is based on the number of projects successfully completed.
-There will be 16 projects available to complete throughout the
-semester.
+Your final grade in the course is based simply on the number of projects
+successfully completed.  There will be 15 projects available to
+complete throughout the semester.
 
-| Grade | Projects required | Other requirements                                     |
-|:-----:|:-----------------:|--------------------------------------------------------|
-| A     | 15                | Must complete the system abstraction analysis project. |
-| B     | 13                |                                                        |
-| C     | 11                |                                                        |
-| D     | 9                 |                                                        |
-
+| Grade | Projects required |
+|:-----:|:-----------------:|
+| A     | 14                |
+| B     | 12                |
+| C     | 10                |
+| D     | 8                 |
