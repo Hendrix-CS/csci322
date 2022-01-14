@@ -37,14 +37,24 @@ navigation:
     url: '#calendar'
   - title: Coursework and policies
     subfolderitems:
+      - page: Specifications grading
+        url: '#grading'
       - page: Due dates policy
         url: '#deadlines'
       - page: Projects
         url: '#projects'
-      - page: Grading
-        url: '#grading'
-  - page: Commitments
-    url: '#commitments'
+  - title: Expectations and accommodations
+    subfolderitems:
+      - page: Expectations
+        url: '#expectations'
+      - page: Attendance
+        url: '#attendance'
+      - page: Disabilities
+        url: '#disabilities'
+      - page: Diversity and inclusion
+        url: '#diversity'
+      - page: Mental and physical health
+        url: '#health'
 
 instructors:
   - id: yorgey

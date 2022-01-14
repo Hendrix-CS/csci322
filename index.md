@@ -105,6 +105,22 @@ Upon completing this course, you will be able to:
 <hr>
 # Coursework and policies
 
+## <a name="grading">Specifications grading</a>
+
+This course uses *specifications grading*.  Briefly, this means that
+grading of individual projects is on a credit/no-credit basis, with a
+*specification* that tells you what you must do in order to get
+credit. Your final letter grade in the course, in turn, is based
+simply on the number of projects successfully completed.  There will
+be 15 projects available to complete throughout the semester.
+
+| Grade | Projects required |
+|:-----:|:-----------------:|
+| A     | 14                |
+| B     | 12                |
+| C     | 10                |
+| D     | 8                 |
+
 ## <a name="deadlines">Due dates policy</a>
 
 - Every project has a specific date and time (usually 5pm) at which it
@@ -151,7 +167,9 @@ Upon completing this course, you will be able to:
 </div>
 <br/>
 
-Your work in this course will consist of a series of challenging projects.
+Your work in this course will consist of a series of challenging
+projects.  See the links below for the details and specification for
+each project.
 
 | #      | Name                                                           | Due      |
 |:------:|----------------------------------------------------------------|:--------:|
@@ -174,15 +192,156 @@ Your work in this course will consist of a series of challenging projects.
 | 12A    | Operating system I                                             | M 25 Apr |
 | 12B    | Operating system II                                            | F 29 Apr |
 
-## <a name="grading">Grading</a>
+## <a name="expectations">Expectations</a>
 
-Your final grade in the course is based simply on the number of projects
-successfully completed.  There will be 15 projects available to
-complete throughout the semester.
+Although you and I play different roles in the course, we both have
+your learning as a common goal. There are things I expect from you as
+a student in the course, but there are also things you can expect of
+me as the course instructor and facilitator.
 
-| Grade | Projects required |
-|:-----:|:-----------------:|
-| A     | 14                |
-| B     | 12                |
-| C     | 10                |
-| D     | 8                 |
+If I am not fulfilling my responsibilities outlined below, you are
+welcome (and encouraged!) to call me out, perhaps via the [anonymous
+feedback form](https://forms.gle/YhPgQTq1FHiH71B6A). I will also
+initiate a conversation if you are not fulfilling yours. However, none
+of us will meet all of the expectations perfectly---me included!---so
+it's also important that we have grace and patience with one another.
+
+<table class="table table-bordered mt-3">
+  <thead>
+    <tr>
+      <th></th>
+      <th>What I expect from you</th>
+      <th>What you can expect from me</th>
+    </tr>
+  </thead>
+
+  <tr>
+    <th>Communication</th>
+    <td>
+      <ul>
+        <li>Check your email and Teams for occasional course
+          announcements.</li>
+        <li>Let me know via email or Teams message if you will need to miss class
+          for some reason.</li>
+        <li>Let me know as soon as possible if you feel you are
+          struggling, would like extra help, or have something
+          going on that will affect your engagement in the
+          course or your ability to fulfill your
+          responsibilities.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Clearly communicate expectations, assignment
+          details and dates, and grading standards.</li>
+        <li>Return grades and feedback on submitted work within
+          two weekdays of submission.</li>
+        <li>Respond to emails within 24 hours.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <th>Preparation</th>
+    <td>
+      <ul>
+        <li>Come prepared to fully engage in class meetings, with
+          distractions minimized, to the best of your ability.</li>
+        <li>Spend time outside of class actively practicing
+          unfamiliar or shaky concepts or skills (not just
+          reading over notes).</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Have a concrete plan for how we will
+          spend each class meeting, prepared to lead you through the
+          plan.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <th>Engagement</th>
+    <td>
+      <ul>
+        <li>Actively engage in  lectures by taking notes and
+          asking questions.</li>
+        <li>Be proactive and intentional about spending time working
+    on assignments.</li>
+        <li>Abide by the
+        College's <a href="https://www.hendrix.edu/Catalog/2021-2022/Academic_Policies_and_Regulations/Policies_and_Appeals/Academic_Integrity/">Academic
+        Integrity Policy</a> and
+        the <a href="http://ozark.hendrix.edu/~yorgey/ac-integrity-policy.html">Computer
+            Science-specific Academic Integrity Policy</a>.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Make myself available to meet outside of class, and
+          give you my full attention during a meeting.</li>
+        <li>Be committed to your learning, open to feedback and
+          willing to respond in substantive ways to your
+          suggestions or concerns.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+## <a name="attendance">Attendance</a>
+
+Attendance in this class is not required as part of your grade.
+However, I do expect you to attend and appreciate knowing in advance
+if you will need to miss class.
+
+<!--
+If you have chosen to attend class in person, you are expected to do
+so consistently; you may not decide to attend remotely some days just
+because you feel like it.  However, there are legitimate reasons
+for attending remotely, such as feeling ill or travelling unavoidably.
+-->
+
+## <a name="disabilities">Disabilities</a>
+
+If you have a documented disability or some other reason that you
+cannot meet the above expectations, and/or your learning would be best
+served by a modification to the usual course policies, I would be
+happy to work with you---please get in touch (via Teams or email)! The
+course policies are just a means to an end; I don't care about the
+policies per se but I do care about you and your learning.
+
+*It is the policy of Hendrix College to accommodate students with
+disabilities, pursuant to federal and state law. Students should
+contact Julie Brown in the Office of Academic Success (505.2954;
+brownj@hendrix.edu) to begin the accommodation process. Any student
+seeking accommodation in relation to a recognized disability should
+inform the instructor at the beginning of the course.*
+
+## <a name="diversity">Diversity and Inclusion</a>
+
+Hendrix College values a diverse learning environment as outlined in
+the College's Statement on Diversity. All members of this community
+are expected to contribute to a respectful, welcoming, and inclusive
+environment for every other member of the community. If you believe
+you have been the subject of discrimination please contact Dean Mike
+Leblanc at [leblanc@hendrix.edu](mailto:leblanc@hendrix.edu) or
+501-450-1222 or the Title IX Coordinator Allison Vetter at
+[titleix@hendrix.edu](mailto:titleix@hendrix.edu)or 501-505-2901. If
+you have ideas for improving the inclusivity of the classroom
+experience please feel free to [contact
+me](https://forms.gle/YhPgQTq1FHiH71B6A).  For more information on
+Hendrix non-discrimination policies, visit
+[hendrix.edu/nondiscrimination](http://hendrix.edu/nondiscrimination).
+
+## <a name="health">Mental and Physical Health</a>
+
+Hendrix recognizes that many students face mental and/or physical
+health challenges. If your health status will impact attendance or
+assignments, please communicate with me as soon as possible.  If you
+would like to implement academic accommodations, contact Julie Brown
+in the office of Academic Success
+([brownj@hendrix.edu](mailto:brownj@hendrix.edu)).  To maintain
+optimal health, please make use of free campus resources like the
+[Hendrix Medical Clinic](https://www.hendrix.edu/healthservices/) or
+Counseling Services (501.450.1448).  Your health is important, and I
+care more about your health and well-being than I do about this class!
