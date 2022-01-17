@@ -168,8 +168,29 @@ be 15 projects available to complete throughout the semester.
 <br/>
 
 Your work in this course will consist of a series of challenging
-projects.  See the links below for the details and specification for
-each project.
+projects from our textbook.  Taken all together, they will result in a
+complete working (simulated) computer.  See the links below for the
+details and specification for each project.
+
+**Projects must be completed individually**.  Your experience of
+learning how a computer works depends directly on your independent
+completion of these projects.
+
+* You **may** discuss the projects with other students.
+
+* You **may not**:
+
+    - **Read** any solution to any project, whether from another
+      student, found online, or from any other source.
+
+    - **Show** your solution to any other student.
+
+    - **Give or receive help** in debugging a project solution. Requests
+      for debugging help must be directed to the professor.
+
+Any violations of this policy will be referred to the Committee on
+Academic Integrity as a major violation, with a recommended sanction
+of failure in the course.
 
 | #      | Name                                                           | Due      |
 |:------:|----------------------------------------------------------------|:--------:|
