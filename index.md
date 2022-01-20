@@ -29,6 +29,21 @@ Upon completing this course, you will be able to:
 
 {% include resources.html content=site.resources %}
 
+### Troubleshooting
+
+- If you get an error like "Permission denied" when attempting to run
+  one of the nand2tetris tools on OSX or Linux, you may need to make
+  the `.sh` files executable, by running
+
+      cd nand2tetris/tools
+      chmod +x *.sh
+
+  at a terminal prompt.
+
+- If you get an error like "cannot find javaw", you need to install
+  Java.  [Visit this page to download and run the appropriate
+  installer](https://java.com/en/download/manual.jsp).
+
 <hr>
 
 # <a name="calendar">Calendar</a>
