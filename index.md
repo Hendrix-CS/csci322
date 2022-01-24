@@ -61,7 +61,7 @@ Upon completing this course, you will be able to:
 | Th 20 Jan      | [Boolean arithmetic][20-Jan-video]; [lecture notes][20-Jan-lec] | Chapters 1 and 2<br /> Appendix A |                                                     |
 | *F 21 Jan*     |                                                                 |                                   | [Project 1](projects/01-boolean-logic.html)         |
 |                |                                                                 |                                   |                                                     |
-| T 25 Jan       | Boolean arithmetic                                              | Chapter 3                         |                                                     |
+| T 25 Jan       | Boolean arithmetic<br/>Sequential logic                         | Chapter 3                         |                                                     |
 | *W 26 Jan*     |                                                                 |                                   | [Project 2](projects/02-boolean-arithmetic.html)    |
 | Th 27 Jan      | Sequential logic                                                | Chapter 3                         |                                                     |
 |                |                                                                 |                                   |                                                     |
