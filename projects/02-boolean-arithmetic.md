@@ -16,13 +16,18 @@ due: Wednesday, 26 January
         - [`Or16Way.hdl`](../static/Or16Way.hdl)
         - [`Or16Way.cmp`](../static/Or16Way.cmp)
         - [`Or16Way.tst`](../static/Or16Way.tst)
+    - In particular, I suggest you first complete `HalfAdder`,
+      `FullAdder`, `Add16`, `Inc16`, and `ALU-nostat`
+      (`ALU-nostat.tst` is just a test file for `ALU.hdl` which
+      ignores the `zr` and `ng` output bits); then implement
+      `Or16Way`, and finally finish the `zr` and `ng` output bits for
+      `ALU` and test with `ALU.tst`.
 
 * **What to turn in**: Turn in all your `.hdl` files, one for each
-  chip, including `Or16Way.hdl`.  There should be 7 in all
-  (`HalfAdder`, `FullAdder`, `Add16`, `Inc16`, `ALU-nostat`,
-  `Or16Way`, `ALU`).
+  chip, including `Or16Way.hdl`.  There should be 6 in all
+  (`HalfAdder`, `FullAdder`, `Add16`, `Inc16`, `Or16Way`, `ALU`).
 
 * **Specification**: To get credit for this project, you must complete
-  all 7 chips and pass the tests for each.
+  all 6 chips and pass the tests for each.
 
 * **Due**: {{page.due}} @5pm.
