@@ -66,7 +66,8 @@ Upon completing this course, you will be able to:
 | Th 27 Jan      | [Sequential logic (memory) <img src="assets/images/yt.png" width="24px" />][mem-video] [<img src="assets/images/PDF2.png" width="24px" />][mem-lec]                    | Chapter 3                         |                                                     |
 |                |                                                                                                                                                                        |                                   |                                                     |
 | *M 31 Jan*     |                                                                                                                                                                        |                                   | [Project 3](projects/03-memory.html)                |
-| T 1 Feb        | Machine language                                                                                                                                                       | Chapter 4                         |                                                     |
+| T 1 Feb        | [Machine & assembly language <img src="assets/images/yt.png" width="24px" />][asm-video] [<img src="assets/images/PDF2.png" width="24px" />][asm-lec]                  | Chapter 4                         |                                                     |
+|                | [example.asm](lectures/example.asm), [example2.asm](lectures/example2.asm)                                                                                             |                                   |                                                     |
 | Th 3 Feb       | Hack assembly examples                                                                                                                                                 |                                   |                                                     |
 |                |                                                                                                                                                                        |                                   |                                                     |
 | *M 7 Feb*      |                                                                                                                                                                        |                                   | [Project 4](projects/04-machine-language.html)      |
@@ -124,6 +125,8 @@ Upon completing this course, you will be able to:
 [ALU-mem-lec]: lectures/2022-01-25-ALU-and-memory.pdf
 [mem-video]: https://youtu.be/7rhQDgkFt4U
 [mem-lec]: lectures/2022-01-27-memory.pdf
+[asm-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Tues%202_1_%20machine%20+%20assembly%20language-20220201_094748-Meeting%20Recording.mp4?web=1
+[asm-lec]: lectures/2022-02-01-machine-and-assembly-language.pdf
 
 <hr>
 # Coursework and policies
