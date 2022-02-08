@@ -71,7 +71,7 @@ Upon completing this course, you will be able to:
 | Th 3 Feb       | [Hack assembly examples <img src="assets/images/yt.png" width="24px" />][gabe-asm-video]                                                                               |                                   |                                                     |
 |                |                                                                                                                                                                        |                                   |                                                     |
 | *M 7 Feb*      |                                                                                                                                                                        |                                   | [Project 4](projects/04-machine-language.html)      |
-| T 8 Feb        | Computer architecture                                                                                                                                                  | Chapter 5                         |                                                     |
+| T 8 Feb        | [Turing machine CPU <img src="assets/images/yt.png" width="24px" />][tm-cpu-video] [<img src="assets/images/PDF2.png" width="24px" />][tm-cpu-lec]                     | Chapter 5                         |                                                     |
 | Th 10 Feb      | Computer architecture                                                                                                                                                  |                                   |                                                     |
 |                |                                                                                                                                                                        |                                   |                                                     |
 | *M 14 Feb*     |                                                                                                                                                                        |                                   | [Project 5](projects/05-computer-architecture.html) |
@@ -128,6 +128,8 @@ Upon completing this course, you will be able to:
 [asm-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Tues%202_1_%20machine%20+%20assembly%20language-20220201_094748-Meeting%20Recording.mp4?web=1
 [asm-lec]: lectures/2022-02-01-machine-and-assembly-language.pdf
 [gabe-asm-video]: https://www.youtube.com/watch?v=K8LwpzgoCcY&t=6s
+[tm-cpu-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/2_8_%20Turing%20Machine%20CPU-20220208_095750-Meeting%20Recording.mp4?web=1
+[tm-cpu-lec]: lectures/2022-02-08-Turing-machine-CPU.pdf
 
 <hr>
 # Coursework and policies
