@@ -75,7 +75,8 @@ Upon completing this course, you will be able to:
 | Th 10 Feb      | [More Turing machine CPU; CPU history <img src="assets/images/yt.png" width="24px" />][cpu-hist-video] [<img src="assets/images/PDF2.png" width="24px" />][cpu-hist-lec] |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 14 Feb*     |                                                                                                                                                                          |                                   | [Project 5](projects/05-computer-architecture.html) |
-| T 15 Feb       | Assembler                                                                                                                                                                | Chapter 6                         |                                                     |
+| T 15 Feb       | [Assembler <img src="assets/images/yt.png" width="24px" />][assembler-video] [<img src="assets/images/PDF2.png" width="24px" />][assembler-lec]                          | Chapter 6                         |                                                     |
+|                | [Assembler.py](lectures/assembler/Assembler.py), [example.tm](lectures/assembler/example.tm)                                                                             |                                   |                                                     |
 | Th 17 Feb      | Assembler                                                                                                                                                                |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 21 Feb*     |                                                                                                                                                                          |                                   | [Project 6](projects/06-assembler.html)             |
@@ -132,6 +133,8 @@ Upon completing this course, you will be able to:
 [tm-cpu-lec]: lectures/2022-02-08-Turing-machine-CPU.pdf
 [cpu-hist-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSection%5F26974%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F10%5F%20more%20CPUs%2D20220210%5F094530%2DMeeting%20Recording%2Emp4&parent=%2Fsites%2FSection%5F26974%2FShared%20Documents%2FGeneral%2FRecordings
 [cpu-hist-lec]: lectures/2022-02-10-more-CPU.pdf
+[assembler-video]: https://youtu.be/EWu6-J1TUz0
+[assembler-lec]: lectures/2022-02-15-assembler.pdf
 
 <hr>
 # Coursework and policies
