@@ -77,7 +77,7 @@ Upon completing this course, you will be able to:
 | *M 14 Feb*     |                                                                                                                                                                          |                                   | [Project 5](projects/05-computer-architecture.html) |
 | T 15 Feb       | [Assembler <img src="assets/images/yt.png" width="24px" />][assembler-video] [<img src="assets/images/PDF2.png" width="24px" />][assembler-lec]                          | Chapter 6                         |                                                     |
 |                | [Assembler.py](lectures/assembler/Assembler.py), [example.tm](lectures/assembler/example.tm)                                                                             |                                   |                                                     |
-| Th 17 Feb      | Assembler                                                                                                                                                                |                                   |                                                     |
+| Th 17 Feb      | [6502 chip <img src="assets/images/yt.png" width="24px" />][6502-video] [<img src="assets/images/PDF2.png" width="24px" />][6502-lec]                                    |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 21 Feb*     |                                                                                                                                                                          |                                   | [Project 6](projects/06-assembler.html)             |
 | T 22 Feb       | VM I: Stack arithmetic                                                                                                                                                   | Chapter 7                         |                                                     |
@@ -135,6 +135,8 @@ Upon completing this course, you will be able to:
 [cpu-hist-lec]: lectures/2022-02-10-more-CPU.pdf
 [assembler-video]: https://youtu.be/EWu6-J1TUz0
 [assembler-lec]: lectures/2022-02-15-assembler.pdf
+[6502-video]: https://youtu.be/aeG6s-ds0ok
+[6502-lec]: lectures/2022-02-17-MOS6502.pdf
 
 <hr>
 # Coursework and policies
