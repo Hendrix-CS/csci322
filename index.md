@@ -81,7 +81,7 @@ Upon completing this course, you will be able to:
 |                | [6502 layout](https://davidmjc.github.io/6502/), [SMB source code](https://gist.github.com/1wErt3r/4048722)                                                              |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 21 Feb*     |                                                                                                                                                                          |                                   | [Project 6](projects/06-assembler.html)             |
-| T 22 Feb       | VM I: Stack arithmetic                                                                                                                                                   | Chapter 7                         |                                                     |
+| T 22 Feb       | [VM I: Memory layout \& access <img src="assets/images/yt.png" width="24px" />][VM-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-lec]                    | Chapter 7                         |                                                     |
 | Th 24 Feb      | Stack arithmetic practice</b>Memory layout                                                                                                                               |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 28 Feb*     |                                                                                                                                                                          |                                   | [Project 7](projects/07-stack-arithmetic.html)      |
@@ -138,6 +138,8 @@ Upon completing this course, you will be able to:
 [assembler-lec]: lectures/2022-02-15-assembler.pdf
 [6502-video]: https://youtu.be/aeG6s-ds0ok
 [6502-lec]: lectures/2022-02-17-MOS6502.pdf
+[VM-video]: https://youtu.be/83C8hPXw9zk
+[VM-lec]: lectures/2022-02-22-VM.pdf
 
 <hr>
 # Coursework and policies
