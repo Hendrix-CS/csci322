@@ -81,12 +81,13 @@ Upon completing this course, you will be able to:
 |                | [6502 layout](https://davidmjc.github.io/6502/), [SMB source code](https://gist.github.com/1wErt3r/4048722)                                                              |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 21 Feb*     |                                                                                                                                                                          |                                   | [Project 6](projects/06-assembler.html)             |
-| T 22 Feb       | [VM I: Memory layout \& access <img src="assets/images/yt.png" width="24px" />][VM-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-lec]                    | Chapter 7                         |                                                     |
-| Th 24 Feb      | Stack arithmetic practice</b>Memory layout                                                                                                                               |                                   |                                                     |
+| T 22 Feb       | [VM memory layout & access <img src="assets/images/yt.png" width="24px" />][VM-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-lec]                        | Chapter 7                         |                                                     |
+| Th 24 Feb      | *No class (ice)*                                                                                                                                                         |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 28 Feb*     |                                                                                                                                                                          |                                   | [Project 7](projects/07-stack-arithmetic.html)      |
-| T 1 Mar        | VM II: Program control                                                                                                                                                   | Chapter 8                         |                                                     |
-| Th 3 Mar       | VM II: Program control                                                                                                                                                   |                                   |                                                     |
+| T 1 Mar        | [VM stack arithmetic & branch instructions][VM-arith-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-arith-lec]                                            | Chapter 8                         |                                                     |
+| Th 3 Mar       | [VM function instructions][VM-fun-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-fun-lec]                                                                 |                                   |                                                     |
+|                | [VMfiles.py](lectures/VMFiles.py)                                                                                                                                        |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   | [Project 8](projects/08-program-control.html)       |
 | *M 7 Mar*      |                                                                                                                                                                          |                                   |                                                     |
 | T 8 Mar        | High-level language (Jack)                                                                                                                                               | Chapter 9                         |                                                     |
@@ -140,6 +141,10 @@ Upon completing this course, you will be able to:
 [6502-lec]: lectures/2022-02-17-MOS6502.pdf
 [VM-video]: https://youtu.be/83C8hPXw9zk
 [VM-lec]: lectures/2022-02-22-VM.pdf
+[VM-arith-video]: https://youtu.be/K90HEWq7y0A
+[VM-arith-lec]: lectures/2022-03-01-VM-arithmetic.pdf
+[VM-fun-video]: https://youtu.be/658lz1jnkE8
+[VM-fun-lec]: lectures/2022-03-03-VM-functions.pdf
 
 <hr>
 # Coursework and policies
