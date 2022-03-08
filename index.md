@@ -90,7 +90,7 @@ Upon completing this course, you will be able to:
 |                | [VMfiles.py](lectures/VMFiles.py)                                                                                                                                        |                                   |                                                     |
 |                |                                                                                                                                                                          |                                   |                                                     |
 | *M 7 Mar*      |                                                                                                                                                                          |                                   | [Project 8](projects/08-program-control.html)       |
-| T 8 Mar        | High-level language (Jack)                                                                                                                                               | Chapter 9                         |                                                     |
+| T 8 Mar        | [Introduction to Jack][Jack-video] [<img src="assets/images/PDF2.png" width="24px" />][Jack-lec]                                                                                                                                       | Chapter 9                         |                                                     |
 | Th 10 Mar      | High-level language                                                                                                                                                      |                                   |                                                     |
 | *F 11 Mar*     |                                                                                                                                                                          |                                   | [Project 9: Proposal](projects/09-high-level.html)  |
 |                |                                                                                                                                                                          |                                   |                                                     |
@@ -145,6 +145,8 @@ Upon completing this course, you will be able to:
 [VM-arith-lec]: lectures/2022-03-01-VM-arithmetic.pdf
 [VM-fun-video]: https://youtu.be/658lz1jnkE8
 [VM-fun-lec]: lectures/2022-03-03-VM-functions.pdf
+[Jack-video]: https://youtu.be/Bfz9ELaE1S4
+[Jack-lec]: lectures/2022-03-08-Jack.pdf
 
 <hr>
 # Coursework and policies
