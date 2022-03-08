@@ -25,4 +25,8 @@ due: Monday, 7 March
       before adding the bootstrap code, then afterwards focus on
       getting the final three tests to work.
 
+      `NestedCall.tst` will work with or without bootstrap code.  The
+      last two (`FibonacciElement.tst` and `StaticsTest.tst`) will
+      only work with bootstrap code.
+
 * **Due**: {{page.due}} @5pm.
