@@ -15,8 +15,14 @@ due: Monday, 7 March
   VM-to-Hack translator.
 
 * **Specification**: To get credit for this project, you must complete
-  a working VM-to-Hack translator and pass the provided tests
-  (`BasicLoop.tst`, `FibonacciSeries.tst`, `SimpleFunction.tst`,
-  `NestedCall.tst`, `FibonacciElement.tst`, `StaticsTest.tst`).
+  a working VM-to-Hack translator and pass the last three tests
+  (`NestedCall.tst`, `FibonacciElement.tst`, `StaticsTest.tst`).
+
+    - **NOTE** that the first three tests (`BasicLoop.tst`,
+      `FibonacciSeries.tst`, and `SimpleFunction.tst`) will no longer
+      work once you change your translator to generate bootstrap
+      code.  This is OK.  Just make sure you pass all three tests
+      before adding the bootstrap code, then afterwards focus on
+      getting the final three tests to work.
 
 * **Due**: {{page.due}} @5pm.
