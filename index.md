@@ -100,7 +100,8 @@ Upon completing this course, you will be able to:
 |                |                                                                                                                                                                               |                                   |                                                          |
 | *Spring break* |                                                                                                                                                                               |                                   |                                                          |
 |                |                                                                                                                                                                               |                                   |                                                          |
-| T 29 Mar       | Tokenizing input                                                                                                                                                              | Chapter 10                        |                                                          |
+| T 29 Mar       | [Tokenizing input <img src="assets/images/yt.png" width="24px" />][tok-video] [<img src="assets/images/PDF2.png" width="24px" />][tok-lec]                                    | Chapter 10                        |                                                          |
+|                | [Tokenizer.py](lectures/tokenizer/Tokenizer.py)                                                                                                                               |                                   |                                                          |
 | Th 31 Mar      | A simple compiler<br/>Jack to VM                                                                                                                                              |                                   |                                                          |
 | *F 1 Apr*      |                                                                                                                                                                               |                                   | [Project 10/11A: Tokenizer](projects/10a-tokenizer.html) |
 |                |                                                                                                                                                                               |                                   |                                                          |
@@ -148,6 +149,8 @@ Upon completing this course, you will be able to:
 [Jack-video]: https://youtu.be/Bfz9ELaE1S4
 [Jack-lec]: lectures/2022-03-08-Jack.pdf
 [jump-video]: https://youtu.be/20kEyyvjhhI
+[tok-video]: https://youtu.be/41YU_pQ-pTo
+[tok-lec]: lectures/2022-03-29-tokenization.pdf
 
 <hr>
 # Coursework and policies
