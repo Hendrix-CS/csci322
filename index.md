@@ -259,8 +259,8 @@ of failure in the course.
 |        | Proposal                                                       | F 11 Mar |
 |        | Demo                                                           | T 15 Mar |
 |        | Final version                                                  | F 18 Mar |
-| 10/11A | Tokenizer                                                      | F 1 Apr  |
-| 10/11B | Statements                                                     | W 6 Apr  |
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 1 Apr  |
+| 10/11B | [Statements](projects/1011b-statements.html)                   | W 6 Apr  |
 | 10/11C | Conditionals and loops                                         | M 11 Apr |
 | 10/11D | Classes and arrays                                             | M 18 Apr |
 | 12A    | Operating system I                                             | M 25 Apr |
