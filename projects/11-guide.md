@@ -5,7 +5,7 @@ num: 11
 worktitle: "Projects 10/11 B,C,D guide"
 ---
 
-To complete Projects 10/11 A,B,C, you will finish the compiler in
+To complete Projects 10/11 B,C,D you will finish the compiler in
 stages. At each stage, only implement parsing and code generation for
 the productions sufficient for completing the given test case.  For a
 complete list of grammar productions, see the table of "The Jack
@@ -17,7 +17,7 @@ distribution. Others are custom test cases we provide; the titles of
 custom test cases include hyperlinks to the ZIP files containing their
 source code in Jack.
 
-Project 10/11A
+Project 10/11B
 ==============
 
 [Three](Three.zip)
@@ -44,13 +44,14 @@ To compile Seven, you need to generate code for the following additional symbols
 - `term` (parenthesized expressions)
 - `op` (specifically `+` and `*`)
 
-Project 10/11B
+Project 10/11C
 ==============
 
-AlphaWhere
-----------
+[AlphaWhere](AlphaWhere.zip)
+----------------------------
 
-To compile AlphaWhere, you need to generate code for the following additional symbols:
+To compile [AlphaWhere](AlphaWhere.zip), you need to generate code
+for the following additional symbols:
 
 - `varDec`
 - `letStatement` (ignore arrays)
@@ -61,20 +62,22 @@ To compile AlphaWhere, you need to generate code for the following additional sy
 Note: You will need to create a symbol table data structure to keep
 track of your local variables.
 
-AlphaShow
----------
+[AlphaShow](AlphaShow.zip)
+--------------------------
 
-To compile AlphaShow, you need to generate code for the following additional symbols:
+To compile [AlphaShow](AlphaShow.zip), you need to generate code for
+the following additional symbols:
 
 - `varDec` (specifically, more than one variable of the same type on a line)
 - `whileStatement`
 - `term` (specifically the `~` unary operator)
 - `op` (specifically `>`)
 
-Factorial
----------
+[Factorial](Factorial.zip)
+--------------------------
 
-To compile Factorial, you need to generate code for the following additional symbols:
+To compile [Factorial](Factorial.zip), you need to generate code for
+the following additional symbols:
 
 - `subroutineDec` (with `paramaterList`)
 - `returnStatement` (with return expression)
@@ -84,15 +87,12 @@ To compile Factorial, you need to generate code for the following additional sym
 ConvertToBin
 ------------
 
-Project 10/11C
-==============
-
-NOTE: The provided ConvertToBin is difficult to use. We recommend using
-this modified version (Main.jack), which uses keyboard input and
-prints to the screen, rather than relying on RAM hacking. Note that it
-prints its binary result with the least significant bit on the left
-(reversed in comparison to how you would typically write a binary
-number).
+NOTE: The provided ConvertToBin is difficult to use. We recommend
+using this modified version ([Main.jack](ConvertToBin/Main.jack)),
+which uses keyboard input and prints to the screen, rather than
+relying on RAM hacking. Note that it prints its binary result with the
+least significant bit on the left (reversed in comparison to how you
+would typically write a binary number).
 
 To compile ConvertToBin, you need to generate code for the following additional symbols:
 
@@ -100,6 +100,9 @@ To compile ConvertToBin, you need to generate code for the following additional 
 - `letStatement` (specifically modification of parameter values)
 - `subroutineDec` (with `paramaterList` that has multiple parameters)
 - `op` (specifically `&`)
+
+Project 10/11D
+==============
 
 Average
 -------
