@@ -102,7 +102,9 @@ Upon completing this course, you will be able to:
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | T 29 Mar       | [Tokenizing input <img src="assets/images/yt.png" width="24px" />][tok-video] [<img src="assets/images/PDF2.png" width="24px" />][tok-lec]                                    | Chapter 10                        |                                                                          |
 |                | [Tokenizer.py](lectures/tokenizer/Tokenizer.py)                                                                                                                               |                                   |                                                                          |
-| Th 31 Mar      | A simple compiler<br/>Jack to VM                                                                                                                                              |                                   |                                                                          |
+| Th 31 Mar      | A simple LISP compiler [<img src="assets/images/PDF2.png" width="24px" />][compiler-lec]                                                                                      |                                   |                                                                          |
+|                | [Compiler.py](lectures/compiler/Compiler.py)                                                                                                                                  |                                   |                                                                          |
+|                | *Unfortunately, Dr. Yorgey pushed the wrong button so there is no recording for the 3/31 class*                                                                               |                                   |                                                                          |
 | *F 1 Apr*      |                                                                                                                                                                               |                                   | [Project 10/11A: Tokenizer](projects/10a-tokenizer.html)                 |
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | T 5 Apr        | Jack to VM                                                                                                                                                                    |                                   |                                                                          |
@@ -151,6 +153,7 @@ Upon completing this course, you will be able to:
 [jump-video]: https://youtu.be/20kEyyvjhhI
 [tok-video]: https://youtu.be/41YU_pQ-pTo
 [tok-lec]: lectures/2022-03-29-tokenization.pdf
+[compiler-lec]: lectures/2022-03-31-lisp.pdf
 
 <hr>
 # Coursework and policies
@@ -256,8 +259,8 @@ of failure in the course.
 |        | Proposal                                                       | F 11 Mar |
 |        | Demo                                                           | T 15 Mar |
 |        | Final version                                                  | F 18 Mar |
-| 10/11A | Tokenizer                                                      | F 1 Apr  |
-| 10/11B | Statements                                                     | W 6 Apr  |
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 1 Apr  |
+| 10/11B | [Statements](projects/1011b-statements.html)                   | W 6 Apr  |
 | 10/11C | Conditionals and loops                                         | M 11 Apr |
 | 10/11D | Classes and arrays                                             | M 18 Apr |
 | 12A    | Operating system I                                             | M 25 Apr |
