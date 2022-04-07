@@ -24,12 +24,34 @@ class Main {
    }
 }
 
-
 /*
 
 function Main.main 1
 
-...
+call Keyboard.readChar 0
+push constant 77
+sub
 pop local 0
+
+call Output.println 0
+
+// if test
+push local 0
+push constant 0
+lt
+not          // so the then code can come first
+// jump to the else part if test was false
+if-goto IF_ELSE_1
+
+push constant 1    // push true = -1
+neg
+call Output.printInt 1
+goto IF_END_1
+
+label IF_ELSE_1
+push constant 0  // push false
+call Output.printInt 1
+
+label IF_END_1
 
 */

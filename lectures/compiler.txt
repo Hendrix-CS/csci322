@@ -14,6 +14,12 @@ statement:
   doStatement | returnStatement
 letStatement:
   'let' varName ('[' expression ']')? '=' expression ';'
+ifStatement:
+  'if' '(' expression ')'
+  '{' statements '}'
+  ('else' '{' statements '}')?
+whileStatement:
+  'while' '(' expression ')' '{' statements '}'
 
 expression: term (op term)*
 op: '+' | '-' | '*' | ...
@@ -87,6 +93,10 @@ compileStatement():
   read token
   if (token == 'let'):
     compileLet()
+  elif (token == 'if'):
+    compileIf()
+  elif (token == 'while'):
+    compileWhile()
   elif ...
 
 compileLet():
@@ -97,8 +107,69 @@ compileLet():
   look up var name in symbol table
   emit(f'pop {segment} {index}')
 
+compileIf():
+  skip '('
+  compileExpression()
+  emit('not')
+  skip ')'
+  elseLabel = makeLabel('IF_ELSE')  # make unique label
+  emit(f'if-goto {elseLabel}')
+
+  skip '{'
+  compileStatements()
+  skip '}'
+
+  if (peek() == 'else'):
+    endLabel = makeLabel("IF_END")
+    emit(f'goto {endLabel}')    // skip else part
+    emit(f'label {elseLabel}')
+    skip '{'
+    compileStatements()
+    skip '}'
+    emit(f'label {endLabel}')
+  else:
+    emit(f'label {elseLabel}')
+
+compileWhile():
+  startLabel = makeLabel('WHILE_START')
+  endLabel = makeLabel('WHILE_END')
+  emit(f'label {startLabel}')
+  skip '('
+  compileExpression()
+  emit('not')
+  emit(f'if-goto {endLabel}')
+
+  skip '{'
+  compileStatements()
+  skip '}'
+
+  emit(f'goto {startLabel}')
+  emit(f'label {endLabel}')
+
 compileExpression():
-  
+  compileTerm()
+  t = peek()
+  if t is an 'op':
+    o = next()
+    compileTerm()
+    emit(opCode[o])   # opCode is a dictionary
+                      # from ops to VM code
+
+compileTerm():
+  t = next()
+  if t is an identifier:
+    t2 = peek()
+    if t2 == '[':
+      compileArrayAccess(t)
+    elif t2 == '.':
+      compileDottedSubroutineCall(t)
+    elif t2 == '(':
+      compileSubroutineCall(t)
+    else:
+      look up segment + offset for variable
+      emit(f'push {segment} {offset}')
+  elif ...
+  elif ...
 
 --------------------------------------------------
 -- Symbol table

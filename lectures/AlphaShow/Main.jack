@@ -1,0 +1,53 @@
+// This file is based on www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+//
+// Author: Gabriel Ferrer
+// File name: projects/11/AlphaShow/Main.jack
+
+/**
+ * Prints all characters up to and including the input.
+ */
+class Main {
+
+   function void main() {
+      var int target, counter;
+      let target = Keyboard.readChar();
+      do Output.println();
+      let counter = 65;
+      while (~(counter > target)) {
+        do Output.printChar(counter);
+        let counter = counter + 1;
+      }
+      do Output.println();
+      return;
+   }
+}
+
+/*
+
+// VM code for while loop
+label WHILE_START_17
+
+// VM code for while test expression
+push local 1
+push local 0
+gt
+not
+not          // weird having consecutive nots,
+             // but optimization comes later
+if-goto WHILE_END_17
+
+push local 1  // counter
+call Output.printChar 1
+
+push local 1   // counter = counter + 1
+push constant 1
+add
+pop local 1
+
+goto WHILE_START_17
+
+label WHILE_END_17
+
+*/
