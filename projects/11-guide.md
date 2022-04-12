@@ -129,13 +129,13 @@ for static variables. Pay particular attention to the following:
 
 - `classVarDec` (fields only, although statics are not difficult to handle at the same time)
 - `subroutineCall` (for methods)
-    - this will need to be the first argument.
+    - `this` will need to be the first argument.
     - Be especially careful when calling a method from another method in the same class.
 - `subroutineBody` (for constructors and methods)
     - Constructors will need to allocate memory for the new object.
-    - For constructors, this needs to be a local variable.
-    - For methods, this should be the first argument.
-    - For both methods and constructors, this segment needs to be
+    - For constructors, `this` needs to be a local variable.
+    - For methods, `this` should be the first argument.
+    - For both methods and constructors, `this` segment needs to be
       properly set up at the start of the body.
 
 Pong
