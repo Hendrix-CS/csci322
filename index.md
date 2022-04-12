@@ -122,10 +122,11 @@ Upon completing this course, you will be able to:
 | T 19 Apr       | Operating system                                                                                                                                                              | Chapter 12                        |                                                                          |
 | Th 21 Apr      | Operating system                                                                                                                                                              |                                   |                                                                          |
 |                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 25 Apr*     |                                                                                                                                                                               |                                   | Project 12A                                                              |
-| T 26 Apr       | *Buffer*                                                                                                                                                                      |                                   |                                                                          |
-| Th 28 Apr      | *Buffer*                                                                                                                                                                      |                                   |                                                                          |
-| *F 29 Apr*     |                                                                                                                                                                               |                                   | Project 12B                                                              |
+| *M 25 Apr*     |                                                                                                                                                                               |                                   | [Project 12A](projects/12-OS.html)                                       |
+| T 26 Apr       | Randomness                                                                                                                                                                    |                                   |                                                                          |
+| Th 28 Apr      | Project work day                                                                                                                                                              |                                   |                                                                          |
+| *F 29 Apr*     |                                                                                                                                                                               |                                   | [Project 12B](projects/12-OS.html)                                       |
+|                |                                                                                                                                                                               |                                   |                                                                          |
 
 [18-Jan-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Computing%20Systems%20Organization-20220118_094748-Meeting%20Recording.mp4?web=1
 [20-Jan-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Computing%20Systems%20Organization-20220120_094924-Meeting%20Recording.mp4?web=1
@@ -268,8 +269,8 @@ of failure in the course.
 | 10/11B | [Statements](projects/1011b-statements.html)                   | W 6 Apr  |
 | 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 11 Apr |
 | 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 18 Apr |
-| 12A    | Operating system I                                             | M 25 Apr |
-| 12B    | Operating system II                                            | F 29 Apr |
+| 12A    | [Operating system I](projects/12-OS.html)                      | M 25 Apr |
+| 12B    | [Operating system II](projects/12-OS.html)                     | F 29 Apr |
 
 ## <a name="expectations">Expectations</a>
 
