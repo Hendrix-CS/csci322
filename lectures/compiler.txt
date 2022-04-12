@@ -1,0 +1,188 @@
+class: 'class' className '{' classVarDec* subroutineDec* '}'
+className: identifier
+subroutineName: identifier
+varName: identifier
+subroutineDec:
+  ('constructor' | 'function' | 'method')
+  ('void' | type) subroutineName
+  '(' parameterList ')' subroutineBody
+subroutineBody: '{' varDec* statements '}'
+varDec: 'var' type varName (',' varName)* ';'
+statements: statement*
+statement:
+  letStatement | ifStatement | whileStatement |
+  doStatement | returnStatement
+letStatement:
+  'let' varName ('[' expression ']')? '=' expression ';'
+ifStatement:
+  'if' '(' expression ')'
+  '{' statements '}'
+  ('else' '{' statements '}')?
+whileStatement:
+  'while' '(' expression ')' '{' statements '}'
+
+expression: term (op term)*
+op: '+' | '-' | '*' | ...
+unaryOp: '-' | '~'
+term: integerConstant | stringConstant
+  | keywordConstant | varName
+  | '(' expression ')'
+  | unaryOp term
+  | subroutineCall
+  | varName '[' expression ']'
+keywordConstant: 'true' | 'false' | 'null' | 'this'
+subroutineCall:
+    subroutineName '(' expressionList ')'
+  | (className | varName) '.' subroutineName
+    '(' expressionList ')'
+expressionList: (expression (',' expression)*)?
+
+
+--------------------------------------------------
+-- A design for an improved tokenizer
+
+- Tokenizer splits the entire file into tokens
+  and stores them in a list
+- Keeps track of a current token
+- Provides functions
+    - next() : advances the current index
+      and returns the new current token
+    - peek() : return the next token without
+      advancing the current token index
+
+-------------------------------------------
+-- compiler pseudocode
+
+compileClass():
+  skip token 'class'
+  read the className & save it somehwere
+  skip '{'
+  // (process classVarDecs)
+
+  while (peek() != '}'):
+    compileSubroutine()
+
+  skip '}'
+
+compileSubroutine():
+  read subroutine type
+  read return type, name, parameter list
+  skip '{'
+  while ( peek() == 'var'):
+    readVarDec()
+
+  locals = # of local variables (from symbol table)
+  emit(f'function {className}.{functionName} {locals}')
+
+  compileStatements()
+
+  clear local symbol table
+
+readVarDec():
+  skip 'var'
+  read in variables + their type, add to the
+    local symbol table  (symbol table
+    keeps track of the next available indices)
+  skip ';'
+
+compileStatements():
+  while (peek() != '}'):   // ???
+    compileStatement()
+
+compileStatement():
+  read token
+  if (token == 'let'):
+    compileLet()
+  elif (token == 'if'):
+    compileIf()
+  elif (token == 'while'):
+    compileWhile()
+  elif ...
+
+compileLet():
+  read varName
+  // (optional [ expression ])
+  skip '='
+  compileExpression()
+  look up var name in symbol table
+  emit(f'pop {segment} {index}')
+
+compileIf():
+  skip '('
+  compileExpression()
+  emit('not')
+  skip ')'
+  elseLabel = makeLabel('IF_ELSE')  # make unique label
+  emit(f'if-goto {elseLabel}')
+
+  skip '{'
+  compileStatements()
+  skip '}'
+
+  if (peek() == 'else'):
+    endLabel = makeLabel("IF_END")
+    emit(f'goto {endLabel}')    // skip else part
+    emit(f'label {elseLabel}')
+    skip '{'
+    compileStatements()
+    skip '}'
+    emit(f'label {endLabel}')
+  else:
+    emit(f'label {elseLabel}')
+
+compileWhile():
+  startLabel = makeLabel('WHILE_START')
+  endLabel = makeLabel('WHILE_END')
+  emit(f'label {startLabel}')
+  skip '('
+  compileExpression()
+  emit('not')
+  emit(f'if-goto {endLabel}')
+
+  skip '{'
+  compileStatements()
+  skip '}'
+
+  emit(f'goto {startLabel}')
+  emit(f'label {endLabel}')
+
+compileExpression():
+  compileTerm()
+  t = peek()
+  if t is an 'op':
+    o = next()
+    compileTerm()
+    emit(opCode[o])   # opCode is a dictionary
+                      # from ops to VM code
+
+compileTerm():
+  t = next()
+  if t is an identifier:
+    t2 = peek()
+    if t2 == '[':
+      compileArrayAccess(t)
+    elif t2 == '.':
+      compileDottedSubroutineCall(t)
+    elif t2 == '(':
+      compileSubroutineCall(t)
+    else:
+      look up segment + offset for variable
+      emit(f'push {segment} {offset}')
+  elif ...
+  elif ...
+
+--------------------------------------------------
+-- Symbol table
+
+What information do we need to know about
+a variable?
+
+- name (key)
+- index
+- kind (local, argument, static, field)
+- type
+
+Really two symbol tables:
+- "global" one for static + field variables
+- "local" one for local + argument variables,
+  reset every time we compile a new function.

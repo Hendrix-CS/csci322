@@ -107,9 +107,12 @@ Upon completing this course, you will be able to:
 |                | *Unfortunately, Dr. Yorgey pushed the wrong button so there is no recording for the 3/31 class*                                                                               |                                   |                                                                          |
 | *F 1 Apr*      |                                                                                                                                                                               |                                   | [Project 10/11A: Tokenizer](projects/10a-tokenizer.html)                 |
 |                |                                                                                                                                                                               |                                   |                                                                          |
-| T 5 Apr        | Jack to VM                                                                                                                                                                    |                                   |                                                                          |
+| T 5 Apr        | [Compiling Jack to VM <img src="assets/images/yt.png" width="24px" />][compile-jack-video]                                                                                    |                                   |                                                                          |
+|                | [AlphaWhere/Main.jack](lectures/AlphaWhere/Main.jack) /  [compiler.txt](lectures/compiler.txt)                                                                                |                                   |                                                                          |
 | *W 6 Apr*      |                                                                                                                                                                               |                                   | [Project 10/11B: Statements](projects/1011b-statements.html)             |
-| Th 7 Apr       | Conditionals and loops                                                                                                                                                        | Chapter 11                        |                                                                          |
+| Th 7 Apr       | [Compiling conditionals and loops <img src="assets/images/yt.png" width="24px" />][compile-cond-video]                                                                        | Chapter 11                        |                                                                          |
+|                | [AlphaShow/Main.jack](lectures/AlphaShow/Main.jack) / [compiler.txt](lectures/compiler.txt)                                                                                   |                                   |                                                                          |
+|                | [GO TO statement considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)                                                                          |                                   |                                                                          |
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | *M 11 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html) |
 | T 12 Apr       | Classes and arrays                                                                                                                                                            |                                   |                                                                          |
@@ -154,6 +157,8 @@ Upon completing this course, you will be able to:
 [tok-video]: https://youtu.be/41YU_pQ-pTo
 [tok-lec]: lectures/2022-03-29-tokenization.pdf
 [compiler-lec]: lectures/2022-03-31-lisp.pdf
+[compile-jack-video]: https://youtu.be/YpBH3pS7F_I
+[compile-cond-video]: https://youtu.be/KSnDzbnHHsQ
 
 <hr>
 # Coursework and policies
@@ -261,8 +266,8 @@ of failure in the course.
 |        | Final version                                                  | F 18 Mar |
 | 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 1 Apr  |
 | 10/11B | [Statements](projects/1011b-statements.html)                   | W 6 Apr  |
-| 10/11C | Conditionals and loops                                         | M 11 Apr |
-| 10/11D | Classes and arrays                                             | M 18 Apr |
+| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 11 Apr |
+| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 18 Apr |
 | 12A    | Operating system I                                             | M 25 Apr |
 | 12B    | Operating system II                                            | F 29 Apr |
 
