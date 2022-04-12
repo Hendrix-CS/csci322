@@ -115,7 +115,8 @@ Upon completing this course, you will be able to:
 |                | [GO TO statement considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)                                                                          |                                   |                                                                          |
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | *M 11 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html) |
-| T 12 Apr       | Classes and arrays                                                                                                                                                            |                                   |                                                                          |
+| T 12 Apr       | [Compiling arrays <img src="assets/images/yt.png" width="24px" />][arrays-video]                                                                                              |                                   |                                                                          |
+|                | [Average/Main.jack](lectures/Average/Main.jack)                                                                                                                               |                                   |                                                                          |
 | Th 14 Apr      | Classes and arrays                                                                                                                                                            |                                   |                                                                          |
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | *M 18 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11D: Classes and Arrays](projects/1011d-classes-arrays.html) |
@@ -160,6 +161,7 @@ Upon completing this course, you will be able to:
 [compiler-lec]: lectures/2022-03-31-lisp.pdf
 [compile-jack-video]: https://youtu.be/YpBH3pS7F_I
 [compile-cond-video]: https://youtu.be/KSnDzbnHHsQ
+[arrays-video]: https://youtu.be/4vTao3-xZeY
 
 <hr>
 # Coursework and policies
