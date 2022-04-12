@@ -118,7 +118,7 @@ ComplexArray
 
 In theory, ComplexArray should compile if Average compiles. It is a
 much tougher test case, though. Make sure that the destination of the
-expression in a let statement does not have that inadvertently
+expression in a let statement does not have `THAT` inadvertently
 overwritten.
 
 Square
