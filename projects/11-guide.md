@@ -133,7 +133,6 @@ for static variables. Pay particular attention to the following:
     - Be especially careful when calling a method from another method in the same class.
 - `subroutineBody` (for constructors and methods)
     - Constructors will need to allocate memory for the new object.
-    - For constructors, `this` needs to be a local variable.
     - For methods, `this` should be the first argument.
     - For both methods and constructors, `this` segment needs to be
       properly set up at the start of the body.
