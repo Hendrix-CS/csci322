@@ -1,5 +1,6 @@
 class: 'class' className '{' classVarDec* subroutineDec* '}'
 className: identifier
+classVarDec: ('static' | 'field') type varName (',' varName)* ';'
 subroutineName: identifier
 varName: identifier
 subroutineDec:
@@ -66,13 +67,24 @@ compileClass():
 
 compileSubroutine():
   read subroutine type
-  read return type, name, parameter list
+  if subroutine_type == 'method':
+     increment symbol table index for arguments
+
+  read return type, name, parameter list (+ insert in symbol table)
   skip '{'
   while ( peek() == 'var'):
     readVarDec()
 
   locals = # of local variables (from symbol table)
   emit(f'function {className}.{functionName} {locals}')
+
+  if subroutine_type == 'method':
+     emit('push argument 0')
+     emit('pop pointer 0')
+  elif subroutine_type == 'constructor':
+     emit(f'push constant {num_fields}')
+     emit('call Memory.alloc 1')
+     emit('pop pointer 0')
 
   compileStatements()
 
@@ -162,9 +174,9 @@ compileTerm():
     if t2 == '[':
       compileArrayAccess(t)
     elif t2 == '.':
-      compileDottedSubroutineCall(t)
+      compileSubroutineCall(t, true)  // boolean says whether there is a dot
     elif t2 == '(':
-      compileSubroutineCall(t)
+      compileSubroutineCall(t, false)
     else:
       look up segment + offset for variable
       emit(f'push {segment} {offset}')
@@ -178,11 +190,13 @@ What information do we need to know about
 a variable?
 
 - name (key)
-- index
+- index  (per variable kind e.g.  local 0, 1, 2... and field 0, 1, 2,
+  ... etc)
 - kind (local, argument, static, field)
 - type
 
 Really two symbol tables:
 - "global" one for static + field variables
+  reset every time we compile a new class / file.
 - "local" one for local + argument variables,
   reset every time we compile a new function.

@@ -30,4 +30,14 @@ class Main {
 push local 0   // push game
 call SquareGame.run 1
 
+// FAQ
+
+// Q: If we see  identifier1 . identifier2 (...),  how can we tell whether identifier1
+//   is the name of a class or an object?
+// A: look up identifier1 in the symbol table; if it's there, it's a variable
+//   and hence holds an object.  Otherwise, it must be the name of a class.
+
+// Q: How do we know to translate e.g. game.run() into  SquareGame.run?
+// A: We look at the type of the variable game, which is stored in the symbol table.
+
 */

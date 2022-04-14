@@ -117,7 +117,9 @@ Upon completing this course, you will be able to:
 | *M 11 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html) |
 | T 12 Apr       | [Compiling arrays <img src="assets/images/yt.png" width="24px" />][arrays-video]                                                                                              |                                   |                                                                          |
 |                | [Average/Main.jack](lectures/Average/Main.jack)                                                                                                                               |                                   |                                                                          |
-| Th 14 Apr      | Classes and arrays                                                                                                                                                            |                                   |                                                                          |
+| Th 14 Apr      | [Compiling classes][classes-video]                                                                                                                                            |                                   |                                                                          |
+|                | [Square/Main.jack](lectures/Square/Main.jack) / [Square/SquareGame.jack](lectures/Square/SquareGame.jack)                                                                     |                                   |                                                                          |
+|                | [Pong/PongGame.jack](lectures/Pong/PongGame.jack) / [compiler.txt](lectures/compiler.txt)                                                                                     |                                   |                                                                          |
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | *M 18 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11D: Classes and Arrays](projects/1011d-classes-arrays.html) |
 | T 19 Apr       | Operating system                                                                                                                                                              | Chapter 12                        |                                                                          |
@@ -162,6 +164,7 @@ Upon completing this course, you will be able to:
 [compile-jack-video]: https://youtu.be/YpBH3pS7F_I
 [compile-cond-video]: https://youtu.be/KSnDzbnHHsQ
 [arrays-video]: https://youtu.be/4vTao3-xZeY
+[classes-video]: https://youtu.be/fjfYSkNlZVY
 
 <hr>
 # Coursework and policies
