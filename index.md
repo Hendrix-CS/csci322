@@ -126,7 +126,7 @@ Upon completing this course, you will be able to:
 | Th 21 Apr      | [Operating system II <img src="assets/images/yt.png" width="24px" />][os2-video] [<img src="assets/images/PDF2.png" width="24px" />][os2-lec]                                 |                                   |                                                                          |
 |                |                                                                                                                                                                               |                                   |                                                                          |
 | *M 25 Apr*     |                                                                                                                                                                               |                                   | [Project 12A](projects/12-OS.html)                                       |
-| T 26 Apr       | Randomness                                                                                                                                                                    |                                   |                                                                          |
+| T 26 Apr       | [Memory allocation and randomness <img src="assets/images/yt.png" width="24px" />][os3-video] [<img src="assets/images/PDF2.png" width="24px" />][os3-lec]                    |                                   |                                                                          |
 | Th 28 Apr      | Project work day                                                                                                                                                              |                                   |                                                                          |
 | *F 29 Apr*     |                                                                                                                                                                               |                                   | [Project 12B](projects/12-OS.html)                                       |
 |                |                                                                                                                                                                               |                                   |                                                                          |
@@ -169,6 +169,8 @@ Upon completing this course, you will be able to:
 [os-lec]: lectures/2022-04-19-OS-I.pdf
 [os2-video]: https://youtu.be/y2crK2urCfs
 [os2-lec]: lectures/2022-04-21-OS-II.pdf
+[os3-rand-video]: https://youtu.be/EuFalo6BnAw
+[os3-rand-lec]: lectures/2022-04-26-alloc-random.pdf
 
 <hr>
 # Coursework and policies
