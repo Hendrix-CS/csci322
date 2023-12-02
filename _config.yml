@@ -20,9 +20,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 322
 title: Computing Systems Organization
-semester: Spring 2022
+semester: Spring 2024
 
-submission: https://docs.google.com/forms/d/e/1FAIpQLSeglkJjpC0BDHEcRz8QHPRshxJiAt8WMdjGSYctYJJcbt3TMA/viewform
+submission: XXX
 
 navigation:
   - title: Overview
@@ -74,13 +74,13 @@ resources:
   - name: From Nand to Tetris
     image: assets/images/n2t-logo.png
     url: https://www.nand2tetris.org/
-  - name: The Elements of Computing Systems,<br/> 2nd ed. (1st ed. is OK too)
+  - name: The Elements of Computing Systems,<br/> 2nd ed.
     image: assets/images/teocs.jpg
     url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/
 
 # Build settings
 markdown: kramdown
-plugins:
+# plugins:
 # - jekyll-feed
 
 # Exclude from processing.

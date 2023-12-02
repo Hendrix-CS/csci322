@@ -16,7 +16,7 @@ Upon completing this course, you will be able to:
 * Describe the hierarchy of abstractions that define a modern computer
   (logic gates, CPU, machine language, assembly, virtual machines,
   high-level languages, operating system).
-* Understand and apply the basic boolean logical operators.
+* Understand and apply basic boolean logical operators.
 * Create a digital circuit corresponding to a specification given in boolean logic.
 * Create a digital circuit employing clocked memory components.
 * Describe how boolean logic, memory circuits, and a clock pulse interact to execute a machine language instruction.
