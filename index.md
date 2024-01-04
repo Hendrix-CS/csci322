@@ -231,16 +231,16 @@ must have the following components:
 
 For example, a grading contract might look like this:
 
-*My desired course grade in CSO is a C.  To
-achieve this grade, I will complete the following:*
+*My desired course grade in CSO is a C.  To achieve this grade, I will
+complete the following:*
 
 - [X] *CSCI student info survey*
 - [ ] *Grading contract*
   - [X] *Submit grading contract*
   - [ ] *Grading contract evaluation 1*
   - [ ] *Grading contract evaluation 2*
-- [ ] Projects (9)
-  - [ ] Project 1
+- [ ] *Projects (9)*
+  - [ ] *Project 1*  XXX put italics
   - [ ] Project 2
   - [ ] Project 3
   - [ ] Project 4
@@ -251,10 +251,11 @@ achieve this grade, I will complete the following:*
   - [ ] Project 12A
 
 *I will use the recommended deadline schedule for 9 projects, except
-that my deadlines will be at 10pm instead of 5pm, and I will
-turn in Project 5 by XXX.*
+that my deadlines will be at 10pm instead of 5pm, and I will turn in
+Project 5 by 2/24 instead of 2/26. [Your schedule of deadlines will
+hopefully be more detailed/customized than this.]*
 
-*My work plan is as follows: ...*
+*My work plan is as follows: [your detailed work plan here]*
 
 ### Grading contract submission
 
@@ -385,19 +386,29 @@ projects from our textbook.  Taken all together, they will result in a
 complete working (simulated) computer.  See the links below for the
 details and specification for each project.
 
+### <a name="integrity">Academic integrity</a>
+
 **Projects must be completed individually**.  Your experience of
 learning how a computer works depends directly on your independent
 completion of these projects.
 
-* You **may** discuss the projects with other students.
+* You **may** discuss the projects with other students at a high
+  level.
+
+* You **may** help each other debug your projects. However, be careful
+  not to slide from "debugging help" into more substantive help.  "I
+  don't know how to write this function" is very different than "I
+  wrote this function but it doesn't work correctly".  In the former
+  case you should come see me in office hours.
 
 * You **may** use generative AI tools such as ChatGPT or GitHub
   Copilot.
-    - XXX explain why
-    - You must cite their use, explain which sections of code were
-      generated
-
-* You **may** get debugging help XXX.  Careful of gray area.
+    - The projects in this class are sufficiently high-level that
+      generative AI is not going to be able to do them for you.  It
+      could be an interesting learning experience to figure out ways
+      to use these tools effectively.
+    - If you do use generative AI tools, you must cite their use
+      (*e.g.* in a comment explaining how you used them).
 
 * You **may not**:
 
@@ -406,34 +417,54 @@ completion of these projects.
 
     - **Show** your solution to any other student.
 
-Since XXX hands-on completion is integral part of your learning, any
-issues of academic integrity will be taken very seriously.  Typically,
-plagiarism on a project will carry a recommended sanction of failure
-in the course.
+Since completion of the projects is the fundamental learning
+opportunity in this class, issues of academic integrity will be taken
+very seriously.  Typically, plagiarism on a project will carry a
+recommended sanction of failure in the course.
 
 ## <a name="suggested-deadlines">Suggested deadlines</a>
 
-XXX suggested deadlines for each project, depending on desired grade.
-XXX suggested subset of projects.  Can choose your own, update as the
-semester goes on.  XXX 5pm, choose your own times.
+Below you will find a list of all the projects in one place, as well
+as suggested deadlines and subsets of projects depending on your
+desired grade.  Keep in mind that these are only suggestions!  You can
+and should customize to your heart's content.  For example:
 
-| #      | Topic                                                          | A        | B | C |
-|:------:|----------------------------------------------------------------|:--------:|:-:|:-:|
-| 1      | [Boolean logic](projects/01-boolean-logic.html)                | F 19 Jan | * | * |
-| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | W 24 Jan | * | * |
-| 3      | [Memory](projects/03-memory.html)                              | M 29 Jan | * | * |
-| 4      | [Machine language](projects/04-machine-language.html)          | M 5 Feb  | * | * |
-| 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 12 Feb | * | * |
-| 6      | [Assembler](projects/06-assembler.html)                        | M 19 Feb | * |   |
-| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 26 Feb | * |   |
-| 8      | [VM II: program control](projects/08-program-control.html)     | M 4 Mar  |   |   |
-| 9      | [High-level programming](projects/09-high-level.html)          | F 15 Mar | * | * |
-| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 29 Mar | * | * |
-| 10/11B | [Statements](projects/1011b-statements.html)                   | W 3 Apr  | * | * |
-| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 8 Apr  | * |   |
-| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 15 Apr |   |   |
-| 12A    | [Operating system I](projects/12-OS.html)                      | M 22 Apr | * | * |
-| 12B    | [Operating system II](projects/12-OS.html)                     | F 26 Apr |   |   |
+- If you are aiming for a B or C, you are free to choose any subset of
+  12 or 9 projects.  For example, if you are aiming for a C, perhaps
+  the idea of an assembler is particularly interesting to you, so you
+  would rather do Project 6 and leave out another project.
+- By default, all deadlines are at 5pm, but you should pick a time
+  that works well for you.  Do you like staying up late to work on
+  projects?  Do you like getting things turned in by 2pm and then
+  playing video games?  You decide.
+- The suggested due dates just demonstrate one possible way of
+  spreading work out over the whole semester.  You can and should
+  customize these.  Maybe you will be doing a play or Model UN and
+  want to make sure you have no deadlines during a certain period;
+  maybe you want to get everything turned in by April 15th so you can
+  spend the last few weeks of the semester focusing on your other
+  classes; maybe you want to have all the projects due all at once at
+  3:29am on Sunday, April 28th.  You decide!
+
+XXX get data on average amount of time spent per project
+
+| #      | Topic                                                          | A        | B        | C        |
+|:------:|----------------------------------------------------------------|:--------:|:--------:|:--------:|
+| 1      | [Boolean logic](projects/01-boolean-logic.html)                | F 19 Jan | F 19 Jan | M 22 Jan |
+| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | W 24 Jan | W 24 Jan | M 29 Jan |
+| 3      | [Memory](projects/03-memory.html)                              | M 29 Jan | M 29 Jan | W 7 Feb  |
+| 4      | [Machine language](projects/04-machine-language.html)          | M 5 Feb  | M 5 Feb  | F 16 Feb |
+| 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 12 Feb | W 14 Feb | M 26 Feb |
+| 6      | [Assembler](projects/06-assembler.html)                        | M 19 Feb | M 26 Feb |          |
+| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 26 Feb | M 4 Mar  |          |
+| 8      | [VM II: program control](projects/08-program-control.html)     | M 4 Mar  |          |          |
+| 9      | [High-level programming](projects/09-high-level.html)          | M 11 Mar | M 11 Mar | M 11 Mar |
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 29 Mar | M 1 Apr  | F 5 Apr  |
+| 10/11B | [Statements](projects/1011b-statements.html)                   | W 3 Apr  | W 10 Apr | M 15 Apr |
+| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 8 Apr  | W 17 Apr |          |
+| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 15 Apr |          |          |
+| 12A    | [Operating system I](projects/12-OS.html)                      | M 22 Apr | F 26 Apr | F 26 Apr |
+| 12B    | [Operating system II](projects/12-OS.html)                     | F 26 Apr |          |          |
 
 ## <a name="expectations">Expectations</a>
 

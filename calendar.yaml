@@ -85,7 +85,8 @@ entries:
     Topic: VM memory layout & access
     Reading: Chapter 7
   - Date: 2024-02-22
-    Topic: TBD
+    Topic: VM stack arithmetic & branch instructions
+    Reading: Chapter 8
 
   - Date: 2024-02-26
     Projects:
@@ -93,10 +94,10 @@ entries:
         text: 'Project 7: VM I: Stack Arithmetic'
         url: projects/07-stack-arithmetic.html
   - Date: 2024-02-27
-    Topic: VM stack arithmetic & branch instructions
+    Topic: VM function instructions
     Reading: Chapter 8
   - Date: 2024-02-29
-    Topic: VM function instructions
+    Topic: TBD
 
   - Date: 2024-03-04
     Projects:
@@ -109,15 +110,15 @@ entries:
   - Date: 2024-03-07
     Topic: "Jack example: jumping Jack"
 
-  - Date: 2024-03-12
-    Topic: TBD
-  - Date: 2024-03-14
-    Topic: TBD
-  - Date: 2024-03-15
+  - Date: 2024-03-11
     Projects:
       link:
         text: 'Project 9: High-level programming'
         url: projects/09-high-level.html
+  - Date: 2024-03-12
+    Topic: TBD
+  - Date: 2024-03-14
+    Topic: TBD
 
   - Date: 2024-03-19
     Topic:
