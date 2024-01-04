@@ -14,7 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 description: >- # this means to ignore newlines until "baseurl:"
-  This course is a study of the layers of abstraction composing the design of modern computing systems. Topics include numeric representation, digital logic, CPU design, machine and assembly language, the program stack, virtual machines, compilers, assemblers, memory management and device drivers.
+  *How do computers work?*  This course answers this deceptively simple
+  question by providing a deep dive into the layers of abstraction
+  composing modern computing systems. Throughout the semester,
+  you will put your new knowledge into practice by building your own
+  complete, working (simulated) computer. Course topics include
+  numeric representation, digital logic, CPU design, machine and
+  assembly language, the program stack, virtual machines, compilers,
+  assemblers, memory management and device drivers.
 baseurl: "/csci322" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
