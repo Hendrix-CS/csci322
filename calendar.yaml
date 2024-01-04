@@ -4,7 +4,7 @@ period: B2
 columns: [Date, Topic, Reading, Projects]
 headers:
   Reading: 'Reading & Links'
-  Projects: 'Projects (recommended A schedule)'
+  Projects: 'Due dates (recommended A schedule)'
 
 entries:
   - Date: 2024-01-16
@@ -16,6 +16,11 @@ entries:
       rows:
         - Chapters 1 and 2
         - Appendix A
+    Projects:
+      - link:
+          text: Grading contract and work plan
+          url: '#grading-contracts'
+      - due
 
   - Date: 2024-01-19
     Projects:
@@ -115,9 +120,11 @@ entries:
         url: projects/09-high-level.html
 
   - Date: 2024-03-19
-    Topic: No class (spring break)
+    Topic:
+      emph: No class (spring break)
   - Date: 2024-03-21
-    Topic: No class (spring break)
+    Topic:
+      emph: No class (spring break)
 
   - Date: 2024-03-26
     Topic: Tokenizing input

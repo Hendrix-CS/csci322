@@ -57,10 +57,10 @@ Upon completing this course, you will be able to:
 
 <!-- BEGIN CALENDAR -->
 
-| Date          | Topic                                     | Reading & Links                                                                                      | Projects (recommended A schedule)                                          |
+| Date          | Topic                                     | Reading & Links                                                                                      | Due dates (recommended A schedule)                                         |
 |---------------|-------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | **T 16 Jan**  | Introduction, Boolean logic               |                                                                                                      |                                                                            |
-| **Th 18 Jan** | Boolean arithmetic                        | Chapters 1 and 2                                                                                     |                                                                            |
+| **Th 18 Jan** | Boolean arithmetic                        | Chapters 1 and 2                                                                                     | [Grading contract and work plan](#grading-contracts) due                   |
 |               |                                           | Appendix A                                                                                           |                                                                            |
 | *F 19 Jan*    |                                           |                                                                                                      | [Project 1: Boolean logic](projects/01-boolean-logic.html)                 |
 |               |                                           |                                                                                                      |                                                                            |
@@ -96,8 +96,8 @@ Upon completing this course, you will be able to:
 | **Th 14 Mar** | TBD                                       |                                                                                                      |                                                                            |
 | *F 15 Mar*    |                                           |                                                                                                      | [Project 9: High-level programming](projects/09-high-level.html)           |
 |               |                                           |                                                                                                      |                                                                            |
-| **T 19 Mar**  | No class (spring break)                   |                                                                                                      |                                                                            |
-| **Th 21 Mar** | No class (spring break)                   |                                                                                                      |                                                                            |
+| **T 19 Mar**  | *No class (spring break)*                 |                                                                                                      |                                                                            |
+| **Th 21 Mar** | *No class (spring break)*                 |                                                                                                      |                                                                            |
 |               |                                           |                                                                                                      |                                                                            |
 | **T 26 Mar**  | Tokenizing input                          | Chapter 10                                                                                           |                                                                            |
 | **Th 28 Mar** | A simple LISP compiler                    |                                                                                                      |                                                                            |
@@ -186,13 +186,13 @@ must have the following components:
   to plan to complete the first nine projects assigned.  I have also
   provided some sample selections of projects and due dates below.
 
-- **The due date for each project you will complete**.  These can also
-  be adjusted (see below), but you must commit to specific due dates
-  at the beginning of the semester.  You may choose to simply use one
-  of my suggested schedules of due dates, but I encourage you to think
-  carefully about any commitments you have (plays, travel for sports,
-  exams in other classes) and how you might wish to adjust your due
-  dates as a result.
+- **The specific due date and time for each project you will
+  complete**.  You must commit to specific due dates at the beginning
+  of the semester.  You may choose to simply use one of my suggested
+  schedules of deadlines, but I encourage you to think carefully about
+  any commitments you have (plays, travel for sports, exams in other
+  classes) and how you might wish to adjust your due dates as a
+  result.
 
 - **A work plan**.  Success in this class requires consistent,
   sustained effort; for an A, you should expect to spend about 7 hours
@@ -224,6 +224,8 @@ must have the following components:
 
   Note that the work plan is not part of the "contract" per se, that
   is, your grade is not based on how well you stick to your work plan.
+  Instead, it is intended as a helpful tool for your own planning and
+  a useful jumping-off point for discussion if you get behind.
 
 ### Example grading contract
 
@@ -249,7 +251,8 @@ achieve this grade, I will complete the following:*
   - [ ] Project 12A
 
 *I will use the recommended deadline schedule for 9 projects, except
-that I will turn in Project 5 by XXX.*
+that my deadlines will be at 10pm instead of 5pm, and I will
+turn in Project 5 by XXX.*
 
 *My work plan is as follows: ...*
 
@@ -305,24 +308,17 @@ it).
 ### A, B, and C grades
 
 * To earn an A in the course, you must complete all the requirements
-  for a B, plus:
-    * Complete the final exam and both midterm [exams](#exams).
-	* Complete a minimum of eight [problem sets](#problemsets).
-	* Have at most one unexcused [absence](#attendance).
+  for a C, and complete all 15 [projects](#projects)---that is,
+  build a complete, working computer.
 
 * To earn a B in the course, you must complete all the requirements
-  for a C, plus:
-    * Complete both midterm [exams](#exams).
-	* Complete a minimum of seven [problem sets](#problemsets).
-	* Have at most two unexcused [absences](#attendance).
+  for a C and complete a minimum of 12 [projects](#projects).
 
 * To earn a C in the course, you must:
     * Complete the [CSCI student information survey][survey].
     * Submit and agree on a [grading contract](#grading) with the instructor.
     * Complete two [grading contract evaluations](#evaluation).
-    * Complete at least one midterm [exam](#exams).
-	* Complete a minimum of five [problem sets](#problemsets).
-	* Have at most three unexcused [absences](#attendance).
+	* Complete a minimum of eight [projects](#projects).
 
 ### D and F grades
 
@@ -330,73 +326,50 @@ it).
 a grade of D (and certainly not for an F).  However, I reserve the
 right to award a grade of D or F to anyone who fails to meet their
 contractual obligations in a systematic way. A "D" grade denotes some
-minimal fulfilling of the contract; an "F" denotes absence of enough
+minimal fulfilling of the contract (typically, I would want to see at
+least 5 projects complete). An "F" denotes absence of enough
 satisfactory work, as contracted, to warrant passing of the
 course. Both a "D" and "F" denote a breakdown of the contractual
 relationship.
 
-
 <hr>
-# Coursework and policies
+# Coursework and policies XXX
 
+## <a name="deadlines">Deadlines, extensions, and resubmissions</a>
 
+- Every project is due at a specific date and time chosen by you in
+  your grading contract.
 
-## <a name="grading">Specifications grading</a>
+- Assignments may be turned in any time up to your chosen deadline.  I
+  will try my best to return graded assignments, with feedback, within
+  *two weekdays* of being turned in.
 
-This course uses *specifications grading*.  Briefly, this means that
-grading of individual projects is on a credit/no-credit basis, with a
-*specification* that tells you what you must do in order to get
-credit. Your final letter grade in the course, in turn, is based
-simply on the number of projects successfully completed.  There will
-be 15 projects available to complete throughout the semester.
+- If you wish an **extension** on any deadline, simply send me an
+  **email** prior to the deadline requesting a new deadline.  You must
+  be specific about the date and time of the new deadline.  For
+  example, you could say "I need a little extra time on project 5.  I
+  will have it turned in by 8pm on Wednesday," whereas it would not be
+  acceptable to say "I need a couple extra days on project 5".  Such
+  extension requests will be automatically granted.
 
-| Grade | Projects required |
-|:-----:|:-----------------:|
-| A     | 15                |
-| B     | 12                |
-| C     | 9                 |
-| D     | 6                 |
+- If you need a second extension, or if you miss a deadline, you
+  **must meet with me** in order to discuss your situation and make a
+  plan going forward.  You will not receive feedback or credit on any
+  projects submitted late until you have met with me.
 
-## <a name="contract">Grading contract</a>
-
-
-
-## <a name="deadlines">Submissions, deadlines, and resubmission</a>
-
-- Every project has a specific date and time (usually 5pm) at which it
-  is due.
-
-- Assignments may be turned in any time up to the deadline.  I will
-  try my best to return graded assignments, with feedback, within *two
-  weekdays* of being turned in.
-
-- Projects **will not be accepted** after the deadline.
-
-- However, I will automatically grant **extensions** to anyone who
-  asks.  Simply send me an email prior to the deadline, asking for an
-  extension on a particular project, and informing me what your new
-  deadline will be.  The new deadline should be a specific day and
-  time ("11pm this Saturday, March 5", not "in a couple days").  I
-  will hold you to the new deadline.
-
-    - Yes, this process may be chained: you may ask for another extension prior
-      to your chosen deadline, and so on.  The key is communication.
-
-- If you do not get credit for a project, you may revise and
-  resubmit the project until you do.  There is no deadline for
-  resubmissions.
+- If you do not get credit for a project, you may revise and resubmit
+  the project.  The default deadline for resubmission is **one week
+  after receiving feedback** (but you may ask for an extension as
+  usual).
 
 - However, the above only applies if you made a reasonable attempt at
   the project the first time.  You cannot turn in a half-finished
   project before the deadline and then "revise" it by completing the
-  rest.  If your project is only half-finished, you must request an
+  rest.  If your project is only half-finished, you should request an
   extension.
 
-- The absolute latest any project may be turned in is 5pm on Tuesday,
-  May 3.
-
-- As always, exceptions to this policy can be made in cases of
-  emergency, mental health issues, *etc.* Please come talk to me!
+- The absolute latest any project may be turned in is **5pm on Wednesday,
+  May 1.**
 
 ## <a name="projects">Projects</a>
 
@@ -418,6 +391,14 @@ completion of these projects.
 
 * You **may** discuss the projects with other students.
 
+* You **may** use generative AI tools such as ChatGPT or GitHub
+  Copilot.
+    - XXX explain why
+    - You must cite their use, explain which sections of code were
+      generated
+
+* You **may** get debugging help XXX.  Careful of gray area.
+
 * You **may not**:
 
     - **Read** any solution to any project, whether from another
@@ -425,33 +406,34 @@ completion of these projects.
 
     - **Show** your solution to any other student.
 
-    - **Give or receive help** in debugging a project solution. Requests
-      for debugging help must be directed to the professor.
+Since XXX hands-on completion is integral part of your learning, any
+issues of academic integrity will be taken very seriously.  Typically,
+plagiarism on a project will carry a recommended sanction of failure
+in the course.
 
-Any violations of this policy will be referred to the Committee on
-Academic Integrity as a major violation, with a recommended sanction
-of failure in the course.
+## <a name="suggested-deadlines">Suggested deadlines</a>
 
-| #      | Name                                                           | Due      |
-|:------:|----------------------------------------------------------------|:--------:|
-| 1      | [Boolean logic](projects/01-boolean-logic.html)                | F 21 Jan |
-| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | W 26 Jan |
-| 3      | [Memory](projects/03-memory.html)                              | M 31 Jan |
-| 4      | [Machine language](projects/04-machine-language.html)          | M 7 Feb  |
-| 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 14 Feb |
-| 6      | [Assembler](projects/06-assembler.html)                        | M 21 Feb |
-| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 28 Feb |
-| 8      | [VM II: program control](projects/08-program-control.html)     | M 7 Mar  |
-| 9      | [High-level programming](projects/09-high-level.html)          |          |
-|        | Proposal                                                       | F 11 Mar |
-|        | Demo                                                           | T 15 Mar |
-|        | Final version                                                  | F 18 Mar |
-| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 1 Apr  |
-| 10/11B | [Statements](projects/1011b-statements.html)                   | W 6 Apr  |
-| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 11 Apr |
-| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 18 Apr |
-| 12A    | [Operating system I](projects/12-OS.html)                      | M 25 Apr |
-| 12B    | [Operating system II](projects/12-OS.html)                     | F 29 Apr |
+XXX suggested deadlines for each project, depending on desired grade.
+XXX suggested subset of projects.  Can choose your own, update as the
+semester goes on.  XXX 5pm, choose your own times.
+
+| #      | Topic                                                          | A        | B | C |
+|:------:|----------------------------------------------------------------|:--------:|:-:|:-:|
+| 1      | [Boolean logic](projects/01-boolean-logic.html)                | F 19 Jan | * | * |
+| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | W 24 Jan | * | * |
+| 3      | [Memory](projects/03-memory.html)                              | M 29 Jan | * | * |
+| 4      | [Machine language](projects/04-machine-language.html)          | M 5 Feb  | * | * |
+| 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 12 Feb | * | * |
+| 6      | [Assembler](projects/06-assembler.html)                        | M 19 Feb | * |   |
+| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 26 Feb | * |   |
+| 8      | [VM II: program control](projects/08-program-control.html)     | M 4 Mar  |   |   |
+| 9      | [High-level programming](projects/09-high-level.html)          | F 15 Mar | * | * |
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 29 Mar | * | * |
+| 10/11B | [Statements](projects/1011b-statements.html)                   | W 3 Apr  | * | * |
+| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 8 Apr  | * |   |
+| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 15 Apr |   |   |
+| 12A    | [Operating system I](projects/12-OS.html)                      | M 22 Apr | * | * |
+| 12B    | [Operating system II](projects/12-OS.html)                     | F 26 Apr |   |   |
 
 ## <a name="expectations">Expectations</a>
 
@@ -554,13 +536,6 @@ it's also important that we have grace and patience with one another.
 Attendance in this class is not required as part of your grade.
 However, I do expect you to attend and appreciate knowing in advance
 if you will need to miss class.
-
-<!--
-If you have chosen to attend class in person, you are expected to do
-so consistently; you may not decide to attend remotely some days just
-because you feel like it.  However, there are legitimate reasons
-for attending remotely, such as feeling ill or travelling unavoidably.
--->
 
 ## <a name="disabilities">Disabilities</a>
 
