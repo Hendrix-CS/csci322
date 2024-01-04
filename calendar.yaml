@@ -1,0 +1,183 @@
+name: CSCI 322, Computing Systems Organization
+semester: Spring 2024
+period: B2
+columns: [Date, Topic, Reading, Projects]
+headers:
+  Reading: 'Reading & Links'
+  Projects: 'Projects (recommended A schedule)'
+
+entries:
+  - Date: 2024-01-16
+    Topic: Introduction, Boolean logic
+
+  - Date: 2024-01-18
+    Topic: Boolean arithmetic
+    Reading:
+      rows:
+        - Chapters 1 and 2
+        - Appendix A
+
+  - Date: 2024-01-19
+    Projects:
+      link:
+        text: 'Project 1: Boolean logic'
+        url: projects/01-boolean-logic.html
+
+
+  - Date: 2024-01-23
+    Topic: Boolean arithmetic & sequential logic
+    Reading: Chapter 3
+
+  - Date: 2024-01-24
+    Projects:
+      link:
+        text: 'Project 2: Boolean arithmetic'
+        url: projects/02-boolean-arithmetic.html
+
+  - Date: 2024-01-25
+    Topic: Sequential logic (memory)
+    Reading: Chapter 3
+
+  - Date: 2024-01-29
+    Projects:
+      link:
+        text: 'Project 3: Memory'
+        url: projects/03-memory.html
+  - Date: 2024-01-30
+    Topic: Machine & assembly language
+    Reading: Chapter 4
+  - Date: 2024-02-01
+    Topic: Hack assembly examples
+
+  - Date: 2024-02-05
+    Projects:
+      link:
+        text: 'Project 4: Machine language'
+        url: projects/04-machine-language.html
+  - Date: 2024-02-06
+    Topic: Turing machine CPU
+    Reading: Chapter 5
+  - Date: 2024-02-08
+    Topic: More Turing machine CPU; CPU history
+
+  - Date: 2024-02-12
+    Projects:
+      link:
+        text: 'Project 5: Computer architecture'
+        url: projects/05-computer-architecture.html
+  - Date: 2024-02-13
+    Topic: Assembler
+    Reading: Chapter 6
+  - Date: 2024-02-15
+    Topic: 6502 chip
+
+  - Date: 2024-02-19
+    Projects:
+      link:
+        text: 'Project 6: Assembler'
+        url: projects/06-assembler.html
+  - Date: 2024-02-20
+    Topic: VM memory layout & access
+    Reading: Chapter 7
+  - Date: 2024-02-22
+    Topic: TBD
+
+  - Date: 2024-02-26
+    Projects:
+      link:
+        text: 'Project 7: VM I: Stack Arithmetic'
+        url: projects/07-stack-arithmetic.html
+  - Date: 2024-02-27
+    Topic: VM stack arithmetic & branch instructions
+    Reading: Chapter 8
+  - Date: 2024-02-29
+    Topic: VM function instructions
+
+  - Date: 2024-03-04
+    Projects:
+      link:
+        text: 'Project 8: VM II: Program control'
+        url: projects/08-program-control.html
+  - Date: 2024-03-05
+    Topic: Introduction to Jack
+    Reading: Chapter 9
+  - Date: 2024-03-07
+    Topic: "Jack example: jumping Jack"
+
+  - Date: 2024-03-12
+    Topic: TBD
+  - Date: 2024-03-14
+    Topic: TBD
+  - Date: 2024-03-15
+    Projects:
+      link:
+        text: 'Project 9: High-level programming'
+        url: projects/09-high-level.html
+
+  - Date: 2024-03-19
+    Topic: No class (spring break)
+  - Date: 2024-03-21
+    Topic: No class (spring break)
+
+  - Date: 2024-03-26
+    Topic: Tokenizing input
+    Reading: Chapter 10
+  - Date: 2024-03-28
+    Topic: A simple LISP compiler
+  - Date: 2024-03-29
+    Projects:
+      link:
+        text: 'Project 10/11A: Tokenizer'
+        url: projects/10a-tokenizer.html
+
+  - Date: 2024-04-02
+    Topic: Compiling Jack to VM
+  - Date: 2024-04-03
+    Projects:
+      link:
+        text: 'Project 10/11B: Statements'
+        url: projects/1011b-statements.html
+  - Date: 2024-04-04
+    Topic: Compiling conditionals and loops
+    Reading:
+      rows:
+        - Chapter 11
+        - link:
+            text: 'GO TO statement considered harmful'
+            url: https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf
+
+  - Date: 2024-04-08
+    Projects:
+      link:
+        text: 'Project 10/11C: Conditionals and Loops'
+        url: projects/1011c-cond-loops.html
+  - Date: 2024-04-09
+    Topic: Compiling arrays
+  - Date: 2024-04-11
+    Topic: Compiling classes
+
+  - Date: 2024-04-15
+    Projects:
+      link:
+        text: 'Project 10/11D: Classes and Arrays'
+        url: projects/1011d-classes-arrays.html
+  - Date: 2024-04-16
+    Topic: Operating system I
+    Reading: Chapter 12
+  - Date: 2024-04-18
+    Topic: Operating system II
+
+  - Date: 2024-04-22
+    Projects:
+      link:
+        text: 'Project 12A: Operating System I'
+        url: projects/12-OS.html
+  - Date: 2024-04-23
+    Topic: Memory allocation and randomness
+  - Date: 2024-04-25
+    Topic: Project work day
+  - Date: 2024-04-26
+    Projects:
+      link:
+        text: 'Project 12B: Operating System II'
+        url: projects/12-OS.html

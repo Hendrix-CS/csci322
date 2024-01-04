@@ -44,7 +44,7 @@ Upon completing this course, you will be able to:
   Java.  [Visit this page to download and run the appropriate
   installer](https://java.com/en/download/manual.jsp).
 
-<hr>
+<hr />
 
 # <a name="calendar">Calendar</a>
 
@@ -55,125 +55,290 @@ Upon completing this course, you will be able to:
 </div>
 <br/>
 
-| Date           | Topic                                                                                                                                                                         | Reading                           | Assignments due                                                          |
-|:--------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------|
-| T 18 Jan       | [Introduction<br/>Boolean logic <img src="assets/images/yt.png" width="24px" />][18-Jan-video]                                                                                |                                   |                                                                          |
-| Th 20 Jan      | [Boolean arithmetic <img src="assets/images/yt.png" width="24px" />][20-Jan-video] [<img src="assets/images/PDF2.png" width="24px" />][20-Jan-lec]                            | Chapters 1 and 2<br /> Appendix A |                                                                          |
-| *F 21 Jan*     |                                                                                                                                                                               |                                   | [Project 1](projects/01-boolean-logic.html)                              |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| T 25 Jan       | [Boolean arithmetic; sequential logic <img src="assets/images/yt.png" width="24px" />][ALU-mem-video] [<img src="assets/images/PDF2.png" width="24px" />][ALU-mem-lec]        | Chapter 3                         |                                                                          |
-| *W 26 Jan*     |                                                                                                                                                                               |                                   | [Project 2](projects/02-boolean-arithmetic.html)                         |
-| Th 27 Jan      | [Sequential logic (memory) <img src="assets/images/yt.png" width="24px" />][mem-video] [<img src="assets/images/PDF2.png" width="24px" />][mem-lec]                           | Chapter 3                         |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 31 Jan*     |                                                                                                                                                                               |                                   | [Project 3](projects/03-memory.html)                                     |
-| T 1 Feb        | [Machine & assembly language <img src="assets/images/yt.png" width="24px" />][asm-video] [<img src="assets/images/PDF2.png" width="24px" />][asm-lec]                         | Chapter 4                         |                                                                          |
-|                | [example.asm](lectures/example.asm), [example2.asm](lectures/example2.asm)                                                                                                    |                                   |                                                                          |
-| Th 3 Feb       | [Hack assembly examples <img src="assets/images/yt.png" width="24px" />][gabe-asm-video]                                                                                      |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 7 Feb*      |                                                                                                                                                                               |                                   | [Project 4](projects/04-machine-language.html)                           |
-| T 8 Feb        | [Turing machine CPU <img src="assets/images/yt.png" width="24px" />][tm-cpu-video] [<img src="assets/images/PDF2.png" width="24px" />][tm-cpu-lec]                            | Chapter 5                         |                                                                          |
-| Th 10 Feb      | [More Turing machine CPU; CPU history <img src="assets/images/yt.png" width="24px" />][cpu-hist-video] [<img src="assets/images/PDF2.png" width="24px" />][cpu-hist-lec]      |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 14 Feb*     |                                                                                                                                                                               |                                   | [Project 5](projects/05-computer-architecture.html)                      |
-| T 15 Feb       | [Assembler <img src="assets/images/yt.png" width="24px" />][assembler-video] [<img src="assets/images/PDF2.png" width="24px" />][assembler-lec]                               | Chapter 6                         |                                                                          |
-|                | [Assembler.py](lectures/assembler/Assembler.py), [example.tm](lectures/assembler/example.tm)                                                                                  |                                   |                                                                          |
-| Th 17 Feb      | [6502 chip <img src="assets/images/yt.png" width="24px" />][6502-video] [<img src="assets/images/PDF2.png" width="24px" />][6502-lec]                                         |                                   |                                                                          |
-|                | [6502 layout](https://davidmjc.github.io/6502/), [SMB source code](https://gist.github.com/1wErt3r/4048722)                                                                   |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 21 Feb*     |                                                                                                                                                                               |                                   | [Project 6](projects/06-assembler.html)                                  |
-| T 22 Feb       | [VM memory layout & access <img src="assets/images/yt.png" width="24px" />][VM-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-lec]                             | Chapter 7                         |                                                                          |
-| Th 24 Feb      | *No class (ice)*                                                                                                                                                              |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 28 Feb*     |                                                                                                                                                                               |                                   | [Project 7](projects/07-stack-arithmetic.html)                           |
-| T 1 Mar        | [VM stack arithmetic & branch instructions <img src="assets/images/yt.png" width="24px" />][VM-arith-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-arith-lec] | Chapter 8                         |                                                                          |
-| Th 3 Mar       | [VM function instructions <img src="assets/images/yt.png" width="24px" />][VM-fun-video] [<img src="assets/images/PDF2.png" width="24px" />][VM-fun-lec]                      |                                   |                                                                          |
-|                | [VMfiles.py](lectures/VMFiles.py)                                                                                                                                             |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 7 Mar*      |                                                                                                                                                                               |                                   | [Project 8](projects/08-program-control.html)                            |
-| T 8 Mar        | [Introduction to Jack <img src="assets/images/yt.png" width="24px" />][Jack-video] [<img src="assets/images/PDF2.png" width="24px" />][Jack-lec]                              | Chapter 9                         |                                                                          |
-| Th 10 Mar      | [Jack example: jumping Jack <img src="assets/images/yt.png" width="24px" />][jump-video]                                                                                      |                                   |                                                                          |
-| *F 11 Mar*     |                                                                                                                                                                               |                                   | [Project 9: Proposal](projects/09-high-level.html)                       |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| T 15 Mar       | Project 9 demos                                                                                                                                                               |                                   | [Project 9: Demo](projects/09-high-level.html)                           |
-| Th 17 Mar      | *No class*                                                                                                                                                                    |                                   |                                                                          |
-| *F 18 Mar*     |                                                                                                                                                                               |                                   | [Project 9](projects/09-high-level.html)                                 |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *Spring break* |                                                                                                                                                                               |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| T 29 Mar       | [Tokenizing input <img src="assets/images/yt.png" width="24px" />][tok-video] [<img src="assets/images/PDF2.png" width="24px" />][tok-lec]                                    | Chapter 10                        |                                                                          |
-|                | [Tokenizer.py](lectures/tokenizer/Tokenizer.py)                                                                                                                               |                                   |                                                                          |
-| Th 31 Mar      | A simple LISP compiler [<img src="assets/images/PDF2.png" width="24px" />][compiler-lec]                                                                                      |                                   |                                                                          |
-|                | [Compiler.py](lectures/compiler/Compiler.py)                                                                                                                                  |                                   |                                                                          |
-|                | *Unfortunately, Dr. Yorgey pushed the wrong button so there is no recording for the 3/31 class*                                                                               |                                   |                                                                          |
-| *F 1 Apr*      |                                                                                                                                                                               |                                   | [Project 10/11A: Tokenizer](projects/10a-tokenizer.html)                 |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| T 5 Apr        | [Compiling Jack to VM <img src="assets/images/yt.png" width="24px" />][compile-jack-video]                                                                                    |                                   |                                                                          |
-|                | [AlphaWhere/Main.jack](lectures/AlphaWhere/Main.jack) /  [compiler.txt](lectures/compiler.txt)                                                                                |                                   |                                                                          |
-| *W 6 Apr*      |                                                                                                                                                                               |                                   | [Project 10/11B: Statements](projects/1011b-statements.html)             |
-| Th 7 Apr       | [Compiling conditionals and loops <img src="assets/images/yt.png" width="24px" />][compile-cond-video]                                                                        | Chapter 11                        |                                                                          |
-|                | [AlphaShow/Main.jack](lectures/AlphaShow/Main.jack) / [compiler.txt](lectures/compiler.txt)                                                                                   |                                   |                                                                          |
-|                | [GO TO statement considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)                                                                          |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 11 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html) |
-| T 12 Apr       | [Compiling arrays <img src="assets/images/yt.png" width="24px" />][arrays-video]                                                                                              |                                   |                                                                          |
-|                | [Average/Main.jack](lectures/Average/Main.jack)                                                                                                                               |                                   |                                                                          |
-| Th 14 Apr      | [Compiling classes <img src="assets/images/yt.png" width="24px" />][classes-video]                                                                                            |                                   |                                                                          |
-|                | [Square/Main.jack](lectures/Square/Main.jack) / [Square/SquareGame.jack](lectures/Square/SquareGame.jack)                                                                     |                                   |                                                                          |
-|                | [Pong/PongGame.jack](lectures/Pong/PongGame.jack) / [compiler.txt](lectures/compiler.txt)                                                                                     |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 18 Apr*     |                                                                                                                                                                               |                                   | [Project 10/11D: Classes and Arrays](projects/1011d-classes-arrays.html) |
-| T 19 Apr       | [Operating system I <img src="assets/images/yt.png" width="24px" />][os-video] [<img src="assets/images/PDF2.png" width="24px" />][os-lec]                                    | Chapter 12                        |                                                                          |
-| Th 21 Apr      | [Operating system II <img src="assets/images/yt.png" width="24px" />][os2-video] [<img src="assets/images/PDF2.png" width="24px" />][os2-lec]                                 |                                   |                                                                          |
-|                |                                                                                                                                                                               |                                   |                                                                          |
-| *M 25 Apr*     |                                                                                                                                                                               |                                   | [Project 12A](projects/12-OS.html)                                       |
-| T 26 Apr       | [Memory allocation and randomness <img src="assets/images/yt.png" width="24px" />][os3-rand-video] [<img src="assets/images/PDF2.png" width="24px" />][os3-rand-lec]                    |                                   |                                                                          |
-| Th 28 Apr      | Project work day                                                                                                                                                              |                                   |                                                                          |
-| *F 29 Apr*     |                                                                                                                                                                               |                                   | [Project 12B](projects/12-OS.html)                                       |
-|                |                                                                                                                                                                               |                                   |                                                                          |
+<!-- BEGIN CALENDAR -->
 
-[18-Jan-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Computing%20Systems%20Organization-20220118_094748-Meeting%20Recording.mp4?web=1
-[20-Jan-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Computing%20Systems%20Organization-20220120_094924-Meeting%20Recording.mp4?web=1
-[20-Jan-lec]: lectures/2022-01-20-boolean-arithmetic.pdf
-[ALU-mem-video]: https://youtu.be/tSLpUCtt8ms
-[ALU-mem-lec]: lectures/2022-01-25-ALU-and-memory.pdf
-[mem-video]: https://youtu.be/7rhQDgkFt4U
-[mem-lec]: lectures/2022-01-27-memory.pdf
-[asm-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/Tues%202_1_%20machine%20+%20assembly%20language-20220201_094748-Meeting%20Recording.mp4?web=1
-[asm-lec]: lectures/2022-02-01-machine-and-assembly-language.pdf
-[gabe-asm-video]: https://www.youtube.com/watch?v=K8LwpzgoCcY&t=6s
-[tm-cpu-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/General/Recordings/2_8_%20Turing%20Machine%20CPU-20220208_095750-Meeting%20Recording.mp4?web=1
-[tm-cpu-lec]: lectures/2022-02-08-Turing-machine-CPU.pdf
-[cpu-hist-video]: https://hendrix.sharepoint.com/sites/Section_26974/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSection%5F26974%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F10%5F%20more%20CPUs%2D20220210%5F094530%2DMeeting%20Recording%2Emp4&parent=%2Fsites%2FSection%5F26974%2FShared%20Documents%2FGeneral%2FRecordings
-[cpu-hist-lec]: lectures/2022-02-10-more-CPU.pdf
-[assembler-video]: https://youtu.be/EWu6-J1TUz0
-[assembler-lec]: lectures/2022-02-15-assembler.pdf
-[6502-video]: https://youtu.be/aeG6s-ds0ok
-[6502-lec]: lectures/2022-02-17-MOS6502.pdf
-[VM-video]: https://youtu.be/83C8hPXw9zk
-[VM-lec]: lectures/2022-02-22-VM.pdf
-[VM-arith-video]: https://youtu.be/K90HEWq7y0A
-[VM-arith-lec]: lectures/2022-03-01-VM-arithmetic.pdf
-[VM-fun-video]: https://youtu.be/658lz1jnkE8
-[VM-fun-lec]: lectures/2022-03-03-VM-functions.pdf
-[Jack-video]: https://youtu.be/Bfz9ELaE1S4
-[Jack-lec]: lectures/2022-03-08-Jack.pdf
-[jump-video]: https://youtu.be/20kEyyvjhhI
-[tok-video]: https://youtu.be/41YU_pQ-pTo
-[tok-lec]: lectures/2022-03-29-tokenization.pdf
-[compiler-lec]: lectures/2022-03-31-lisp.pdf
-[compile-jack-video]: https://youtu.be/YpBH3pS7F_I
-[compile-cond-video]: https://youtu.be/KSnDzbnHHsQ
-[arrays-video]: https://youtu.be/4vTao3-xZeY
-[classes-video]: https://youtu.be/fjfYSkNlZVY
-[os-video]: https://youtu.be/XfNRfRFx1Dc
-[os-lec]: lectures/2022-04-19-OS-I.pdf
-[os2-video]: https://youtu.be/y2crK2urCfs
-[os2-lec]: lectures/2022-04-21-OS-II.pdf
-[os3-rand-video]: https://youtu.be/EuFalo6BnAw
-[os3-rand-lec]: lectures/2022-04-26-alloc-random.pdf
+| Date          | Topic                                     | Reading & Links                                                                                                 | Projects (recommended A schedule)                                                      |
+|---------------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **T 16 Jan**  | Introduction, Boolean logic               |                                                                                                                 |                                                                            |
+| **Th 18 Jan** | Boolean arithmetic                        | Chapters 1 and 2                                                                                                |                                                                            |
+|               |                                           | Appendix A                                                                                                      |                                                                            |
+| *F 19 Jan*    |                                           |                                                                                                                 | [Project 1: Boolean logic](projects/01-boolean-logic.html)                 |
+|               |                                           |                                                                                                                 |                                                                            |
+| **T 23 Jan**  | Boolean arithmetic & sequential logic     | Chapter 3                                                                                                       |                                                                            |
+| *W 24 Jan*    |                                           |                                                                                                                 | [Project 2: Boolean arithmetic](projects/02-boolean-arithmetic.html)       |
+| **Th 25 Jan** | Sequential logic (memory)                 | Chapter 3                                                                                                       |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 29 Jan*    |                                           |                                                                                                                 | [Project 3: Memory](projects/03-memory.html)                               |
+| **T 30 Jan**  | Machine & assembly language               | Chapter 4                                                                                                       |                                                                            |
+| **Th 1 Feb**  | Hack assembly examples                    |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 5 Feb*     |                                           |                                                                                                                 | [Project 4: Machine language](projects/04-machine-language.html)           |
+| **T 6 Feb**   | Turing machine CPU                        | Chapter 5                                                                                                       |                                                                            |
+| **Th 8 Feb**  | More Turing machine CPU; CPU history      |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 12 Feb*    |                                           |                                                                                                                 | [Project 5: Computer architecture](projects/05-computer-architecture.html) |
+| **T 13 Feb**  | Assembler                                 | Chapter 6                                                                                                       |                                                                            |
+| **Th 15 Feb** | 6502 chip                                 |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 19 Feb*    |                                           |                                                                                                                 | [Project 6: Assembler](projects/06-assembler.html)                         |
+| **T 20 Feb**  | VM memory layout & access                 | Chapter 7                                                                                                       |                                                                            |
+| **Th 22 Feb** | TBD                                       |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 26 Feb*    |                                           |                                                                                                                 | [Project 7: VM I: Stack Arithmetic](projects/07-stack-arithmetic.html)     |
+| **T 27 Feb**  | VM stack arithmetic & branch instructions | Chapter 8                                                                                                       |                                                                            |
+| **Th 29 Feb** | VM function instructions                  |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 4 Mar*     |                                           |                                                                                                                 | [Project 8: VM II: Program control](projects/08-program-control.html)      |
+| **T 5 Mar**   | Introduction to Jack                      | Chapter 9                                                                                                       |                                                                            |
+| **Th 7 Mar**  | Jack example: jumping Jack                |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| **T 12 Mar**  | TBD                                       |                                                                                                                 |                                                                            |
+| **Th 14 Mar** | TBD                                       |                                                                                                                 |                                                                            |
+| *F 15 Mar*    |                                           |                                                                                                                 | [Project 9: High-level programming](projects/09-high-level.html)           |
+|               |                                           |                                                                                                                 |                                                                            |
+| **T 19 Mar**  | No class (spring break)                   |                                                                                                                 |                                                                            |
+| **Th 21 Mar** | No class (spring break)                   |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| **T 26 Mar**  | Tokenizing input                          | Chapter 10                                                                                                      |                                                                            |
+| **Th 28 Mar** | A simple LISP compiler                    |                                                                                                                 |                                                                            |
+| *F 29 Mar*    |                                           |                                                                                                                 | [Project 10/11A: Tokenizer](projects/10a-tokenizer.html)                   |
+|               |                                           |                                                                                                                 |                                                                            |
+| **T 2 Apr**   | Compiling Jack to VM                      |                                                                                                                 |                                                                            |
+| *W 3 Apr*     |                                           |                                                                                                                 | [Project 10/11B: Statements](projects/1011b-statements.html)               |
+| **Th 4 Apr**  | Compiling conditionals and loops          | Chapter 11 [GO TO statement considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf) |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 8 Apr*     |                                           |                                                                                                                 | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html)   |
+| **T 9 Apr**   | Compiling arrays                          |                                                                                                                 |                                                                            |
+| **Th 11 Apr** | Compiling classes                         |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 15 Apr*    |                                           |                                                                                                                 | [Project 10/11D: Classes and Arrays](projects/1011d-classes-arrays.html)   |
+| **T 16 Apr**  | Operating system I                        | Chapter 12                                                                                                      |                                                                            |
+| **Th 18 Apr** | Operating system II                       |                                                                                                                 |                                                                            |
+|               |                                           |                                                                                                                 |                                                                            |
+| *M 22 Apr*    |                                           |                                                                                                                 | [Project 12A: Operating System I](projects/12-OS.html)                     |
+| **T 23 Apr**  | Memory allocation and randomness          |                                                                                                                 |                                                                            |
+| **Th 25 Apr** | Project work day                          |                                                                                                                 |                                                                            |
+| *F 26 Apr*    |                                           |                                                                                                                 | [Project 12B: Operating System II](projects/12-OS.html)                    |
+
+<!-- END CALENDAR -->
+
+<hr />
+# <a name="grading">Grading</a>
+
+## Grading contracts
+
+You will prepare and submit for my approval a *grading contract and
+work plan* explaining your chosen final grade and what you will do to
+achieve it.  You will then earn your chosen final grade by fulfilling
+the agreed-upon contract.
+
+This may be different than what you are used to.  Professor [Cathy
+Davidson](https://www.gc.cuny.edu/people/cathy-n-davidson) of CUNY
+perfectly sums up the reasons for doing things this way:
+
+> The advantage of contract grading is that you, the student, decide
+> how much work you wish to do this semester; if you complete that
+> work on time and satisfactorily, you will receive the grade for
+> which you contracted. This means planning ahead, thinking about all
+> of your obligations and responsibilities this semester and also
+> determining what grade you want or need in this course. The
+> advantage of contract grading to the professor is no whining, no
+> special pleading, on the student's part. If you complete the work you
+> contracted for, you get the grade. Done. I respect the student who
+> only needs a C, who has other obligations that preclude doing all of
+> the requirements to earn an A in the course, and who contracts for
+> the C and carries out the contract perfectly.
+
+### Required components of a grading contract
+
+There is no specific format required for a grading contract, but it
+must have the following components:
+
+- **Your desired course grade.**  You may choose to contract for an A,
+  B, or C (if you're wondering about D's and F's, [see
+  below](#evaluation)).  Note that your grading contract *should not*
+  explain the *reasons* for your choice.  I will not judge you because
+  of your choice, and you do not need to justify it: there are as many
+  different valid reasons for choosing to work toward a particular
+  final grade as there are students.  If you do wish to explain to me the
+  reasons for your choice---which you are in no way required to
+  do---you may do so in an email, a personal conversation, *etc.*, but
+  it should not go in your contract.
+
+- **A description of the work and requirements you will complete, in
+  checklist format.**  It doesn't have to be super detailed, but you
+  do have to explicitly include everything.  For example, you can't
+  just say "I will complete all the assignments listed in the
+  syllabus"; you must actually list them.  This is so that you and I
+  both know that you are explicitly aware of the requirements, and to
+  help you keep track of what you have completed and what you have yet
+  to complete.  You also have some choice in terms of which
+  assignments you complete, so you must record your choice in the
+  contract.
+
+  **Note** that at the beginning of the semester you may not have a
+  very good idea about this.  For example, if you need to complete
+  9 projects, it's not reasonable to insist that you know which
+  specific projects you plan to complete.  However, you can refine your
+  contract over the course of the semester.  You just have to put
+  **something** to start; for example, a reasonable default would be
+  to plan to complete the first nine projects assigned.  I have also
+  provided some sample selections of projects and due dates below.
+
+- **The due date for each project you will complete**.  These can also
+  be adjusted (see below), but you must commit to specific due dates
+  at the beginning of the semester.  You may choose to simply use one
+  of my suggested schedules of due dates, but I encourage you to think
+  carefully about any commitments you have (plays, travel for sports,
+  exams in other classes) and how you might wish to adjust your due
+  dates as a result.
+
+- **A work plan**.  Success in this class requires consistent,
+  sustained effort; for an A, you should expect to spend about 7 hours
+  a week outside of class working on projects. Along with your grade
+  contract, you must turn in a *work plan*, a one-to-two paragraph
+  plan for how you will make time to work on the course projects. Be
+  as specific as possible, and be creative in coming up with very
+  specific ways to help yourself succeed. Some examples:
+
+    -   Horrible: "I will work on CSO projects  7 hours per week."
+
+    -   Bad: "I will work on CSO projects from 2-4pm every Tuesday and
+        from 9-noon every Sunday."
+
+    -   Good: "Every Tuesday from 2-5pm, I will go to the library
+        which is a good distraction-free place for me to work.  I will
+        turn off my phone and put Teams in "Do Not Disturb" mode. I
+        will spend the first 15 minutes reviewing material from class
+        and the textbook.  The rest of the time will be devoted to
+        working on the latest project, referring back to the textbook
+        and in-class materials as necessary.  I will work in 25-minute
+        chunks with 5-minute breaks.  Depending on how the session
+        goes, I will write down a list of questions and schedule
+        office hours for later in the week.  On Thursdays and
+        Saturdays, ..." etc.
+
+  To receive credit, a work plan must be at the level of detail of
+  the "Good" example or higher.
+
+  Note that the work plan is not part of the "contract" per se, that
+  is, your grade is not based on how well you stick to your work plan.
+
+### Example grading contract
+
+For example, a grading contract might look like this:
+
+*My desired course grade in CSO is a C.  To
+achieve this grade, I will complete the following:*
+
+- [X] *CSCI student info survey*
+- [ ] *Grading contract*
+  - [X] *Submit grading contract*
+  - [ ] *Grading contract evaluation 1*
+  - [ ] *Grading contract evaluation 2*
+- [ ] Projects (9)
+  - [ ] Project 1
+  - [ ] Project 2
+  - [ ] Project 3
+  - [ ] Project 4
+  - [ ] Project 5
+  - [ ] Project 9
+  - [ ] Project 10/11A
+  - [ ] Project 10/11B
+  - [ ] Project 12A
+
+*I will use the recommended deadline schedule for 9 projects, except
+that I will turn in Project 5 by XXX.*
+
+*My work plan is as follows: ...*
+
+### Grading contract submission
+
+You must turn in an initial proposed grading contract by the **start
+of class on Thursday, January 18th**.  After the initial submission, I
+may require some revisions before I approve your contract.
+
+### <a name="evaluation">Contract evaluation and adjustment</a>
+
+Two times during the semester (Monday, September 25 and Monday,
+October 30) you are required to reflect on your progress in the course
+and complete an evaluation of your work, comparing it against what you
+agreed to in your grading contract.  Your evaluation should:
+
+1. Contain a copy of your original grading contract, with items you
+   have completed checked off.
+
+2. Revise your grading contract with more specific details as
+   appropriate, for example, regarding which modules you intend to
+   complete.
+
+3. Include a 1-2 paragraph reflection, which answers questions such as the
+   following:
+
+    * What have you done well?
+    * What have you learned?
+    * What could you do to improve your learning?
+    * What could I (the instructor) do to improve your learning?
+    * Are there ways in which you have not lived up to the requirements of
+      your contract, and if so, what steps are you taking, or will you
+      take, to rectify that?
+
+Your evaluation is also an opportunity to request an adjustment to
+your contract in either direction. If you find that you will be unable
+to meet the obligations of your contract, you may request to move to a
+lower grade and its requirements. Contrariwise, if you find that
+you’ve been performing above the obligations of your contract, you may
+request to fulfill the requirements for a higher grade.
+
+**Note**, however, that you don't have to wait for an evaluation to
+adjust your contract.  If your life has really gone off the rails (or
+if, say, you are finding the class easier and more enjoyable than you
+thought!) just come and talk to me about adjusting your contract.
+
+To "complete" an assignment means to complete it at or above the
+required criteria for receiving credit.  For example, "complete a
+midterm exam" means not just taking the exam, but scoring sufficiently
+high on the problems so as to receive credit (possibly after retaking
+it).
+
+### A, B, and C grades
+
+* To earn an A in the course, you must complete all the requirements
+  for a B, plus:
+    * Complete the final exam and both midterm [exams](#exams).
+	* Complete a minimum of eight [problem sets](#problemsets).
+	* Have at most one unexcused [absence](#attendance).
+
+* To earn a B in the course, you must complete all the requirements
+  for a C, plus:
+    * Complete both midterm [exams](#exams).
+	* Complete a minimum of seven [problem sets](#problemsets).
+	* Have at most two unexcused [absences](#attendance).
+
+* To earn a C in the course, you must:
+    * Complete the [CSCI student information survey][survey].
+    * Submit and agree on a [grading contract](#grading) with the instructor.
+    * Complete two [grading contract evaluations](#evaluation).
+    * Complete at least one midterm [exam](#exams).
+	* Complete a minimum of five [problem sets](#problemsets).
+	* Have at most three unexcused [absences](#attendance).
+
+### D and F grades
+
+[*Adapted from Cathy Davidson.*] You cannot intentionally contract for
+a grade of D (and certainly not for an F).  However, I reserve the
+right to award a grade of D or F to anyone who fails to meet their
+contractual obligations in a systematic way. A "D" grade denotes some
+minimal fulfilling of the contract; an "F" denotes absence of enough
+satisfactory work, as contracted, to warrant passing of the
+course. Both a "D" and "F" denote a breakdown of the contractual
+relationship.
+
 
 <hr>
 # Coursework and policies
+
+
 
 ## <a name="grading">Specifications grading</a>
 
@@ -186,12 +351,16 @@ be 15 projects available to complete throughout the semester.
 
 | Grade | Projects required |
 |:-----:|:-----------------:|
-| A     | 14                |
+| A     | 15                |
 | B     | 12                |
-| C     | 10                |
-| D     | 8                 |
+| C     | 9                 |
+| D     | 6                 |
 
-## <a name="deadlines">Due dates policy</a>
+## <a name="contract">Grading contract</a>
+
+
+
+## <a name="deadlines">Submissions, deadlines, and resubmission</a>
 
 - Every project has a specific date and time (usually 5pm) at which it
   is due.
