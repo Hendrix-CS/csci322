@@ -61,7 +61,7 @@ Upon completing this course, you will be able to:
 |---------------|-------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | **T 16 Jan**  | Introduction, Boolean logic               |                                                                                                      |                                                                            |
 | **Th 18 Jan** | Boolean arithmetic                        | Chapters 1 and 2                                                                                     | [Grading contract and work plan](#grading-contracts) due                   |
-|               |                                           | Appendix A                                                                                           |                                                                            |
+|               |                                           | Appendix A                                                                                           | [CSCI student info survey](XXX)                                            |
 | *F 19 Jan*    |                                           |                                                                                                      | [Project 1: Boolean logic](projects/01-boolean-logic.html)                 |
 |               |                                           |                                                                                                      |                                                                            |
 | **T 23 Jan**  | Boolean arithmetic & sequential logic     | Chapter 3                                                                                            |                                                                            |
@@ -82,19 +82,19 @@ Upon completing this course, you will be able to:
 |               |                                           |                                                                                                      |                                                                            |
 | *M 19 Feb*    |                                           |                                                                                                      | [Project 6: Assembler](projects/06-assembler.html)                         |
 | **T 20 Feb**  | VM memory layout & access                 | Chapter 7                                                                                            |                                                                            |
-| **Th 22 Feb** | TBD                                       |                                                                                                      |                                                                            |
+| **Th 22 Feb** | VM stack arithmetic & branch instructions | Chapter 8                                                                                            | Grading contract evaluation I due                                          |
 |               |                                           |                                                                                                      |                                                                            |
 | *M 26 Feb*    |                                           |                                                                                                      | [Project 7: VM I: Stack Arithmetic](projects/07-stack-arithmetic.html)     |
-| **T 27 Feb**  | VM stack arithmetic & branch instructions | Chapter 8                                                                                            |                                                                            |
-| **Th 29 Feb** | VM function instructions                  |                                                                                                      |                                                                            |
+| **T 27 Feb**  | VM function instructions                  | Chapter 8                                                                                            |                                                                            |
+| **Th 29 Feb** | TBD                                       |                                                                                                      |                                                                            |
 |               |                                           |                                                                                                      |                                                                            |
 | *M 4 Mar*     |                                           |                                                                                                      | [Project 8: VM II: Program control](projects/08-program-control.html)      |
 | **T 5 Mar**   | Introduction to Jack                      | Chapter 9                                                                                            |                                                                            |
 | **Th 7 Mar**  | Jack example: jumping Jack                |                                                                                                      |                                                                            |
 |               |                                           |                                                                                                      |                                                                            |
+| *M 11 Mar*    |                                           |                                                                                                      | [Project 9: High-level programming](projects/09-high-level.html)           |
 | **T 12 Mar**  | TBD                                       |                                                                                                      |                                                                            |
 | **Th 14 Mar** | TBD                                       |                                                                                                      |                                                                            |
-| *F 15 Mar*    |                                           |                                                                                                      | [Project 9: High-level programming](projects/09-high-level.html)           |
 |               |                                           |                                                                                                      |                                                                            |
 | **T 19 Mar**  | *No class (spring break)*                 |                                                                                                      |                                                                            |
 | **Th 21 Mar** | *No class (spring break)*                 |                                                                                                      |                                                                            |
@@ -105,7 +105,7 @@ Upon completing this course, you will be able to:
 |               |                                           |                                                                                                      |                                                                            |
 | **T 2 Apr**   | Compiling Jack to VM                      |                                                                                                      |                                                                            |
 | *W 3 Apr*     |                                           |                                                                                                      | [Project 10/11B: Statements](projects/1011b-statements.html)               |
-| **Th 4 Apr**  | Compiling conditionals and loops          | Chapter 11                                                                                           |                                                                            |
+| **Th 4 Apr**  | Compiling conditionals and loops          | Chapter 11                                                                                           | Grading contract evaluation II due                                         |
 |               |                                           | [GO TO statement considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf) |                                                                            |
 |               |                                           |                                                                                                      |                                                                            |
 | *M 8 Apr*     |                                           |                                                                                                      | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html)   |
@@ -240,15 +240,15 @@ complete the following:*
   - [ ] *Grading contract evaluation 1*
   - [ ] *Grading contract evaluation 2*
 - [ ] *Projects (9)*
-  - [ ] *Project 1*  XXX put italics
-  - [ ] Project 2
-  - [ ] Project 3
-  - [ ] Project 4
-  - [ ] Project 5
-  - [ ] Project 9
-  - [ ] Project 10/11A
-  - [ ] Project 10/11B
-  - [ ] Project 12A
+  - [ ] *Project 1*
+  - [ ] *Project 2*
+  - [ ] *Project 3*
+  - [ ] *Project 4*
+  - [ ] *Project 5*
+  - [ ] *Project 9*
+  - [ ] *Project 10/11A*
+  - [ ] *Project 10/11B*
+  - [ ] *Project 12A*
 
 *I will use the recommended deadline schedule for 9 projects, except
 that my deadlines will be at 10pm instead of 5pm, and I will turn in
@@ -265,8 +265,8 @@ may require some revisions before I approve your contract.
 
 ### <a name="evaluation">Contract evaluation and adjustment</a>
 
-Two times during the semester (Monday, September 25 and Monday,
-October 30) you are required to reflect on your progress in the course
+Two times during the semester (Thursday, February 22 and Thursday,
+April 4) you are required to reflect on your progress in the course
 and complete an evaluation of your work, comparing it against what you
 agreed to in your grading contract.  Your evaluation should:
 
@@ -334,7 +334,7 @@ course. Both a "D" and "F" denote a breakdown of the contractual
 relationship.
 
 <hr>
-# Coursework and policies XXX
+# Coursework and policies
 
 ## <a name="deadlines">Deadlines, extensions, and resubmissions</a>
 
@@ -374,13 +374,6 @@ relationship.
 
 ## <a name="projects">Projects</a>
 
-<div style="text-align: center">
-<a class="btn btn-primary" href="{{ site.submission }}">
-  Assignment submission form
-</a>
-</div>
-<br/>
-
 Your work in this course will consist of a series of challenging
 projects from our textbook.  Taken all together, they will result in a
 complete working (simulated) computer.  See the links below for the
@@ -403,11 +396,13 @@ completion of these projects.
 
 * You **may** use generative AI tools such as ChatGPT or GitHub
   Copilot.
+
     - The projects in this class are sufficiently high-level that
       generative AI is not going to be able to do them for you.  It
       could be an interesting learning experience to figure out ways
       to use these tools effectively.
-    - If you do use generative AI tools, you must cite their use
+
+    - If you do use generative AI tools, you **must cite their use**
       (*e.g.* in a comment explaining how you used them).
 
 * You **may not**:
@@ -422,7 +417,7 @@ opportunity in this class, issues of academic integrity will be taken
 very seriously.  Typically, plagiarism on a project will carry a
 recommended sanction of failure in the course.
 
-## <a name="suggested-deadlines">Suggested deadlines</a>
+### <a name="suggested-deadlines">Suggested deadlines</a>
 
 Below you will find a list of all the projects in one place, as well
 as suggested deadlines and subsets of projects depending on your
@@ -443,28 +438,44 @@ and should customize to your heart's content.  For example:
   want to make sure you have no deadlines during a certain period;
   maybe you want to get everything turned in by April 15th so you can
   spend the last few weeks of the semester focusing on your other
-  classes; maybe you want to have all the projects due all at once at
-  3:29am on Sunday, April 28th.  You decide!
+  classes; maybe you want every project due on a Tuesday; maybe you
+  want to have the projects due all at once at 3:29am on Sunday,
+  April 28th.  You decide!
+- Keep in mind that the recommended schedule has each project due
+  *after* the relevant material has been covered in class.  (However,
+  your textbook has all the necessary information to complete the
+  projects, so it is possible to complete projects earlier.)
 
-XXX get data on average amount of time spent per project
+The average completion time shown for each project is based on
+self-reported time spent by students in Spring 2022.  However, keep in
+mind that actual reported times varied widely.  There was not enough
+data to compute a meaningful average for project 12B, but it is
+probably similar to 12A.
 
-| #      | Topic                                                          | A        | B        | C        |
-|:------:|----------------------------------------------------------------|:--------:|:--------:|:--------:|
-| 1      | [Boolean logic](projects/01-boolean-logic.html)                | F 19 Jan | F 19 Jan | M 22 Jan |
-| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | W 24 Jan | W 24 Jan | M 29 Jan |
-| 3      | [Memory](projects/03-memory.html)                              | M 29 Jan | M 29 Jan | W 7 Feb  |
-| 4      | [Machine language](projects/04-machine-language.html)          | M 5 Feb  | M 5 Feb  | F 16 Feb |
-| 5      | [Computer archtecture](projects/05-computer-architecture.html) | M 12 Feb | W 14 Feb | M 26 Feb |
-| 6      | [Assembler](projects/06-assembler.html)                        | M 19 Feb | M 26 Feb |          |
-| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | M 26 Feb | M 4 Mar  |          |
-| 8      | [VM II: program control](projects/08-program-control.html)     | M 4 Mar  |          |          |
-| 9      | [High-level programming](projects/09-high-level.html)          | M 11 Mar | M 11 Mar | M 11 Mar |
-| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | F 29 Mar | M 1 Apr  | F 5 Apr  |
-| 10/11B | [Statements](projects/1011b-statements.html)                   | W 3 Apr  | W 10 Apr | M 15 Apr |
-| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | M 8 Apr  | W 17 Apr |          |
-| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | M 15 Apr |          |          |
-| 12A    | [Operating system I](projects/12-OS.html)                      | M 22 Apr | F 26 Apr | F 26 Apr |
-| 12B    | [Operating system II](projects/12-OS.html)                     | F 26 Apr |          |          |
+<div style="text-align: center">
+<a class="btn btn-primary" href="{{ site.submission }}">
+  Assignment submission form
+</a>
+</div>
+<br/>
+
+| #      | Topic                                                          | Avg time (hrs) | A        | B        | C        |
+|:------:|----------------------------------------------------------------|:--------------:|:--------:|:--------:|:--------:|
+| 1      | [Boolean logic](projects/01-boolean-logic.html)                | 5              | F 19 Jan | F 19 Jan | M 22 Jan |
+| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | 5              | W 24 Jan | W 24 Jan | M 29 Jan |
+| 3      | [Memory](projects/03-memory.html)                              | 5              | M 29 Jan | M 29 Jan | W 7 Feb  |
+| 4      | [Machine language](projects/04-machine-language.html)          | 6              | M 5 Feb  | M 5 Feb  | F 16 Feb |
+| 5      | [Computer archtecture](projects/05-computer-architecture.html) | 7              | M 12 Feb | W 14 Feb | M 26 Feb |
+| 6      | [Assembler](projects/06-assembler.html)                        | 8              | M 19 Feb | M 26 Feb |          |
+| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | 8              | M 26 Feb | M 4 Mar  |          |
+| 8      | [VM II: program control](projects/08-program-control.html)     | 8              | M 4 Mar  |          |          |
+| 9      | [High-level programming](projects/09-high-level.html)          | 7              | M 11 Mar | M 11 Mar | M 11 Mar |
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | 5              | F 29 Mar | M 1 Apr  | F 5 Apr  |
+| 10/11B | [Statements](projects/1011b-statements.html)                   | 7              | W 3 Apr  | W 10 Apr | M 15 Apr |
+| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | 8              | M 8 Apr  | W 17 Apr |          |
+| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | 8              | M 15 Apr |          |          |
+| 12A    | [Operating system I](projects/12-OS.html)                      | 6              | M 22 Apr | F 26 Apr | F 26 Apr |
+| 12B    | [Operating system II](projects/12-OS.html)                     |                | F 26 Apr |          |          |
 
 ## <a name="expectations">Expectations</a>
 
@@ -592,8 +603,8 @@ are expected to contribute to a respectful, welcoming, and inclusive
 environment for every other member of the community. If you believe
 you have been the subject of discrimination please contact Dean Mike
 Leblanc at [leblanc@hendrix.edu](mailto:leblanc@hendrix.edu) or
-501-450-1222 or the Title IX Coordinator Allison Vetter at
-[titleix@hendrix.edu](mailto:titleix@hendrix.edu)or 501-505-2901. If
+501-450-1222 or the Title IX Coordinator Jennifer Fulbright at
+[titleix@hendrix.edu](mailto:titleix@hendrix.edu) or 501-505-2901. If
 you have ideas for improving the inclusivity of the classroom
 experience please feel free to [contact
 me](https://forms.gle/YhPgQTq1FHiH71B6A).  For more information on
