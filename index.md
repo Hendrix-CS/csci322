@@ -316,10 +316,10 @@ it).
   for a C and complete a minimum of 12 [projects](#projects).
 
 * To earn a C in the course, you must:
-    * Complete the [CSCI student information survey][survey].
+    * Complete the [CSCI student information survey][XXX].
     * Submit and agree on a [grading contract](#grading) with the instructor.
     * Complete two [grading contract evaluations](#evaluation).
-	* Complete a minimum of eight [projects](#projects).
+	* Complete a minimum of nine [projects](#projects).
 
 ### D and F grades
 
