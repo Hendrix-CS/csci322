@@ -3,7 +3,6 @@ layout: work
 type: Project
 num: 6
 worktitle: Assembler
-due: Monday, 21 February
 ---
 
 * **Description**: Complete [Project 6 on
@@ -39,5 +38,3 @@ due: Monday, 21 February
   that your solution will not officially be tested on the `L` variants
   (`MaxL.asm`, `RectL.asm`, `PongL.asm`) although you are encouraged
   to start with those.
-
-* **Due**: {{page.due}} @5pm.

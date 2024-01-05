@@ -3,9 +3,6 @@ layout: work
 type: Project
 num: 9
 worktitle: "High-level programming"
-proposaldue: Friday, 11 March
-demodue: Tuesday, 15 March
-due: Friday, 18 March
 ---
 
 * **Description**: Complete [Project 9 on
@@ -15,19 +12,15 @@ due: Friday, 18 March
 
 * **What to turn in**:
 
-    - For your proposal, turn in a PDF with a paragraph description of
-      what you propose to do for your project.
+    - You are strongly encouraged (but not required) to run your
+      idea(s) by me so I can give you feedback and help you choose
+      something with an appropriate level of difficulty.
 
     - For the finished project itself, turn in a `.zip` or `.tgz` file
       containing all the `.jack` files necessary to run your application.
 
 * **Specification**: To get credit for this project, you must meet the
   following requirements:
-
-    - Turn in a project proposal by {{page.proposaldue}}.
-
-    - Demonstrate your project in class on Tuesday March 15th or
-      Thursday March 17th.
 
     - Your project must contain at least two `.jack` files.
 
@@ -36,10 +29,8 @@ due: Friday, 18 March
     - Your project must be at least 100 lines of Jack code, not
       counting blank lines and comments.
 
-* **Due**:
-    - Proposal due {{page.proposaldue}} @5pm
-    - In-class demos {{page.demodue}}
-    - Final version due {{page.due}} @5pm.
-
-    - **NOTE**: this is the only project for which **no extensions**
-      will be granted!  The due dates listed above are absolute!
+    - Your project should accomplish something interesting (for
+      example, you cannot fulfill the above specification simply by
+      writing a 100-line program that prints the number 5
+      repeatedly).  If you are unsure whether your project meets this
+      criterion, please ask.

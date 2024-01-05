@@ -3,7 +3,6 @@ layout: work
 type: Project
 num: 5
 worktitle: Computer architecture
-due: Monday, 14 February
 ---
 
 * **Description**: Complete [Project 5 on
@@ -20,5 +19,3 @@ due: Monday, 14 February
 * **Specification**: To get credit for this project, you must complete
   all three chips and pass the provided tests (`Memory.tst`,
   `CPU.tst`, `ComputerAdd.tst`, `ComputerMax.tst`, `ComputerRect.tst`).
-
-* **Due**: {{page.due}} @5pm.

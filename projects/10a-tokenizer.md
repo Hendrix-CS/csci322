@@ -3,13 +3,10 @@ layout: work
 type: Project
 num: 10/11A
 worktitle: "Compiler I: Tokenizer"
-due: Friday, April 1
 ---
 
 * **Description**: Complete [Stage I (tokenizer) of Project 10 on
       nand2tetris.org](https://www.nand2tetris.org/project10).
-
-* **Due**: {{page.due}} @5pm.
 
 * **What to turn in**: Turn in all files necessary for running your
   tokenizer.  Your tokenizer can be written in any language you wish.

@@ -3,7 +3,6 @@ layout: work
 type: Project
 num: 2
 worktitle: Boolean arithmetic
-due: Wednesday, 26 January
 ---
 
 * **Description**:
@@ -29,5 +28,3 @@ due: Wednesday, 26 January
 
 * **Specification**: To get credit for this project, you must complete
   all 6 chips and pass the tests for each.
-
-* **Due**: {{page.due}} @5pm.

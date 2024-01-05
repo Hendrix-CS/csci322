@@ -3,14 +3,11 @@ layout: work
 type: Project
 num: 10/11C
 worktitle: "Compiler III: Conditionals and Loops"
-due: Monday, April 11
 ---
 
 * **Description**: Write a compiler which passes the tests
   `AlphaWhere`, `AlphaShow`, `Factorial`, and `ConvertToBin`.  See the
   [project 11 guide](11-guide.html) for details.
-
-* **Due**: {{page.due}} @5pm.
 
 * **What to turn in**: Turn in all files necessary for running your
   compiler (including the tokenizer, etc).  Your compiler can be

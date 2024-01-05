@@ -3,14 +3,11 @@ layout: work
 type: Project
 num: 10/11C
 worktitle: "Compiler IV: Classes and Arrays"
-due: Monday, April 18
 ---
 
 * **Description**: Write a complete, working compiler which passes the
   tests `Average`, `ComplexArray`, `Square`, and `Pong`.  See the
   [project 11 guide](11-guide.html) for details.
-
-* **Due**: {{page.due}} @5pm.
 
 * **What to turn in**: Turn in all files necessary for running your
   compiler (including the tokenizer, etc).  Your compiler can be

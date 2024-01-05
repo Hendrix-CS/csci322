@@ -475,7 +475,7 @@ probably similar to 12A.
 | 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | 8              | M 8 Apr  | W 17 Apr |          |
 | 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | 8              | M 15 Apr |          |          |
 | 12A    | [Operating system I](projects/12-OS.html)                      | 6              | M 22 Apr | F 26 Apr | F 26 Apr |
-| 12B    | [Operating system II](projects/12-OS.html)                     |                | F 26 Apr |          |          |
+| 12B    | [Operating system II](projects/12-OS.html)                     | ?              | F 26 Apr |          |          |
 
 ## <a name="expectations">Expectations</a>
 

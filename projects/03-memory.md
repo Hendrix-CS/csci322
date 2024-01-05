@@ -3,7 +3,6 @@ layout: work
 type: Project
 num: 3
 worktitle: Memory
-due: Monday, 31 January
 ---
 
 * **Description**: Complete [Project 3 on
@@ -15,5 +14,3 @@ due: Monday, 31 January
 
 * **Specification**: To get credit for this project, you must complete
   all 8 chips and pass the tests for each.
-
-* **Due**: {{page.due}} @5pm.

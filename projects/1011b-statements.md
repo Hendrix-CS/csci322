@@ -3,13 +3,10 @@ layout: work
 type: Project
 num: 10/11B
 worktitle: "Compiler II: Statements"
-due: Wednesday, April 6
 ---
 
 * **Description**: Write a compiler which passes the tests `Three` and
   `Seven`.  See the [project 11 guide](11-guide.html) for details.
-
-* **Due**: {{page.due}} @5pm.
 
 * **What to turn in**: Turn in all files necessary for running your
   compiler (including the tokenizer, etc).  Your compiler can be

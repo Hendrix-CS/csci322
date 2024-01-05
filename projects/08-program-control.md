@@ -3,7 +3,6 @@ layout: work
 type: Project
 num: 8
 worktitle: "VM II: Program Control"
-due: Monday, 7 March
 ---
 
 * **Description**: Complete [Project 8 on
@@ -28,5 +27,3 @@ due: Monday, 7 March
       `NestedCall.tst` will work with or without bootstrap code.  The
       last two (`FibonacciElement.tst` and `StaticsTest.tst`) will
       only work with bootstrap code.
-
-* **Due**: {{page.due}} @5pm.
