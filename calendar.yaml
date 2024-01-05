@@ -17,10 +17,15 @@ entries:
         - Chapters 1 and 2
         - Appendix A
     Projects:
-      - link:
-          text: Grading contract and work plan
-          url: '#grading-contracts'
-      - due
+      rows:
+        -
+          - link:
+              text: Grading contract and work plan
+              url: '#grading-contracts'
+          - due
+        - link:
+            text: CSCI student info survey
+            url: XXX
 
   - Date: 2024-01-19
     Projects:
@@ -87,6 +92,7 @@ entries:
   - Date: 2024-02-22
     Topic: VM stack arithmetic & branch instructions
     Reading: Chapter 8
+    Projects: Grading contract evaluation I due
 
   - Date: 2024-02-26
     Projects:
@@ -147,6 +153,7 @@ entries:
         url: projects/1011b-statements.html
   - Date: 2024-04-04
     Topic: Compiling conditionals and loops
+    Projects: Grading contract evaluation II due
     Reading:
       rows:
         - Chapter 11
