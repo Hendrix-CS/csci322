@@ -16,8 +16,8 @@ worktitle: Boolean arithmetic
         - [`Or16Way.cmp`](../static/Or16Way.cmp)
         - [`Or16Way.tst`](../static/Or16Way.tst)
     - In particular, I suggest you first complete `HalfAdder`,
-      `FullAdder`, `Add16`, `Inc16`, and `ALU-nostat`
-      (`ALU-nostat.tst` is just a test file for `ALU.hdl` which
+      `FullAdder`, `Add16`, `Inc16`, and `ALU-basic`
+      (`ALU-basic.tst` is just a test file for `ALU.hdl` which
       ignores the `zr` and `ng` output bits); then implement
       `Or16Way`, and finally finish the `zr` and `ng` output bits for
       `ALU` and test with `ALU.tst`.

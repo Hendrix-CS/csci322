@@ -14,3 +14,10 @@ worktitle: Memory
 
 * **Specification**: To get credit for this project, you must complete
   all 8 chips and pass the tests for each.
+
+* **Important Note**: in version 2.7 of the nand2tetris materials,
+  the provided file `PC.hdl` has an incorrect comment; the order of
+  the conditions is reversed from what is described in the book.  The
+  provided test `PC.tst` corresponds to what is in the book.  You can just
+  ignore the comment in `PC.hdl` and consult the description in the
+  book, or [download a corrected version here](../static/PC.hdl).
