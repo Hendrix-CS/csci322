@@ -61,7 +61,7 @@ Upon completing this course, you will be able to:
 |---------------|-------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | **T 16 Jan**  | Introduction, Boolean logic               |                                                                                                      |                                                                            |
 | **Th 18 Jan** | Boolean arithmetic                        | Chapters 1 and 2                                                                                     | [Grading contract and work plan](#grading-contracts) due                   |
-|               |                                           | Appendix A                                                                                           | [CSCI student info survey](XXX)                                            |
+|               |                                           | Appendix A                                                                                           | [CSCI student info survey](https://forms.gle/VLRVHjUAisWP5R9J8)                                            |
 | *F 19 Jan*    |                                           |                                                                                                      | [Project 1: Boolean logic](projects/01-boolean-logic.html)                 |
 |               |                                           |                                                                                                      |                                                                            |
 | **T 23 Jan**  | Boolean arithmetic & sequential logic     | Chapter 3                                                                                            |                                                                            |
@@ -316,7 +316,7 @@ it).
   for a C and complete a minimum of 12 [projects](#projects).
 
 * To earn a C in the course, you must:
-    * Complete the [CSCI student information survey][XXX].
+    * Complete the [CSCI student information survey][https://forms.gle/VLRVHjUAisWP5R9J8].
     * Submit and agree on a [grading contract](#grading) with the instructor.
     * Complete two [grading contract evaluations](#evaluation).
 	* Complete a minimum of nine [projects](#projects).
