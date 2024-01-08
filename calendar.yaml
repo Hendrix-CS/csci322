@@ -25,7 +25,7 @@ entries:
           - due
         - link:
             text: CSCI student info survey
-            url: XXX
+            url: https://forms.gle/VLRVHjUAisWP5R9J8
 
   - Date: 2024-01-19
     Projects:
@@ -188,7 +188,10 @@ entries:
         text: 'Project 12A: Operating System I'
         url: projects/12-OS.html
   - Date: 2024-04-23
-    Topic: Memory allocation and randomness
+    Topic:
+      rows:
+        - Memory allocation and randomness
+        - Course evaluations
   - Date: 2024-04-25
     Topic: Project work day
   - Date: 2024-04-26
