@@ -92,6 +92,9 @@ resources:
   - name: The Elements of Computing Systems,<br/> 2nd ed.
     image: assets/images/teocs.jpg
     url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/
+  - name: Nandgame
+    image: assets/images/nand-gate.webp
+    url: https://nandgame.com/
 
 # Build settings
 markdown: kramdown
