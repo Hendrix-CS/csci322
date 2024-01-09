@@ -42,14 +42,22 @@ navigation:
         url: '#resources'
   - page: Calendar
     url: '#calendar'
+  - title: Grading
+    subfolderitems:
+      - page: Grading contracts
+        url: '#contracts'
+      - page: Contract evaluation
+        url: '#evaluation'
+      - page: Grade requirements
+        url: '#requirements'
   - title: Coursework and policies
     subfolderitems:
-      - page: Specifications grading
-        url: '#grading'
-      - page: Due dates policy
-        url: '#deadlines'
       - page: Projects
         url: '#projects'
+      - page: Deadlines, extensions, and resubmissions
+        url: '#deadlines'
+      - page: Academic integrity
+        url: '#integrity'
   - title: Expectations and accommodations
     subfolderitems:
       - page: Expectations

@@ -127,7 +127,7 @@ Upon completing this course, you will be able to:
 <hr />
 # <a name="grading">Grading</a>
 
-## Grading contracts
+## <a name="contracts">Grading contracts</a>
 
 You will prepare and submit for my approval a *grading contract and
 work plan* explaining your chosen final grade and what you will do to
@@ -275,7 +275,7 @@ agreed to in your grading contract.  Your evaluation should:
    have completed checked off.
 
 2. Revise your grading contract with more specific details as
-   appropriate, for example, regarding which modules you intend to
+   appropriate, for example, regarding which projects you intend to
    complete.
 
 3. Include a 1-2 paragraph reflection, which answers questions such as the
@@ -301,13 +301,7 @@ adjust your contract.  If your life has really gone off the rails (or
 if, say, you are finding the class easier and more enjoyable than you
 thought!) just come and talk to me about adjusting your contract.
 
-To "complete" an assignment means to complete it at or above the
-required criteria for receiving credit.  For example, "complete a
-midterm exam" means not just taking the exam, but scoring sufficiently
-high on the problems so as to receive credit (possibly after retaking
-it).
-
-### A, B, and C grades
+### <a name="requirements">A, B, and C grades</a>
 
 * To earn an A in the course, you must complete all the requirements
   for a C, and complete all 15 [projects](#projects)---that is,
@@ -317,7 +311,7 @@ it).
   for a C and complete a minimum of 12 [projects](#projects).
 
 * To earn a C in the course, you must:
-    * Complete the [CSCI student information survey][https://forms.gle/VLRVHjUAisWP5R9J8].
+    * Complete the [CSCI student information survey](https://forms.gle/VLRVHjUAisWP5R9J8).
     * Submit and agree on a [grading contract](#grading) with the instructor.
     * Complete two [grading contract evaluations](#evaluation).
 	* Complete a minimum of nine [projects](#projects).
@@ -337,6 +331,73 @@ relationship.
 <hr>
 # Coursework and policies
 
+## <a name="projects">Projects</a>
+
+Your work in this course will consist of a series of challenging
+projects from our textbook.  Taken all together, they will result in a
+complete, working (simulated) computer.
+
+Below you will find a list of all the projects in one place, as well
+as suggested deadlines and subsets of projects depending on your
+desired grade.
+
+The average completion time shown for each project is based on
+self-reported time spent by students in Spring 2022.  However, keep in
+mind that actual reported times varied widely.  There was not enough
+data to compute a meaningful average for project 12B, but it is
+probably similar to 12A.
+
+<div style="text-align: center">
+<a class="btn btn-primary" href="{{ site.submission }}">
+  Assignment submission form
+</a>
+</div>
+<br/>
+
+| #      | Topic                                                          | Avg time (hrs) | A        | B        | C        |
+|:------:|----------------------------------------------------------------|:--------------:|:--------:|:--------:|:--------:|
+| 1      | [Boolean logic](projects/01-boolean-logic.html)                | 5              | F 19 Jan | F 19 Jan | M 22 Jan |
+| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | 5              | W 24 Jan | W 24 Jan | M 29 Jan |
+| 3      | [Memory](projects/03-memory.html)                              | 5              | M 29 Jan | M 29 Jan | W 7 Feb  |
+| 4      | [Machine language](projects/04-machine-language.html)          | 6              | M 5 Feb  | M 5 Feb  | F 16 Feb |
+| 5      | [Computer archtecture](projects/05-computer-architecture.html) | 7              | M 12 Feb | W 14 Feb | M 26 Feb |
+| 6      | [Assembler](projects/06-assembler.html)                        | 8              | M 19 Feb | M 26 Feb |          |
+| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | 8              | M 26 Feb | M 4 Mar  |          |
+| 8      | [VM II: program control](projects/08-program-control.html)     | 8              | M 4 Mar  |          |          |
+| 9      | [High-level programming](projects/09-high-level.html)          | 7              | M 11 Mar | M 11 Mar | M 11 Mar |
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | 5              | F 29 Mar | M 1 Apr  | F 5 Apr  |
+| 10/11B | [Statements](projects/1011b-statements.html)                   | 7              | W 3 Apr  | W 10 Apr | M 15 Apr |
+| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | 8              | M 8 Apr  | W 17 Apr |          |
+| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | 8              | M 15 Apr |          |          |
+| 12A    | [Operating system I](projects/12-OS.html)                      | 6              | M 22 Apr | F 26 Apr | F 26 Apr |
+| 12B    | [Operating system II](projects/12-OS.html)                     | ?              | F 26 Apr |          |          |
+
+Keep in mind that the deadlines in the above table are only
+suggestions!  You can and should customize to your heart's content.
+For example:
+
+- If you are aiming for a B or C, you are free to choose any subset of
+  12 or 9 projects.  For example, if you are aiming for a C, perhaps
+  the idea of an assembler is particularly interesting to you, so you
+  would rather do Project 6 and leave out another project.
+- By default, all deadlines are at 5pm, but you should pick a time
+  that works well for you.  Do you like staying up late to work on
+  projects?  Do you like getting things turned in by 2pm and then
+  playing video games?  You decide.
+- The suggested due dates just demonstrate one possible way of
+  spreading work out over the whole semester.  You can and should
+  customize these.  Maybe you will be doing a play or Model UN and
+  want to make sure you have no deadlines during a certain period;
+  maybe you want to get everything turned in by April 15th so you can
+  spend the last few weeks of the semester focusing on your other
+  classes; maybe you want every project due on a Tuesday; maybe you
+  want to have the projects due all at once at 3:29am on Sunday,
+  April 28th.  You decide!
+- Keep in mind that the recommended schedule has each project due
+  *after* the relevant material has been covered in class.  (However,
+  your textbook has all the necessary information to complete the
+  projects, so it is possible to complete projects earlier.)
+
 ## <a name="deadlines">Deadlines, extensions, and resubmissions</a>
 
 - Every project is due at a specific date and time chosen by you in
@@ -347,12 +408,13 @@ relationship.
   *two weekdays* of being turned in.
 
 - If you wish an **extension** on any deadline, simply send me an
-  **email** prior to the deadline requesting a new deadline.  You must
-  be specific about the date and time of the new deadline.  For
-  example, you could say "I need a little extra time on project 5.  I
-  will have it turned in by 8pm on Wednesday," whereas it would not be
-  acceptable to say "I need a couple extra days on project 5".  Such
-  extension requests will be automatically granted.
+  **email** (**not** a Teams message) prior to the deadline requesting
+  a new deadline.  You must be specific about the date and time of the
+  new deadline.  For example, you could say "I need a little extra
+  time on project 5.  I will have it turned in by 8pm on Wednesday,"
+  whereas it would not be acceptable to say "I need a couple extra
+  days on project 5".  Such extension requests will be automatically
+  granted.
 
 - If you need a second extension, or if you miss a deadline, you
   **must meet with me** in order to discuss your situation and make a
@@ -360,25 +422,12 @@ relationship.
   projects submitted late until you have met with me.
 
 - If you do not get credit for a project, you may revise and resubmit
-  the project.  The default deadline for resubmission is **one week
-  after receiving feedback** (but you may ask for an extension as
-  usual).
-
-- However, the above only applies if you made a reasonable attempt at
-  the project the first time.  You cannot turn in a half-finished
-  project before the deadline and then "revise" it by completing the
-  rest.  If your project is only half-finished, you should request an
-  extension.
+  the project (as many times as necessary to get credit).  The default
+  deadline for resubmission is **one week after receiving feedback**
+  (but you may ask for an extension as usual).
 
 - The absolute latest any project may be turned in is **5pm on Wednesday,
   May 1.**
-
-## <a name="projects">Projects</a>
-
-Your work in this course will consist of a series of challenging
-projects from our textbook.  Taken all together, they will result in a
-complete working (simulated) computer.  See the links below for the
-details and specification for each project.
 
 ### <a name="integrity">Academic integrity</a>
 
@@ -418,65 +467,9 @@ opportunity in this class, issues of academic integrity will be taken
 very seriously.  Typically, plagiarism on a project will carry a
 recommended sanction of failure in the course.
 
-### <a name="suggested-deadlines">Suggested deadlines</a>
+<hr />
 
-Below you will find a list of all the projects in one place, as well
-as suggested deadlines and subsets of projects depending on your
-desired grade.  Keep in mind that these are only suggestions!  You can
-and should customize to your heart's content.  For example:
-
-- If you are aiming for a B or C, you are free to choose any subset of
-  12 or 9 projects.  For example, if you are aiming for a C, perhaps
-  the idea of an assembler is particularly interesting to you, so you
-  would rather do Project 6 and leave out another project.
-- By default, all deadlines are at 5pm, but you should pick a time
-  that works well for you.  Do you like staying up late to work on
-  projects?  Do you like getting things turned in by 2pm and then
-  playing video games?  You decide.
-- The suggested due dates just demonstrate one possible way of
-  spreading work out over the whole semester.  You can and should
-  customize these.  Maybe you will be doing a play or Model UN and
-  want to make sure you have no deadlines during a certain period;
-  maybe you want to get everything turned in by April 15th so you can
-  spend the last few weeks of the semester focusing on your other
-  classes; maybe you want every project due on a Tuesday; maybe you
-  want to have the projects due all at once at 3:29am on Sunday,
-  April 28th.  You decide!
-- Keep in mind that the recommended schedule has each project due
-  *after* the relevant material has been covered in class.  (However,
-  your textbook has all the necessary information to complete the
-  projects, so it is possible to complete projects earlier.)
-
-The average completion time shown for each project is based on
-self-reported time spent by students in Spring 2022.  However, keep in
-mind that actual reported times varied widely.  There was not enough
-data to compute a meaningful average for project 12B, but it is
-probably similar to 12A.
-
-<div style="text-align: center">
-<a class="btn btn-primary" href="{{ site.submission }}">
-  Assignment submission form
-</a>
-</div>
-<br/>
-
-| #      | Topic                                                          | Avg time (hrs) | A        | B        | C        |
-|:------:|----------------------------------------------------------------|:--------------:|:--------:|:--------:|:--------:|
-| 1      | [Boolean logic](projects/01-boolean-logic.html)                | 5              | F 19 Jan | F 19 Jan | M 22 Jan |
-| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | 5              | W 24 Jan | W 24 Jan | M 29 Jan |
-| 3      | [Memory](projects/03-memory.html)                              | 5              | M 29 Jan | M 29 Jan | W 7 Feb  |
-| 4      | [Machine language](projects/04-machine-language.html)          | 6              | M 5 Feb  | M 5 Feb  | F 16 Feb |
-| 5      | [Computer archtecture](projects/05-computer-architecture.html) | 7              | M 12 Feb | W 14 Feb | M 26 Feb |
-| 6      | [Assembler](projects/06-assembler.html)                        | 8              | M 19 Feb | M 26 Feb |          |
-| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | 8              | M 26 Feb | M 4 Mar  |          |
-| 8      | [VM II: program control](projects/08-program-control.html)     | 8              | M 4 Mar  |          |          |
-| 9      | [High-level programming](projects/09-high-level.html)          | 7              | M 11 Mar | M 11 Mar | M 11 Mar |
-| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | 5              | F 29 Mar | M 1 Apr  | F 5 Apr  |
-| 10/11B | [Statements](projects/1011b-statements.html)                   | 7              | W 3 Apr  | W 10 Apr | M 15 Apr |
-| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | 8              | M 8 Apr  | W 17 Apr |          |
-| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | 8              | M 15 Apr |          |          |
-| 12A    | [Operating system I](projects/12-OS.html)                      | 6              | M 22 Apr | F 26 Apr | F 26 Apr |
-| 12B    | [Operating system II](projects/12-OS.html)                     | ?              | F 26 Apr |          |          |
+# Expectations and accommodations
 
 ## <a name="expectations">Expectations</a>
 
