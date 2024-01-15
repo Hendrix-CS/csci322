@@ -301,12 +301,6 @@ adjust your contract.  If your life has really gone off the rails (or
 if, say, you are finding the class easier and more enjoyable than you
 thought!) just come and talk to me about adjusting your contract.
 
-To "complete" an assignment means to complete it at or above the
-required criteria for receiving credit.  For example, "complete a
-midterm exam" means not just taking the exam, but scoring sufficiently
-high on the problems so as to receive credit (possibly after retaking
-it).
-
 ### A, B, and C grades
 
 * To earn an A in the course, you must complete all the requirements
