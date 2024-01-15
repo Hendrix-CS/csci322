@@ -42,14 +42,22 @@ navigation:
         url: '#resources'
   - page: Calendar
     url: '#calendar'
+  - title: Grading
+    subfolderitems:
+      - page: Grading contracts
+        url: '#contracts'
+      - page: Contract evaluation
+        url: '#evaluation'
+      - page: Grade requirements
+        url: '#requirements'
   - title: Coursework and policies
     subfolderitems:
-      - page: Specifications grading
-        url: '#grading'
-      - page: Due dates policy
-        url: '#deadlines'
       - page: Projects
         url: '#projects'
+      - page: Deadlines, extensions, and resubmissions
+        url: '#deadlines'
+      - page: Academic integrity
+        url: '#integrity'
   - title: Expectations and accommodations
     subfolderitems:
       - page: Expectations
@@ -84,6 +92,9 @@ resources:
   - name: The Elements of Computing Systems,<br/> 2nd ed.
     image: assets/images/teocs.jpg
     url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/
+  - name: Nandgame
+    image: assets/images/nand-gate.webp
+    url: https://nandgame.com/
 
 # Build settings
 markdown: kramdown
