@@ -8,10 +8,11 @@ headers:
 
 entries:
   - Date: 2024-01-16
-    Topic: Introduction, Boolean logic
+    Topic:
+      emph: No class (snow)
 
   - Date: 2024-01-18
-    Topic: Boolean arithmetic
+    Topic: Boolean logic + arithmetic
     Reading:
       rows:
         - Chapters 1 and 2
