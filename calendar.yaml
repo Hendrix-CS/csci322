@@ -12,7 +12,10 @@ entries:
       emph: No class (snow)
 
   - Date: 2024-01-18
-    Topic: Boolean logic + arithmetic
+    Topic:
+      - Boolean logic + arithmetic
+      - stream: 'https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F1%5F18%5F%20intro%2C%20boolean%20logic%2D20240118%5F094810%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview'
+      - pdf: '/lectures/2024-01-18-boolean-logic.pdf'
     Reading:
       rows:
         - Chapters 1 and 2
