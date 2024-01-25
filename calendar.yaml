@@ -52,7 +52,10 @@ entries:
         url: projects/02-boolean-arithmetic.html
 
   - Date: 2024-01-25
-    Topic: Sequential logic & memory
+    Topic:
+      - Sequential logic & memory
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F1%5F25%5F%20memory%2D20240125%5F094618%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-01-25-memory.pdf
     Reading: Chapter 3
 
   - Date: 2024-01-29
