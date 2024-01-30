@@ -64,8 +64,19 @@ entries:
         text: 'Project 3: Memory'
         url: projects/03-memory.html
   - Date: 2024-01-30
-    Topic: Machine & assembly language
-    Reading: Chapter 4
+    Topic:
+      - Machine & assembly language
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F1%5F30%5F%20machine%20%2B%20assembly%20language%2D20240130%5F094641%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-01-30-machine-and-assembly.pdf
+    Reading:
+      rows:
+        - Chapter 4
+        - link:
+            text: example.asm
+            url: lectures/example.asm
+        - link:
+            text: example2.asm
+            url: lectures/example2.asm
   - Date: 2024-02-01
     Topic: Hack assembly examples
 

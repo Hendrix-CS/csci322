@@ -1,10 +1,8 @@
-// x = 50
-@50  // A-instruction
-D=A  // C-instruction: x=D, y=A, output y
+@50
+D=A
 @x
 M=D
 
-// while (x > 0) { x--; }
 (LOOP)
 @x
 MD=M-1
