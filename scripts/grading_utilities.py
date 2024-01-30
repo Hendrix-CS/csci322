@@ -20,13 +20,14 @@ def meets_restrictions(path, restrictions):
 
 # Recursively check all files in base_dir with the given suffix which
 # match one of the given patterns in 'restrictions', by calling
-# check_func on them.
+# check_func on them.  But exclude any files under a directory named 'graded'.
 def file_checker(base_dir, suffix, restrictions, check_func):
     if os.path.isdir(base_dir):
         for filename in os.listdir(base_dir):
             file_path = base_dir + os.path.sep + filename
             if os.path.isdir(file_path):
-                file_checker(file_path, suffix, restrictions, check_func)
+                if filename != 'graded':
+                    file_checker(file_path, suffix, restrictions, check_func)
             elif filename[-len(suffix):] == suffix and meets_restrictions(file_path, restrictions):
                 check_func(file_path)
 
