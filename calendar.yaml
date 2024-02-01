@@ -71,12 +71,8 @@ entries:
     Reading:
       rows:
         - Chapter 4
-        - link:
-            text: example.asm
-            url: lectures/example.asm
-        - link:
-            text: example2.asm
-            url: lectures/example2.asm
+        - code: example.asm
+        - code: example2.asm
   - Date: 2024-02-01
     Topic:
       - Hack assembly examples
@@ -84,21 +80,11 @@ entries:
       - pdf: lectures/2024-02-01-screen-kbd.pdf
     Reading:
       rows:
-        - link:
-            text: screen.asm
-            url: lectures/screen.asm
-        - link:
-            text: kbd.asm
-            url: lectures/kbd.asm
-        - link:
-            text: kbd2.asm
-            url: lectures/kbd2.asm
-        - link:
-            text: sum.asm
-            url: lectures/sum.asm
-        - link:
-            text: sum2.asm
-            url: lectures/sum2.asm
+        - code: screen.asm
+        - code: kbd.asm
+        - code: kbd2.asm
+        - code: sum.asm
+        - code: sum2.asm
   - Date: 2024-02-05
     Projects:
       link:
