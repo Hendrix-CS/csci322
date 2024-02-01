@@ -78,8 +78,27 @@ entries:
             text: example2.asm
             url: lectures/example2.asm
   - Date: 2024-02-01
-    Topic: Hack assembly examples
-
+    Topic:
+      - Hack assembly examples
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F1%5F%20Assembly%20examples%2D20240201%5F094609%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-02-01-screen-kbd.pdf
+    Reading:
+      rows:
+        - link:
+            text: screen.asm
+            url: lectures/screen.asm
+        - link:
+            text: kbd.asm
+            url: lectures/kbd.asm
+        - link:
+            text: kbd2.asm
+            url: lectures/kbd2.asm
+        - link:
+            text: sum.asm
+            url: lectures/sum.asm
+        - link:
+            text: sum2.asm
+            url: lectures/sum2.asm
   - Date: 2024-02-05
     Projects:
       link:
