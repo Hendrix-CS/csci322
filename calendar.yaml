@@ -91,7 +91,10 @@ entries:
         text: 'Project 4: Machine language'
         url: projects/04-machine-language.html
   - Date: 2024-02-06
-    Topic: Turing machine CPU
+    Topic:
+      - Turing machine CPU
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F6%5F%20Turing%20machine%20CPU%2D20240206%5F094709%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-02-06-Turing-CPU.pdf
     Reading: Chapter 5
   - Date: 2024-02-08
     Topic: More Turing machine CPU; CPU history
