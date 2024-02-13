@@ -1,13 +1,18 @@
-MR
+ML
+(LOOP)
+MR   // MOVE RIGHT
 
-// This line of code took
-// a long time to get right
-MR
-WR
-
-
-ML  // MOVE LEFT
-JC
+     
+@12
 ER
-
-
+// This is a comment
+WR
+@31
+@END
+JC
+@19
+@LOOP
+JS
+(END)
+ML
+ML

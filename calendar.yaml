@@ -108,8 +108,19 @@ entries:
         text: 'Project 5: Computer architecture'
         url: projects/05-computer-architecture.html
   - Date: 2024-02-13
-    Topic: Assembler
-    Reading: Chapter 6
+    Topic:
+      - Assembler
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F13%5F%20Assembler%2D20240213%5F094536%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-02-13-assembler.pdf
+    Reading:
+      rows:
+        - Chapter 6
+        - link:
+            text: Assembler.py
+            url: lectures/assembler/Assembler.py
+        - link:
+            text: example.tm
+            url: lectures/assembler/example.tm
   - Date: 2024-02-15
     Topic: 6502 chip
 
