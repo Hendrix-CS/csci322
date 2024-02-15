@@ -122,7 +122,10 @@ entries:
             text: example.tm
             url: lectures/assembler/example.tm
   - Date: 2024-02-15
-    Topic: 6502 chip
+    Topic:
+      - 6502 chip
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F15%5F%20MOS%206502%20chip%2D20240215%5F094741%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-02-15-MOS-6502.pdf
 
   - Date: 2024-02-19
     Projects:
