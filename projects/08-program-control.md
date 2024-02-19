@@ -27,3 +27,9 @@ worktitle: "VM II: Program Control"
       `NestedCall.tst` will work with or without bootstrap code.  The
       last two (`FibonacciElement.tst` and `StaticsTest.tst`) will
       only work with bootstrap code.
+
+* **Hints**: Remember that the assembler can handle comments!  Feel
+  free to write your VM translator so that it outputs comments
+  interspersed with assembly code, to help read the output, understand
+  where the different bits of assembly code are coming from, and what
+  they are trying to accomplish.
