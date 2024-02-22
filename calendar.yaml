@@ -139,7 +139,10 @@ entries:
       - pdf: lectures/2024-02-20-VM-stack.pdf
     Reading: Chapter 7
   - Date: 2024-02-22
-    Topic: VM stack arithmetic & branch instructions
+    Topic:
+      - VM to Hack translation
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F2%5F22%5F%20VM%20translation%20I%2D20240222%5F094559%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-02-22-VM.pdf
     Reading: Chapter 8
     Projects: Grading contract evaluation I due
 
