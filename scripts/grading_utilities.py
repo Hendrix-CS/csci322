@@ -6,7 +6,7 @@ import subprocess
 project_dir = "/home/brent/teaching/322/"
 semester = '24G'
 grading_dir = project_dir + semester + '/grading/'
-n2t_dir     = project_dir + 'nand2tetris/'
+n2t_dir     = project_dir + 'pristine/nand2tetris/'
 testing_dir = n2t_dir + 'projects/'
 tools_dir   = n2t_dir + 'tools/'
 
@@ -126,17 +126,18 @@ def grade_project_6(restrictions):
                     subprocess.call([f"diff", f"{pristine_dir}/{t}.hack", f"{student_path}/{t}.hack"])
 
 def test_generated_asm(id, dirs, restrictions):
-    vm_sub_dir = f"{grading_dir}/{id}"
+    vm_sub_dir = f"{grading_dir}/{id}/tograde"
     for dir in os.listdir(vm_sub_dir):
         if os.path.isdir(dir):
             student_path = vm_sub_dir + os.path.sep + dir
             if meets_restrictions(student_path, restrictions):
-                print(f"Testing {student_path}")
-                for file in os.listdir(student_path):
-                    if file in dirs:
-                        for vm_project in os.listdir(student_path + os.path.sep + file):
-                            grade_asm_direct(student_path + os.path.sep + file + os.path.sep + vm_project,
-                                          f"{project_dir}nand2tetris/projects/{id}/{file}/{vm_project}",
+                print(f"Testing {student_path}...")
+                copy_dirs_from(testing_dir + os.path.sep + "07", student_path)
+                for d in os.listdir(student_path):
+                    if d in dirs:
+                        for vm_project in os.listdir(student_path + os.path.sep + d):
+                            grade_asm_direct(student_path + os.path.sep + d + os.path.sep + vm_project,
+                                          f"{testing_dir}/{id}/{d}/{vm_project}",
                                           {f"{vm_project}"},
                                           restrictions)
 
