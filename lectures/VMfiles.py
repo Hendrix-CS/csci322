@@ -8,13 +8,14 @@ def main():
     outfilename = vmcode.split('.')[0] + ".hack"
     outfile = open(outfilename, 'w')
 
+    # Generate bootstrap code if needed
     generate_bootstrap(outfile)
 
     if os.path.isdir(vmcode):
         # If it is a directory, translate all the .vm files inside it
-        for file in os.listdir(vmcode):
-            if file ends with .vm:
-                translate_vm(file, outfile)
+        for f in os.listdir(vmcode):
+            if f ends with .vm:
+                translate_vm(os.path.join(vmcode, f), outfile)
     else:
         # Else just translate a single .vm file
         translate_vm(vmcode, outfile)
