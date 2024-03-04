@@ -113,7 +113,7 @@ def grade_project_5(restrictions):
 def grade_project_6(restrictions):
     testing_dir_06 = f"{testing_dir}/06"
     grading_dir_06 = f"{grading_dir}/06/tograde"
-    pristine_dir = f"{testing_dir}/06-cmp"
+    pristine_dir = f"{project_dir}/nand2tetris/projects/06-cmp"
     tests = ["add/Add", "max/Max", "rect/Rect", "pong/Pong"]
     for dir in os.listdir(grading_dir_06):
         if os.path.isdir(dir):
@@ -121,9 +121,12 @@ def grade_project_6(restrictions):
             if meets_restrictions(student_path, restrictions):
                 print(f"Testing {student_path}...")
                 copy_dirs_from(testing_dir_06, student_path)
+                ok = True
                 for t in tests:
                     subprocess.call([f"{student_path}/assembler", f"{student_path}/{t}.asm"])
-                    subprocess.call([f"diff", f"{pristine_dir}/{t}.hack", f"{student_path}/{t}.hack"])
+                    ret = subprocess.call([f"diff", "-Z", f"{pristine_dir}/{t}.hack", f"{student_path}/{t}.hack"])
+                    ok = ok and (ret == 0)
+                print("All tests passed!" if ok else "Tests failed.")
 
 def test_generated_asm(id, dirs, restrictions):
     vm_sub_dir = f"{grading_dir}/{id}/tograde"
