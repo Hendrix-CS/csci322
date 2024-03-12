@@ -131,8 +131,9 @@ def grade_project_6(restrictions):
 def test_generated_asm(id, dirs, restrictions):
     vm_sub_dir = f"{grading_dir}/{id}/tograde"
     for dir in os.listdir(vm_sub_dir):
-        if os.path.isdir(dir):
+        if os.path.isdir(os.path.join(vm_sub_dir, dir)):
             student_path = vm_sub_dir + os.path.sep + dir
+            print(f"Considering {student_path}...")
             if meets_restrictions(student_path, restrictions):
                 print(f"Testing {student_path}...")
                 copy_dirs_from(testing_dir + os.path.sep + "07", student_path)
@@ -221,7 +222,7 @@ if __name__ == "__main__":
         elif pieces[0] == "copy_dirs":
             copy_to_submissions(
                 project_dir + "nand2tetris" + os.path.sep + "projects" + os.path.sep + pieces[1] + os.path.sep,
-                grading_dir + os.path.sep + pieces[1],
+                grading_dir + os.path.sep + pieces[1] + os.path.sep + "tograde",
                 "", pieces[2:])
         elif pieces[0] == "diff":
             diff(grading_dir + "submissions" + os.path.sep + pieces[1], "assignsubmission_file", diffs[pieces[1]], pieces[2:])
