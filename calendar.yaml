@@ -190,7 +190,9 @@ entries:
       - pdf: lectures/2024-03-12-Jack-intro.pdf
     Reading: Chapter 9
   - Date: 2024-03-14
-    Topic: "Jack example: jumping Jack"
+    Topic:
+      - "Jack example: Monotris"
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F3%5F14%5F%20Jack%20example%5F%20monotris%2D20240314%5F094529%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
 
   - Date: 2024-03-19
     Topic:
