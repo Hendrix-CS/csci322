@@ -1,0 +1,23 @@
+LISP
+
+(- (+ 2 3) (* 4 17))
+
+We will write down a *grammar* for LISP:
+
+Things in quotes are "terminals",
+i.e. literal tokens.
+
+Things not in quotes are "nonterminals",
+i.e. names that we define.
+
+
+expr ::= num | '(' op expr expr ')'
+num ::= <integer literal>
+op ::= '+' | '-' | '*'
+
+To process the list of tokens into
+something more structured, we will
+make one function per nonterminal (so, in this case, 3 functions for
+expr, num, and op).
+
+"Recursive descent parser"

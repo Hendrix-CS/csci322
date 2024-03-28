@@ -210,11 +210,19 @@ entries:
       rows:
         - Chapter 10
         - code:
-            tokenizer24/Tokenizer.py
+            compiler24/Tokenizer.py
         - code:
-            tokenizer24/Main.py
+            compiler24/Main.py
   - Date: 2024-03-28
-    Topic: A simple LISP compiler
+    Topic:
+      - Tokenizer; a simple LISP compiler
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F3%5F28%5F%20more%20tokenizing%2D20240328%5F094552%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+    Reading:
+      rows:
+        - code:
+            compiler24/Tokenizer.py
+        - code:
+            compiler24/LISPCompiler.py
   - Date: 2024-03-29
     Projects:
       link:
