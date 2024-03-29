@@ -1,3 +1,8 @@
+# NOTE!!! This is an old version.  Much better to have tokenizer
+# create list of all tokens up front (using a Token class to create
+# token objects) then implement peek() and next() functions.  See
+# compiler24/Tokenizer.py.
+
 # Arbitrary constants to represent token types
 
 KEYWORD = 0
