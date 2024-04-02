@@ -1,0 +1,11 @@
+push constant 2
+push constant 3
+add
+push constant 2
+push constant 0
+push constant 9
+call Math.multiply 2
+add
+push constant 17
+call Math.multiply 2
+sub

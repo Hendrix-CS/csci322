@@ -17,7 +17,14 @@ op ::= '+' | '-' | '*'
 
 To process the list of tokens into
 something more structured, we will
-make one function per nonterminal (so, in this case, 3 functions for
+make one function per nonterminal
+(so, in this case, 3 functions for
 expr, num, and op).
 
 "Recursive descent parser"
+
+Extended version:
+
+expr ::= num | '(' op expr+ ')'
+num ::= <integer literal>
+op ::= '+' | '-' | '*'

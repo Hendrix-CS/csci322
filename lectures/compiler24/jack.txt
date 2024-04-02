@@ -1,0 +1,33 @@
+className: identifier
+subroutineName: identifier
+
+class: 'class' className '{'
+  classVarDec*
+  subroutineDec*
+  '}'
+
+subroutineDec:
+  ('constructor' | 'function' | 'method')
+  ('void' | type)
+  subroutineName
+  '(' parameterList ')' subroutineBody
+
+parameterList: don't worry about this yet
+
+subroutineBody: '{' varDec* statements '}'
+
+varDec: don't worry
+
+statements: statement*
+
+statement:
+  letStatement | ifStatement | whileStatement
+  | doStatement | returnStatement
+
+doStatement: 'do' subroutineCall ';'
+
+subroutineCall: subroutineName '(' expressionList ')'
+  | (className | varName) '.' subroutineName '(' ... ')'
+
+----------------------------------------------------
+

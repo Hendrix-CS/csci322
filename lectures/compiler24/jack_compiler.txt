@@ -1,0 +1,34 @@
+# Pseudocode for a Jack compiler
+
+compile_class():
+  expect 'class'
+  read identifier token and remember class name
+  expect '{'
+
+  # do something with classVarDec*, later
+  # for now, tests for 10/11B do not have
+  # any
+
+  while peek != '}':
+    compile_subroutine_dec()
+
+  expect '}'
+
+compile_subroutine_dec():
+  # 'constructor', etc.;  for now, we know
+  # this will be 'function'
+  subroutine_type = next()
+
+  # for now, this is 'void'
+  return_type = next()
+
+  subroutine_name = identifier()
+
+  expect '('
+  # TODO: process parameter list
+  num_params = 0
+  expect ')'
+
+  w.write_function(class_name + '.' + subroutine_name, num_params)
+
+  compile_subroutine_body()

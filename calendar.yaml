@@ -230,7 +230,16 @@ entries:
         url: projects/10a-tokenizer.html
 
   - Date: 2024-04-02
-    Topic: Compiling Jack to VM
+    Topic:
+      - Compiling Jack to VM
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F1%5F%20Compilation%2D20240402%5F094516%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpControl%2Eview
+    Reading:
+      rows:
+        - code: compiler24/lisp.txt
+        - code: compiler24/LISPCompiler.py
+        - code: compiler24/VMWriter.py
+        - code: compiler24/jack.txt
+        - code: compiler24/jack_compiler.txt
   - Date: 2024-04-03
     Projects:
       link:
