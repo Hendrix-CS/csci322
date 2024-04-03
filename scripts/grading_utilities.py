@@ -197,7 +197,8 @@ if __name__ == "__main__":
     base_dir = project_dir + "submissions"
     dispatch = {"01": grade_project_1, "02": grade_project_2, "03": grade_project_3,
                 "04": grade_project_4, "05": grade_project_5, "06": grade_project_6,
-                "07": test_generated_asm_7, "08": test_generated_asm_8}
+                "07": test_generated_asm_7, "08": test_generated_asm_8,
+                "11b": grade_project_11b}
     diffs = {"06": (".baseline", ".hack", ["add\\Add", "max\\MaxL", "rect\\RectL", "pong\\PongL", "max\\Max", "rect\\Rect", "pong\\Pong"])}
 
     while reply[0] != "q":
@@ -221,8 +222,8 @@ if __name__ == "__main__":
                 print(f"Project {pieces[1]} has no grading function")
         elif pieces[0] == "copy_dirs":
             copy_to_submissions(
-                project_dir + "nand2tetris" + os.path.sep + "projects" + os.path.sep + pieces[1] + os.path.sep,
-                grading_dir + os.path.sep + pieces[1] + os.path.sep + "tograde",
+                os.path.join(n2t_dir, "projects", pieces[1]),
+                os.path.join(grading_dir, pieces[1], "tograde"),
                 "", pieces[2:])
         elif pieces[0] == "diff":
             diff(grading_dir + "submissions" + os.path.sep + pieces[1], "assignsubmission_file", diffs[pieces[1]], pieces[2:])
