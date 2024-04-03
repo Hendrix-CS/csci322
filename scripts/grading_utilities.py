@@ -197,8 +197,7 @@ if __name__ == "__main__":
     base_dir = project_dir + "submissions"
     dispatch = {"01": grade_project_1, "02": grade_project_2, "03": grade_project_3,
                 "04": grade_project_4, "05": grade_project_5, "06": grade_project_6,
-                "07": test_generated_asm_7, "08": test_generated_asm_8,
-                "11b": grade_project_11b}
+                "07": test_generated_asm_7, "08": test_generated_asm_8}
     diffs = {"06": (".baseline", ".hack", ["add\\Add", "max\\MaxL", "rect\\RectL", "pong\\PongL", "max\\Max", "rect\\Rect", "pong\\Pong"])}
 
     while reply[0] != "q":
