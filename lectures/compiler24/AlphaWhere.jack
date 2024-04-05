@@ -1,0 +1,123 @@
+// This file is based on www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+//
+// Author: Gabriel Ferrer
+// File name: projects/11/AlphaWhere/Main.jack
+
+/**
+ * Determines if the character input is in the first half or second half of the alphabet.
+ * Prints -1 for first half and 0 for second half.
+ */
+class Main {
+
+   function void main() {
+      var int value;
+      let value = Keyboard.readChar() - 77;
+      do Output.println();
+      if (value < 0) {
+         do Output.printInt(true);
+      } else {
+         do Output.printInt(false);
+      }
+      return;
+   }
+
+   function .... {
+      var boolean f;
+      var int value;
+
+   }
+}
+
+/*
+function Main.main 1
+
+call Keyboard.readChar 0
+push constant 77
+sub
+pop local 0
+
+call Output.println 0
+pop temp 0
+
+push local 0   # push value on stack
+push constant 0
+lt
+not
+if-goto IFFALSE
+
+push constant ???
+call Output.printInt 1
+pop temp 0
+
+goto IFEND
+label IFFALSE
+
+push constant ???
+call Output.printInt 1
+pop temp 0
+
+label IFEND
+
+
+
+
+
+*/
+
+
+// label L
+// goto L
+// if-goto L
+
+// if (e) {
+//   stmt1
+// } else {
+//   stmt2
+// }
+
+// code for e
+// if-goto IFTRUE
+// goto IFFALSE
+// label IFTRUE
+// stmt1
+// goto IFEND
+// label IFFALSE
+// stmt2
+// label IFEND
+
+// OR:
+
+// code for e
+// not
+// if-goto IFFALSE
+// stmt1
+// goto IFEND
+// label IFFALSE
+// stmt2
+// label IFEND
+
+
+// while (e) {
+//   stmt
+// }
+
+// label STARTWHILE
+// e
+// if-goto WHILE
+// goto ENDWHILE
+// label WHILE
+// stmt
+// goto STARTWHILE
+// label ENDWHILE
+
+// OR:
+
+// label STARTWHILE
+// e
+// not
+// if-goto ENDWHILE
+// stmt
+// goto STARTWHILE
+// label ENDWHILE

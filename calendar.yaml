@@ -246,10 +246,15 @@ entries:
         text: 'Project 10/11B: Statements'
         url: projects/1011b-statements.html
   - Date: 2024-04-04
-    Topic: Compiling conditionals and loops
+    Topic:
+      - 'Compiling: symbol tables, conditionals, and loops'
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F4%5F%20symbol%20tables%2C%20expressions%2C%20if%2Bwhile%2D20240404%5F094544%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpControl%2Eview
     Projects: Grading contract evaluation II due
     Reading:
       rows:
+        - code: compiler24/jack.txt
+        - code: compiler24/jack_compiler.txt
+        - code: compiler24/AlphaWhere.jack
         - Chapter 11
         - link:
             text: 'GO TO statement considered harmful'
