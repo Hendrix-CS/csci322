@@ -16,7 +16,7 @@ parameterList: don't worry about this yet
 
 subroutineBody: '{' varDec* statements '}'
 
-varDec: don't worry
+varDec: 'var' type varName (',' varName)* ';'
 
 statements: statement*
 
@@ -26,8 +26,25 @@ statement:
 
 doStatement: 'do' subroutineCall ';'
 
+expression: term (op term)*
+
+term: integerConstant
+  | stringConstant
+  | keywordConstant
+  | '(' expression ')'
+  | unaryOp term
+
+  | varName
+  | varName '[' expression ']'
+  | subroutineCall
+
 subroutineCall: subroutineName '(' expressionList ')'
   | (className | varName) '.' subroutineName '(' ... ')'
+
+Main.main(blah)   -- calling a 'function'
+f.foo(bar)        -- calling the 'method' foo on the object f
+foo(bar)          -- calling function/method within
+                  -- current class
 
 ----------------------------------------------------
 

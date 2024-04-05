@@ -26,9 +26,60 @@ compile_subroutine_dec():
 
   expect '('
   # TODO: process parameter list
-  num_params = 0
   expect ')'
 
-  w.write_function(class_name + '.' + subroutine_name, num_params)
-
   compile_subroutine_body()
+
+compile_subroutine_body():
+  expect '{'
+  compile_var_decs()
+
+  num_locals = symbol_table.num_local_vars()
+  w.write_function(class_name + '.' + subroutine_name, num_locals)
+
+  compile_statements()
+  expect '}'
+
+compile_var_decs():
+  while peek() = 'var':
+    compile_var_dec()
+
+compile_var_dec():
+  expect 'var'
+  ty = next()
+  var_name = identifier()
+
+  symbol_table.define(var_name, ty, LOCAL)
+
+  while peek() == ',':
+    read another one, put in the symbol table
+
+  expect ';'
+
+compile_let_statement():
+  expect 'let'
+  var_name = identifier()
+  # Then optional brackets for array assignment --- later
+  expect '='
+  compile_expression()
+  expect ';'
+
+  look up var_name in symbol table, find its kind (= segment) and index
+  w.write_pop(segment, index)
+
+------------------------------------------------------------
+-- Symbol table
+
+Dictionary mapping variable names to information about a variable:
+
+  - type
+  - kind (local, argument, static, or field)
+  - index within its segment (assigned in sequence starting from 0)
+
+Symbol table also needs to remember the next available index
+  for each kind
+
+Really two symbol tables:
+  - one "global" for static + field variables
+  - one "local" for local + argument variables
+    - resets to empty at the beginning of each new subroutine
