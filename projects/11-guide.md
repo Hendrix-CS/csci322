@@ -116,10 +116,16 @@ To compile Average, you need to generate code for the following additional symbo
 ComplexArray
 ------------
 
-In theory, ComplexArray should compile if Average compiles. It is a
-much tougher test case, though. Make sure that the destination of the
-expression in a let statement does not have `THAT` inadvertently
-overwritten.
+To compile ComplexArray, you will additionally need to generate code
+for:
+
+- `term` (specifically `null`)
+
+In theory, other than that, ComplexArray should compile if Average
+compiles. It is a much tougher test case, though. Make sure that the
+destination of the expression in a let statement does not have `THAT`
+inadvertently overwritten; your book has a detailed discussion of this
+problem with a suggestion of how to do it correctly.
 
 Square
 ------
