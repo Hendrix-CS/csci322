@@ -266,7 +266,11 @@ entries:
         text: 'Project 10/11C: Conditionals and Loops'
         url: projects/1011c-cond-loops.html
   - Date: 2024-04-09
-    Topic: Compiling arrays
+    Topic:
+      - Compiling arrays
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F9%5F%20compiling%20arrays%2D20240409%5F094545%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpControl%2Eview
+    Reading:
+      code: compiler24/Average.jack
   - Date: 2024-04-11
     Topic: Compiling classes
 
