@@ -272,7 +272,15 @@ entries:
     Reading:
       code: compiler24/Average.jack
   - Date: 2024-04-11
-    Topic: Compiling classes
+    Topic:
+      - Compiling classes
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F11%5F%20compiling%20classes%2D20240411%5F094604%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+    Reading:
+      rows:
+        - code: compiler24/Square/Main.jack
+        - code: compiler24/Square/SquareGame.jack
+        - code: compiler24/Square/Square.jack
+        - code: compiler24/Pong/PongGame.jack
 
   - Date: 2024-04-15
     Projects:

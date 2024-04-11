@@ -6,6 +6,11 @@ class: 'class' className '{'
   subroutineDec*
   '}'
 
+classVarDec:
+  ('static' | 'field')
+  type
+  varName (',' varName)* ';'
+
 subroutineDec:
   ('constructor' | 'function' | 'method')
   ('void' | type)

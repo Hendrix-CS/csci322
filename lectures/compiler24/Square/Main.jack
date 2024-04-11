@@ -1,0 +1,36 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/11/Square/Main.jack
+
+/** Initializes a new Square Dance game and starts running it. */
+class Main {
+    function void main() {
+        var SquareGame game;
+        let game = SquareGame.new();
+        do game.run();
+        do game.dispose();
+        return;
+    }
+}
+
+/*
+
+// do game.run()
+
+push local 0               // push object on stack
+call SquareGame.run 1      // call method with the object as secret 1st argument
+
+// Questions:
+// Q: If we see    identifier . identifier ( .... ), how can we tell the difference between
+//       Class.function(...)  and   object.method(...)   ?
+
+// A: Try looking up the first identifier in the symbol table.  If it is there, it is
+//    a variable name that holds an object, hence we are calling a method on it.  If it
+//    is not there, we assume it is the name of a class.
+
+// Q: If we have  object.method(...), how do we know what class name to use?
+// A: Look up the type of the variable in the symbol table!  (This is the only reason we need to store
+//    types of variables in the symbol table.)
+
+*/
