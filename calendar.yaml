@@ -288,7 +288,10 @@ entries:
         text: 'Project 10/11D: Classes and Arrays'
         url: projects/1011d-classes-arrays.html
   - Date: 2024-04-16
-    Topic: Operating system I
+    Topic:
+      - Operating system I
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F16%5F%20OS%20I%20%28Sys%2C%20Array%2C%20String%2C%20Keyboard%2C%20Math%29%2D20240416%5F094513%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-04-16-OS-I.pdf
     Reading: Chapter 12
   - Date: 2024-04-18
     Topic: Operating system II
