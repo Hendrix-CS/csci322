@@ -1,0 +1,2 @@
+#!/bin/zsh
+for f in */*.jack; do $1 $f; diff -ws ~/teaching/322/pristine/nand2tetris/projects/10/$f:rT.xml $f:rT.xml; done

@@ -1,0 +1,2 @@
+#!/bin/zsh
+for f in *.jack; do cp $f $f:rTest/; ~/teaching/322/nand2tetris/tools/JackCompiler.sh $f:rTest; done
