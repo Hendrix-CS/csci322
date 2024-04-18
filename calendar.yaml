@@ -294,7 +294,10 @@ entries:
       - pdf: lectures/2024-04-16-OS-I.pdf
     Reading: Chapter 12
   - Date: 2024-04-18
-    Topic: Operating system II
+    Topic:
+      - Operating system II
+      - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F18%5F%20OS%20II%20%28Screen%2C%20Output%2C%20Memory%29%2D20240418%5F094513%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+      - pdf: lectures/2024-04-18-OS-II.pdf
 
   - Date: 2024-04-22
     Projects:
