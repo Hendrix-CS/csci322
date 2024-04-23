@@ -307,8 +307,12 @@ entries:
   - Date: 2024-04-23
     Topic:
       rows:
-        - Memory allocation and randomness
+        -
+          - Memory allocation and randomness
+          - stream: https://hendrix.sharepoint.com/sites/Section_29479/_layouts/15/stream.aspx?id=%2Fsites%2FSection%5F29479%2FShared%20Documents%2FGeneral%2FRecordings%2F4%5F23%5F%20OS%20II%2C%20randomness%2D20240423%5F094716%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
+          - pdf: 2024-04-23-randomness.pdf
         - Course evaluations
+
   - Date: 2024-04-25
     Topic: Project work day
   - Date: 2024-04-26
