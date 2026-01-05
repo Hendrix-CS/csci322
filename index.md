@@ -48,15 +48,75 @@ Upon completing this course, you will be able to:
 
 # <a name="calendar">Calendar</a>
 
-<div style="text-align: center">
-<a class="btn btn-primary" href="{{ site.submission }}">
-  Assignment submission form
-</a>
-</div>
-<br/>
 
 <!-- BEGIN CALENDAR -->
 
+| Date          | Topic                              | Reading    | Deadlines                       |
+| --------------|------------------------------------|------------|------------------------------------------------------------|
+| **W 21 Jan**  | Boolean Logic Circuits             | Chapter 1  |      
+| **F 23 Jan**  | Hardware Description Language      | Appendix A |
+|
+| **M 26 Jan**  | Boolean Arithmetic                 | Chapter 2  | [Project 1: Boolean logic](projects/01-boolean-logic.html) |
+| **W 28 Jan**  | Boolean Arithmetic
+| **F 30 Jan**  | Sequential Logic & Memory          | Chapter 3  | [Project 2: Boolean arithmetic](projects/02-boolean-arithmetic.html) 
+|
+| **M 2 Feb**   | Sequential Logic & Memory          |            |
+| **W 4 Feb**   | Machine & Assembly Language        | Chapter 4  | [Project 3: Memory](projects/03-memory.html)
+| **F 6 Feb**   | Hack Assembly Examples             |            | Formative Assessment 1
+|
+| **M 9 Feb**   | Turing Machine CPU                 | Chapter 5  |
+| **W 11 Feb**  | More Turing Machine CPU            |            | [Project 4: Machine language](projects/04-machine-language.html)
+| **F 13 Feb**  | CPU History                        |            | Formative Assessment 2
+|
+| **M 16 Feb**  | **NO CLASS: Midwinter Break**
+| **W 18 Feb**  | **NO CLASS: Away at conference**
+| **F 20 Feb**  | **NO CLASS: Away at conference**   |            | 
+|
+| **M 23 Feb**  | Assemblers                         | Chapter 6  | [Project 5: Computer architecture](projects/05-computer-architecture.html)
+| **W 25 Feb**  | Assemblers
+| **F 27 Feb**  | 6502 Architecture
+|
+| **M 2 March** | Virtual Machines & Stacks          | Chapter 7  | [Project 6: Assembler](projects/06-assembler.html)
+| **W 4 March** | VM to Hack Translation
+| **F 6 March** | VM to Hack Translation             |            | Formative Assessment 3
+|
+| **M 9 March** | VM Branching                       | Chapter 8  | [Project 7: VM I: Stack Arithmetic](projects/07-stack-arithmetic.html) 
+| **W 11 March**| VM Function Activation Records
+| **F 13 March**| More about VMs
+|
+| **M 16 March**| Introduction to Jack               | Chapter 9  | [Project 8: VM II: Program control](projects/08-program-control.html)
+| **W 18 March**| Jack Example: Monotris
+| **F 20 March**| Jack work day                      |            | [Project 9: High-level programming](projects/09-high-level.html)
+|
+| **M 23 March**| **NO CLASS: Spring Break**
+| **W 25 March**| **NO CLASS: Spring Break**
+| **F 27 March**| **NO CLASS: Spring Break**
+|
+| **M 30 March**| Tokenizing input                   | Chapter 10
+| **W 1 April** | Simple LISP Compiler               |            | Formative Assessment 4
+| **F 3 April** | Compiling Jack to VM               | Chapter 11 | [Project 10/11A: Tokenizer](projects/10a-tokenizer.html)
+|
+| **M 6 April** | Compiling Symbol Tables            |            |
+| **W 8 April** | Compiling Conditionals/Loops       |            | [Project 10/11B: Statements](projects/1011b-statements.html)
+| **F 10 April**| **NO CLASS: Away at conference**   |            | 
+|
+| **M 13 April**| Compiling Arrays                   
+| **W 15 April**| Compiling Classes/Objects          |            | [Project 10/11C: Conditionals and Loops](projects/1011c-cond-loops.html)
+| **F 17 April**| Compiling Classes/Objects
+|
+| **M 20 April**| OS: Start, Stop, Keyboard, Arrays  | Chapter 12 | [Project 10/11D: Classes and Arrays](projects/1011d-classes-arrays.html)
+| **W 22 April**| OS: Strings, Advanced Arithmetic   
+| **F 24 April**| OS: Heap                           |            | Formative Assessment 5          
+|
+| **M 27 April**| OS: Graphics                       |            | [Project 12A: Operating System II](projects/12-OS.html)
+| **W 29 April**| OS: Output                       
+| **F 1 May**   | Retrospective
+|
+| *M 4 May*     | *(Reading Day)*                    |            | [Project 12B: Operating System II](projects/12-OS.html)
+|               |
+| **F 8 May**   | Final Exam Period (8:30-11:30 am)  |            | Formative Assessment: Final
+
+<!--
 | Date          | Topic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Reading & Links                                                                                      | Due dates (recommended A schedule)                                         |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | **T 16 Jan**  | *No class (snow)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                      |                                                                            |
@@ -143,213 +203,73 @@ Upon completing this course, you will be able to:
 |               | Course evaluations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                      |                                                                            |
 | **Th 25 Apr** | Project work day                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                      |                                                                            |
 | *F 26 Apr*    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                      | [Project 12B: Operating System II](projects/12-OS.html)                    |
+-->
 
 <!-- END CALENDAR -->
 
 <hr />
 # <a name="grading">Grading</a>
 
-## <a name="contracts">Grading contracts</a>
+## Project credits
 
-You will prepare and submit for my approval a *grading contract and
-work plan* explaining your chosen final grade and what you will do to
-achieve it.  You will then earn your chosen final grade by fulfilling
-the agreed-upon contract.
+* Each project is assigned Level 1 or Level 2 completion when submitted.
+  * A Level 2 submission is fully complete, passing **all** assigned tests.
+  * A Level 1 project is sincerely attempted, passing at least **half** of the assigned tests.
+  * Each submission earns from 1 to 3 project credits
+    * One credit for each level achieved.
+    * One additional credit for submitting on or before the deadline.
+* A project receiving Level 1 credit may be revised and resubmitted **once** in order to
+  be promoted to Level 2 credit.
+* As there are 15 projects, when accounting for the on-time credits
+  there are 45 total project credits available.
 
-This may be different than what you are used to.  Professor [Cathy
-Davidson](https://www.gc.cuny.edu/people/cathy-n-davidson) of CUNY
-perfectly sums up the reasons for doing things this way:
+## Formative Assessments
 
-> The advantage of contract grading is that you, the student, decide
-> how much work you wish to do this semester; if you complete that
-> work on time and satisfactorily, you will receive the grade for
-> which you contracted. This means planning ahead, thinking about all
-> of your obligations and responsibilities this semester and also
-> determining what grade you want or need in this course. The
-> advantage of contract grading to the professor is no whining, no
-> special pleading, on the student's part. If you complete the work you
-> contracted for, you get the grade. Done. I respect the student who
-> only needs a C, who has other obligations that preclude doing all of
-> the requirements to earn an A in the course, and who contracts for
-> the C and carries out the contract perfectly.
+* After completing groups of projects at Level 2, a student is expected to 
+  undertake a **formative assessment** by visiting the instructor's office 
+  hours for a demonstration of understanding.  
+* A Level 1 assessment demonstrates some understanding of the topic but 
+  with significant gaps.
+* A Level 2 assessment demonstrates full expected understanding of the topic.
+* Each assessment earns from 1 to 3 project credits
+  * One credit for each level achieved.
+  * One additional credit for assessing on or before the deadline.
+* If a student receives a Level 1 assessment, they are welcome to schedule a second
+  formative assessment to attempt to achieve Level 2 based on feedback from the
+  assessment.
+* There are six assessments, yielding a total of 18 available assessment credits.
 
-### Required components of a grading contract
+| Assessment | Project Group         | Deadline       |
+| ----------:|-----------------------|----------------|
+| 1          | Projects 1, 2         | **F 6 Feb**    | 
+| 2          | Projects 3, 4         | **F 13 Feb**   |
+| 3          | Projects 5, 6         | **F 6 March**  |
+| 4          | Projects 7, 8         | **W 1 April**  |
+| 5          | Projects 9, 10/11 A-D | **F 24 April** |
+| Final      | Projects 12A-B        | **F 8 May**    |
 
-There is no specific format required for a grading contract, but it
-must have the following components:
+## Course Grade
 
-- **Your desired course grade.**  You may choose to contract for an A,
-  B, or C (if you're wondering about D's and F's, [see
-  below](#evaluation)).  Note that your grading contract *should not*
-  explain the *reasons* for your choice.  I will not judge you because
-  of your choice, and you do not need to justify it: there are as many
-  different valid reasons for choosing to work toward a particular
-  final grade as there are students.  If you do wish to explain to me the
-  reasons for your choice---which you are in no way required to
-  do---you may do so in an email, a personal conversation, *etc.*, but
-  it should not go in your contract.
+To earn any grade of C or higher:
+* Complete the [CSCI student information survey](https://forms.gle/VLRVHjUAisWP5R9J8).
 
-- **A description of the work and requirements you will complete, in
-  checklist format.**  It doesn't have to be super detailed, but you
-  do have to explicitly include everything.  For example, you can't
-  just say "I will complete all the assignments listed in the
-  syllabus"; you must actually list them.  This is so that you and I
-  both know that you are explicitly aware of the requirements, and to
-  help you keep track of what you have completed and what you have yet
-  to complete.  You also have some choice in terms of which
-  assignments you complete, so you must record your choice in the
-  contract.
-
-  **Note** that at the beginning of the semester you may not have a
-  very good idea about this.  For example, if you need to complete
-  9 projects, it's not reasonable to insist that you know which
-  specific projects you plan to complete.  However, you can refine your
-  contract over the course of the semester.  You just have to put
-  **something** to start; for example, a reasonable default would be
-  to plan to complete the first nine projects assigned.  I have also
-  provided some sample selections of projects and due dates below.
-
-- **The specific due date and time for each project you will
-  complete**.  You must commit to specific due dates at the beginning
-  of the semester.  You may choose to simply use one of my suggested
-  schedules of deadlines, but I encourage you to think carefully about
-  any commitments you have (plays, travel for sports, exams in other
-  classes) and how you might wish to adjust your due dates as a
-  result.
-
-- **A work plan**.  Success in this class requires consistent,
-  sustained effort; for an A, you should expect to spend about 7 hours
-  a week outside of class working on projects. Along with your grade
-  contract, you must turn in a *work plan*, a one-to-two paragraph
-  plan for how you will make time to work on the course projects. Be
-  as specific as possible, and be creative in coming up with very
-  specific ways to help yourself succeed. Some examples:
-
-    -   Horrible: "I will work on CSO projects  7 hours per week."
-
-    -   Bad: "I will work on CSO projects from 2-4pm every Tuesday and
-        from 9-noon every Sunday."
-
-    -   Good: "Every Tuesday from 2-5pm, I will go to the library
-        which is a good distraction-free place for me to work.  I will
-        turn off my phone and put Teams in "Do Not Disturb" mode. I
-        will spend the first 15 minutes reviewing material from class
-        and the textbook.  The rest of the time will be devoted to
-        working on the latest project, referring back to the textbook
-        and in-class materials as necessary.  I will work in 25-minute
-        chunks with 5-minute breaks.  Depending on how the session
-        goes, I will write down a list of questions and schedule
-        office hours for later in the week.  On Thursdays and
-        Saturdays, ..." etc.
-
-  To receive credit, a work plan must be at the level of detail of
-  the "Good" example or higher.
-
-  Note that the work plan is not part of the "contract" per se, that
-  is, your grade is not based on how well you stick to your work plan.
-  Instead, it is intended as a helpful tool for your own planning and
-  a useful jumping-off point for discussion if you get behind.
-
-### Example grading contract
-
-For example, a grading contract might look like this:
-
-*My desired course grade in CSO is a C.  To achieve this grade, I will
-complete the following:*
-
-- [X] *CSCI student info survey*
-- [ ] *Grading contract*
-  - [X] *Submit grading contract*
-  - [ ] *Grading contract evaluation 1*
-  - [ ] *Grading contract evaluation 2*
-- [ ] *Projects (9)*
-  - [ ] *Project 1*
-  - [ ] *Project 2*
-  - [ ] *Project 3*
-  - [ ] *Project 4*
-  - [ ] *Project 5*
-  - [ ] *Project 9*
-  - [ ] *Project 10/11A*
-  - [ ] *Project 10/11B*
-  - [ ] *Project 12A*
-
-*I will use the recommended deadline schedule for 9 projects, except
-that my deadlines will be at 10pm instead of 5pm, and I will turn in
-Project 5 by 2/24 instead of 2/26. [Your schedule of deadlines will
-hopefully be more detailed/customized than this.]*
-
-*My work plan is as follows: [your detailed work plan here]*
-
-### Grading contract submission
-
-You must turn in an initial proposed grading contract by the **start
-of class on Thursday, January 18th**.  After the initial submission, I
-may require some revisions before I approve your contract.
-
-### <a name="evaluation">Contract evaluation and adjustment</a>
-
-Two times during the semester (Thursday, February 22 and Thursday,
-April 4) you are required to reflect on your progress in the course
-and complete an evaluation of your work, comparing it against what you
-agreed to in your grading contract.  Your evaluation should:
-
-1. Contain a copy of your original grading contract, with items you
-   have completed checked off.
-
-2. Revise your grading contract with more specific details as
-   appropriate, for example, regarding which projects you intend to
-   complete.
-
-3. Include a 1-2 paragraph reflection, which answers questions such as the
-   following:
-
-    * What have you done well?
-    * What have you learned?
-    * What could you do to improve your learning?
-    * What could I (the instructor) do to improve your learning?
-    * Are there ways in which you have not lived up to the requirements of
-      your contract, and if so, what steps are you taking, or will you
-      take, to rectify that?
-
-Your evaluation is also an opportunity to request an adjustment to
-your contract in either direction. If you find that you will be unable
-to meet the obligations of your contract, you may request to move to a
-lower grade and its requirements. Contrariwise, if you find that
-you’ve been performing above the obligations of your contract, you may
-request to fulfill the requirements for a higher grade.
-
-**Note**, however, that you don't have to wait for an evaluation to
-adjust your contract.  If your life has really gone off the rails (or
-if, say, you are finding the class easier and more enjoyable than you
-thought!) just come and talk to me about adjusting your contract.
-
-### <a name="requirements">A, B, and C grades</a>
-
-* To earn an A in the course, you must complete all the requirements
-  for a C, and complete all 15 [projects](#projects)---that is,
-  build a complete, working computer.
-
-* To earn a B in the course, you must complete all the requirements
-  for a C and complete a minimum of 12 [projects](#projects).
-
-* To earn a C in the course, you must:
-    * Complete the [CSCI student information survey](https://forms.gle/VLRVHjUAisWP5R9J8).
-    * Submit and agree on a [grading contract](#grading) with the instructor.
-    * Complete two [grading contract evaluations](#evaluation).
-	* Complete a minimum of nine [projects](#projects).
-
-### D and F grades
-
-[*Adapted from Cathy Davidson.*] You cannot intentionally contract for
-a grade of D (and certainly not for an F).  However, I reserve the
-right to award a grade of D or F to anyone who fails to meet their
-contractual obligations in a systematic way. A "D" grade denotes some
-minimal fulfilling of the contract (typically, I would want to see at
-least 5 projects complete). An "F" denotes absence of enough
-satisfactory work, as contracted, to warrant passing of the
-course. Both a "D" and "F" denote a breakdown of the contractual
-relationship.
-
+Credit thresholds
+* To earn an A in the course:
+  * At least 42 Project Credits
+    * All 15 projects Level 2
+  * At least 17 Assessment Credits
+* To earn a B in the course:
+  * At least 33 Project Credits
+    * At least 12 projects Level 2
+  * At least 14 Assessment Credits
+* To earn a C in the course:
+  * At least 24 Project Credits
+    * At least 9 projects Level 2
+  * At least 11 Assessment Credits
+* To earn a D in the course:
+  * At least 15 Project Credits
+  * At least 8 Assessment Credits
+  
 <hr>
 # Coursework and policies
 
@@ -359,9 +279,9 @@ Your work in this course will consist of a series of challenging
 projects from our textbook.  Taken all together, they will result in a
 complete, working (simulated) computer.
 
-Below you will find a list of all the projects in one place, as well
+<!--Below you will find a list of all the projects in one place, as well
 as suggested deadlines and subsets of projects depending on your
-desired grade.
+desired grade.-->
 
 The average completion time shown for each project is based on
 self-reported time spent by students in Spring 2022.  However, keep in
@@ -376,24 +296,25 @@ probably similar to 12A.
 </div>
 <br/>
 
-| #      | Topic                                                          | Avg time (hrs) | A        | B        | C        |
-|:------:|----------------------------------------------------------------|:--------------:|:--------:|:--------:|:--------:|
-| 1      | [Boolean logic](projects/01-boolean-logic.html)                | 5              | F 19 Jan | F 19 Jan | M 22 Jan |
-| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | 5              | W 24 Jan | W 24 Jan | M 29 Jan |
-| 3      | [Memory](projects/03-memory.html)                              | 5              | M 29 Jan | M 29 Jan | W 7 Feb  |
-| 4      | [Machine language](projects/04-machine-language.html)          | 6              | M 5 Feb  | M 5 Feb  | F 16 Feb |
-| 5      | [Computer archtecture](projects/05-computer-architecture.html) | 7              | M 12 Feb | W 14 Feb | M 26 Feb |
-| 6      | [Assembler](projects/06-assembler.html)                        | 8              | M 19 Feb | M 26 Feb |          |
-| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | 8              | M 26 Feb | M 4 Mar  |          |
-| 8      | [VM II: program control](projects/08-program-control.html)     | 8              | M 4 Mar  |          |          |
-| 9      | [High-level programming](projects/09-high-level.html)          | 7              | M 11 Mar | M 11 Mar | M 11 Mar |
-| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | 5              | F 29 Mar | M 1 Apr  | F 5 Apr  |
-| 10/11B | [Statements](projects/1011b-statements.html)                   | 7              | W 3 Apr  | W 10 Apr | M 15 Apr |
-| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | 8              | M 8 Apr  | W 17 Apr |          |
-| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | 8              | M 15 Apr |          |          |
-| 12A    | [Operating system I](projects/12-OS.html)                      | 6              | M 22 Apr | F 26 Apr | F 26 Apr |
-| 12B    | [Operating system II](projects/12-OS.html)                     | ?              | F 26 Apr |          |          |
+| #      | Topic                                                          | Avg time (hrs) | 
+|:------:|----------------------------------------------------------------|:--------------:|
+| 1      | [Boolean logic](projects/01-boolean-logic.html)                | 5              | 
+| 2      | [Boolean arithmetic](projects/02-boolean-arithmetic.html)      | 5              | 
+| 3      | [Memory](projects/03-memory.html)                              | 5              | 
+| 4      | [Machine language](projects/04-machine-language.html)          | 6              | 
+| 5      | [Computer archtecture](projects/05-computer-architecture.html) | 7              | 
+| 6      | [Assembler](projects/06-assembler.html)                        | 8              | 
+| 7      | [VM I: stack arithmetic](projects/07-stack-arithmetic.html)    | 8              | 
+| 8      | [VM II: program control](projects/08-program-control.html)     | 8              | 
+| 9      | [High-level programming](projects/09-high-level.html)          | 7              | 
+| 10/11A | [Tokenizer](projects/10a-tokenizer.html)                       | 5              | 
+| 10/11B | [Statements](projects/1011b-statements.html)                   | 7              | 
+| 10/11C | [Conditionals and loops](projects/1011c-cond-loops.html)       | 8              | 
+| 10/11D | [Classes and arrays](projects/1011d-classes-arrays.html)       | 8              | 
+| 12A    | [Operating system I](projects/12-OS.html)                      | 6              | 
+| 12B    | [Operating system II](projects/12-OS.html)                     | ?              | 
 
+<!--
 Keep in mind that the deadlines in the above table are only
 suggestions!  You can and should customize to your heart's content.
 For example:
@@ -450,6 +371,7 @@ For example:
 
 - The absolute latest any project may be turned in is **5pm on Wednesday,
   May 1.**
+-->
 
 ### <a name="integrity">Academic integrity</a>
 
@@ -466,19 +388,12 @@ completion of these projects.
   wrote this function but it doesn't work correctly".  In the former
   case you should come see me in office hours.
 
-* You **may** use generative AI tools such as ChatGPT or GitHub
-  Copilot.
-
-    - The projects in this class are sufficiently high-level that
-      generative AI is not going to be able to do them for you.  It
-      could be an interesting learning experience to figure out ways
-      to use these tools effectively.
-
-    - If you do use generative AI tools, you **must cite their use**
-      (*e.g.* in a comment explaining how you used them).
-
 * You **may not**:
 
+    - **Use generative AI coding tools** such as ChatGPT, Claude, or 
+      GitHub copilot. Be sure to disable any such tools that may be 
+      bundled with your IDE or editor.
+    
     - **Read** any solution to any project, whether from another
       student, found online, or from any other source.
 
