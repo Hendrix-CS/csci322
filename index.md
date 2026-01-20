@@ -82,9 +82,9 @@ Upon completing this course, you will be able to:
 |
 | **M 9 March** | VM Branching                       | Chapter 8  | [Project 7: VM I: Stack Arithmetic](projects/07-stack-arithmetic.html) 
 | **W 11 March**| VM Function Activation Records
-| **F 13 March**| More about VMs
+| **F 13 March**| Introduction to Jack               | Chapter 9  |
 |
-| **M 16 March**| Introduction to Jack               | Chapter 9  | [Project 8: VM II: Program control](projects/08-program-control.html)
+| **M 16 March**| **NO CLASS: Off-campus appointment** |          | [Project 8: VM II: Program control](projects/08-program-control.html)
 | **W 18 March**| Jack Example: Monotris
 | **F 20 March**| Jack work day                      |            | [Project 9: High-level programming](projects/09-high-level.html)
 |
