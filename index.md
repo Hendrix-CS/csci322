@@ -225,13 +225,13 @@ Upon completing this course, you will be able to:
 
 ## Formative Assessments
 
-* After completing groups of projects at Level 2, a student is expected to 
+* After completing groups of projects at Level 2 or higher, a student is expected to 
   undertake a **formative assessment** by visiting the instructor's office 
   hours for a demonstration of understanding.  
 * A Level 1 assessment demonstrates some understanding of the topic but 
   with significant gaps.
 * A Level 2 assessment demonstrates full expected understanding of the topic.
-* Each assessment earns from 1 to 3 project credits
+* Each assessment earns from 1 to 3 assessment credits
   * One credit for each level achieved.
   * One additional credit for assessing on or before the deadline.
 * If a student receives a Level 1 assessment, they are welcome to schedule a second
