@@ -251,7 +251,7 @@ Upon completing this course, you will be able to:
 ## Course Grade
 
 To earn any grade of C or higher:
-* Complete the [CSCI student information survey](https://forms.gle/VLRVHjUAisWP5R9J8).
+* Complete the [CSCI student information survey](https://docs.google.com/forms/d/e/1FAIpQLSfFYzOOUaE3CCT3ocnDDentzhdEujBtAPeywT_SukFLyvKJxg/viewform).
 
 Credit thresholds
 * To earn an A in the course:
