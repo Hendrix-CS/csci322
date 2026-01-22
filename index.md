@@ -289,11 +289,11 @@ mind that actual reported times varied widely.  There was not enough
 data to compute a meaningful average for project 12B, but it is
 probably similar to 12A.
 
-<div style="text-align: center">
+<!--<div style="text-align: center">
 <a class="btn btn-primary" href="{{ site.submission }}">
   Assignment submission form
 </a>
-</div>
+</div>-->
 <br/>
 
 | #      | Topic                                                          | Avg time (hrs) | 
