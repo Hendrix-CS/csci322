@@ -56,24 +56,24 @@ Upon completing this course, you will be able to:
 | **W 21 Jan**  | Boolean Logic Circuits             | Chapter 1  |      
 | **F 23 Jan**  | Hardware Description Language      | Appendix A |
 |
-| **M 26 Jan**  | Boolean Arithmetic                 | Chapter 2  | [Project 1: Boolean logic](projects/01-boolean-logic.html) |
-| **W 28 Jan**  | Boolean Arithmetic
-| **F 30 Jan**  | Sequential Logic & Memory          | Chapter 3  | [Project 2: Boolean arithmetic](projects/02-boolean-arithmetic.html) 
+| **M 26 Jan**  | **NO CLASS: SNOW DAY**
+| **W 28 Jan**  | Boolean Arithmetic                 | Chapter 2  | [Project 1: Boolean logic](projects/01-boolean-logic.html) |
+| **F 30 Jan**  | Boolean Arithmetic
 |
-| **M 2 Feb**   | Sequential Logic & Memory          |            |
-| **W 4 Feb**   | Machine & Assembly Language        | Chapter 4  | [Project 3: Memory](projects/03-memory.html)
-| **F 6 Feb**   | Hack Assembly Examples             |            | Formative Assessment 1
+| **M  2 Feb**  | Sequential Logic & Memory          | Chapter 3  | [Project 2: Boolean arithmetic](projects/02-boolean-arithmetic.html) 
+| **W  4 Feb**  | Sequential Logic & Memory          |            |
+| **F  4 Feb**  | Machine & Assembly Language        | Chapter 4  | [Project 3: Memory](projects/03-memory.html)
 |
-| **M 9 Feb**   | Turing Machine CPU                 | Chapter 5  |
-| **W 11 Feb**  | More Turing Machine CPU            |            | [Project 4: Machine language](projects/04-machine-language.html)
-| **F 13 Feb**  | CPU History                        |            | Formative Assessment 2
+| **M  9 Feb**  | Hack Assembly Examples             |            | Formative Assessment 1
+| **W 11 Feb**  | Turing Machine CPU                 | Chapter 5  |
+| **F 13 Feb**  | CPU History                        |            | [Project 4: Machine language](projects/04-machine-language.html)
 |
 | **M 16 Feb**  | **NO CLASS: Midwinter Break**
 | **W 18 Feb**  | **NO CLASS: Away at conference**
 | **F 20 Feb**  | **NO CLASS: Away at conference**   |            | 
 |
 | **M 23 Feb**  | Assemblers                         | Chapter 6  | [Project 5: Computer architecture](projects/05-computer-architecture.html)
-| **W 25 Feb**  | Assemblers
+| **W 25 Feb**  | Assemblers                         |            | Formative Assessment 2
 | **F 27 Feb**  | 6502 Architecture
 |
 | **M 2 March** | Virtual Machines & Stacks          | Chapter 7  | [Project 6: Assembler](projects/06-assembler.html)
