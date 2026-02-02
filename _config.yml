@@ -78,6 +78,12 @@ instructors:
     web: http://ozark.hendrix.edu/~yorgey
     phone: (501) 450-1377
     officehours: https://byorgey.youcanbook.me
+  - id: ferrer
+    name: Dr. Gabriel Ferrer
+    email: ferrer@hendrix.edu
+    web: https://gjf2a.github.io/
+    phone: (501) 450-3879
+    officehours: https://drferrer.youcanbook.me/
 
 offerings:
   - name: LECTURE 01
@@ -89,6 +95,9 @@ resources:
   - name: From Nand to Tetris
     image: assets/images/n2t-logo.png
     url: https://www.nand2tetris.org/
+  - name: Nand to Tetris Online IDE
+    image: assets/images/Online_IDE.png
+    url: https://nand2tetris.github.io/web-ide
   - name: The Elements of Computing Systems,<br/> 2nd ed.
     image: assets/images/teocs.jpg
     url: https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802/
