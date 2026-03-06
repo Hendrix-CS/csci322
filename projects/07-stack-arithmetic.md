@@ -16,12 +16,16 @@ worktitle: "VM I: Stack Arithmetic"
   (`SimpleAdd.tst`, `StackTest.tst`, `BasicTest.tst`,
   `PointerTest.tst`, `StaticTest.tst`).
 * **SUGGESTED STRATEGY**
-  * Begin by implementing `push constant`
-  * Next, implement `add`
+  * Output each VM source instruction as a comment in the assembly code.
+    * This makes debugging much easier, as it gives some structure and
+      organization to the generated assembly.
+  * Start by setting the stack pointer to the start of the stack.
+  * Implement `push constant`
+  * Implement `add`
   * Pass `SimpleAdd`
-  * Next, implement `sub`, `push static` and `pop static` 
+  * Implement `sub`, `push static`, and `pop static` 
   * Pass `StaticTest`
-  * Now implement the remaining segments
+  * Implement the remaining segments
   * Pass `BasicTest`
   * Pass `PointerTest`
 * **NOTE**
