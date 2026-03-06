@@ -25,9 +25,8 @@ worktitle: "VM I: Stack Arithmetic"
   * Pass `SimpleAdd`
   * Implement `sub`, `push static`, and `pop static` 
   * Pass `StaticTest`
+  * Implement `eq`, `lt`, `gt`, `and`, `or`, `not`, and `neg`
+  * Pass `StackTest`
   * Implement the remaining segments
   * Pass `BasicTest`
   * Pass `PointerTest`
-* **NOTE**
-  * None of the Chapter 7 tests employ `neg`, `not`, `and`, `or`, `eq`, `gt`, and `lt`.
-  * It is fine to put those off until Chapter 8.  
