@@ -15,3 +15,15 @@ worktitle: "VM I: Stack Arithmetic"
   a working VM-to-Hack translator and pass the provided tests
   (`SimpleAdd.tst`, `StackTest.tst`, `BasicTest.tst`,
   `PointerTest.tst`, `StaticTest.tst`).
+* **SUGGESTED STRATEGY**
+  * Begin by implementing `push constant`
+  * Next, implement `add`
+  * Pass `SimpleAdd`
+  * Next, implement `sub`, `push static` and `pop static` 
+  * Pass `StaticTest`
+  * Now implement the remaining segments
+  * Pass `BasicTest`
+  * Pass `PointerTest`
+* **NOTE**
+  * None of the Chapter 7 tests employ `neg`, `not`, `and`, `or`, `eq`, `gt`, and `lt`.
+  * It is fine to put those off until Chapter 8.  
