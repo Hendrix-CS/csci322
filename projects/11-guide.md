@@ -56,11 +56,18 @@ for the following additional symbols:
 - `varDec`
 - `letStatement` (ignore arrays)
 - `ifStatement`
-- `term` (specifically `true`, `false`, and `varName` for locals)
+- `term` (specifically `true`, `false`, `subroutineCall`, and `varName` for locals)
 - `op` (specifically `-` and `<`)
 
 Note: You will need to create a symbol table data structure to keep
 track of your local variables.
+
+What AlphaWhere does:
+* When the program starts, it displays a cursor, awaiting user input.
+* If the user types any digit, or a capital letter up to `L`, it 
+  prints `-1`.
+* If the user types a capital letter starting at `M`, or any lower case
+  letter, it prints `0`.
 
 [AlphaShow](AlphaShow.zip)
 --------------------------
@@ -72,6 +79,9 @@ the following additional symbols:
 - `whileStatement`
 - `term` (specifically the `~` unary operator)
 - `op` (specifically `>`)
+
+This program prints all characters up to and including
+the character typed.
 
 [Factorial](Factorial.zip)
 --------------------------
