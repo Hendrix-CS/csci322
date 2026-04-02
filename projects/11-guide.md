@@ -100,9 +100,7 @@ ConvertToBin
 NOTE: The provided ConvertToBin is difficult to use. We recommend
 using this modified version ([Main.jack](ConvertToBin/Main.jack)),
 which uses keyboard input and prints to the screen, rather than
-relying on RAM hacking. Note that it prints its binary result with the
-least significant bit on the left (reversed in comparison to how you
-would typically write a binary number).
+relying on RAM hacking. 
 
 To compile ConvertToBin, you need to generate code for the following additional symbols:
 
@@ -110,6 +108,18 @@ To compile ConvertToBin, you need to generate code for the following additional 
 - `letStatement` (specifically modification of parameter values)
 - `subroutineDec` (with `paramaterList` that has multiple parameters)
 - `op` (specifically `&`)
+
+Note that it prints its binary result with the least significant bit on the 
+left (reversed in comparison to how you would typically write a binary number).
+Here are some examples of what to expect:
+* `A` => `1000001000000000`
+* 'a' => `1000011000000000`
+* `B` => `0100001000000000`
+* `b` => `0100011000000000`
+* `K` => `1101001000000000`
+* `k` => `1101011000000000`
+* `Z` => `0101101000000000`
+* `z` => `0101111000000000`
 
 Project 10/11D
 ==============
@@ -135,7 +145,7 @@ In theory, other than that, ComplexArray should compile if Average
 compiles. It is a much tougher test case, though. Make sure that the
 destination of the expression in a let statement does not have `THAT`
 inadvertently overwritten; your book has a detailed discussion of this
-problem with a suggestion of how to do it correctly.
+problem (pages 228-230) with a suggestion of how to do it correctly.
 
 Square
 ------
